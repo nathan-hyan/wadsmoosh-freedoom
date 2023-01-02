@@ -24,7 +24,7 @@ Advanced users can edit `wadsmoosh_data.py` to customize how and what WadSmoosh 
 
 ## FreeDoom support
 
-Download Freedoom for Free in ["this link"](https://freedoom.github.io/download.html)
+Download Freedoom for Free in [this link](https://freedoom.github.io/download.html)
 
 This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
