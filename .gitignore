@@ -1,0 +1,6 @@
+*.wad
+*.pk3
+/pk3
+/omg
+*.log
+*.DS_Store

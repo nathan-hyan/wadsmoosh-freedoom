@@ -355,6 +355,10 @@ def get_eps(wads_found):
             eps += ['The Plutonia Experiment']
         elif wadname == 'sigil' and 'doom' in wads_found:
             eps += ['Sigil']
+        elif wadname == 'freedoom1' and 'doom' in wads_found:
+            eps += ['Freedoom: Phase 1']
+        elif wadname == 'freedoom2' and 'doom2' in wads_found:
+            eps += ['Freedoom: Phase 2']
     return eps
 
 def main():

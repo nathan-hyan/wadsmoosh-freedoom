@@ -5,6 +5,7 @@
 RES_FILES = [
     'mapinfo.txt', 'language.txt', 'endoom', 'smooshed.txt',
     'textures.common', 'textures.doom1', 'textures.doom2',
+    'textures.freedoom1', 'textures.freedoom2',
     'textures.tnt', 'textures.plut', 'animdefs.txt',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
     'graphics/M_HELL.lmp', 'graphics/M_NOREST.lmp',
@@ -13,6 +14,7 @@ RES_FILES = [
     'mapinfo/doom1_levels.txt', 'mapinfo/doom2_levels.txt',
     'mapinfo/tnt_levels.txt', 'mapinfo/plutonia_levels.txt',
     'mapinfo/masterlevels.txt', 'mapinfo/sigil_levels.txt',
+    'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
     'menudef.txt', 'cvarinfo.txt', 'zscript.txt'
 ]
 
@@ -31,12 +33,12 @@ TIDY_DIR_EXTENSIONS = {
 
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
-        'doomu', 'doom2u', 'nerveu', 'tntu', 'plutoniau', 'extras']
+        'doomu', 'doom2u', 'nerveu', 'tntu', 'plutoniau', 'extras', 'freedoom1', 'freedoom2']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'doom2', 'nerve', 'attack',
                'tnt', 'plutonia', 'sewers', 'betray', 'doomu', 'doom2u',
-               'nerveu', 'tntu', 'plutoniau', 'extras']
+               'nerveu', 'tntu', 'plutoniau', 'extras', 'freedoom1', 'freedoom2']
 
 # lists of lumps common to doom 1+2
 COMMON_LUMPS = [
@@ -63,6 +65,8 @@ WAD_LUMP_LISTS = {
     'tnt': ['graphics_tnt', 'music_tnt', 'patches_tnt'],
     'plutonia': ['graphics_plutonia', 'music_plutonia', 'patches_plutonia'],
     'sigil': ['graphics_sigil', 'music_sigil', 'patches_sigil', 'data_sigil'],
+    'freedoom1': ['patches_freedoom1', 'flats_freedoom1'],
+    'freedoom2': ['patches_freedoom2', 'music_freedoom2'],
     # (buckethead tracks use the same names as jimmy's midi)
     'sigil_shreds': ['music_sigil'],
     # widescreen assets from unity ports
@@ -84,7 +88,9 @@ WAD_MAP_PREFIXES = {
     'nerve': 'NV_',
     # master levels not processed like other wads, bespoke prefix lookup
     'masterlevels': 'ML_',
-    'sigil': ''
+    'sigil': '',
+    'freedoom1': 'FD1_',
+    'freedoom2': 'FD2_'
 }
 
 # texture patches to extract from specific master levels PWADs
