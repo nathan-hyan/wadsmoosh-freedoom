@@ -120,6 +120,8 @@ def copy_resources():
         
         # TODO: Read both freedoom's TEXTURE1/PNAMES files and extract only the files that doesnt exist in regular doom2 / tnt TEXTURE1/PNAMES 
         # TODO: Probably we can use textures from one game in the other
+
+
         elif src_file == 'textures.freedoom1' and not get_wad_filename('freedoom1'):
             continue
         elif src_file == 'textures.freedoom2' and not get_wad_filename('freedoom2'):

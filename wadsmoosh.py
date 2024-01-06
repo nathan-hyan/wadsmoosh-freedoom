@@ -76,7 +76,6 @@ def add_xbox_levels():
         logg('  Adding BETRAY.WAD as MAP33')
         add_secret_level('betray', 'MAP01', 'MAP33')
 
-
 def get_report_found():
     found = []
     
