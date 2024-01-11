@@ -5,7 +5,7 @@
 RES_FILES = [
     'mapinfo.txt', 'language.txt', 'endoom', 'smooshed.txt',
     'textures.common', 'textures.doom1', 'textures.doom2',
-    'textures.freedoom1', 'textures.freedoom2',
+    'textures.freedoom',
     'textures.tnt', 'textures.plut', 'animdefs.txt',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
     'graphics/M_HELL.lmp', 'graphics/M_NOREST.lmp',
@@ -62,6 +62,10 @@ DOOM2_LUMPS = [
     'sounds_doom2', 'sprites_doom2', 'txdefs_doom2'
 ]
 
+FREEDOOM_COMMON_LUMPS = [
+    'patches_freedoom', 'flats_freedoom'
+]
+
 # lists of lumps to extract from each IWAD
 WAD_LUMP_LISTS = {
     'doom': COMMON_LUMPS + DOOM1_LUMPS,
@@ -69,8 +73,10 @@ WAD_LUMP_LISTS = {
     'tnt': ['graphics_tnt', 'music_tnt', 'patches_tnt'],
     'plutonia': ['graphics_plutonia', 'music_plutonia', 'patches_plutonia'],
     'sigil': ['graphics_sigil', 'music_sigil', 'patches_sigil', 'data_sigil'],
-    'freedoom1': ['patches_freedoom1', 'flats_freedoom1'],
-    'freedoom2': ['patches_freedoom2', 'music_freedoom2'],
+    # 'freedoom1': FREEDOOM_COMMON_LUMPS + ['music_freedoom1', 'graphics_freedoom1'],
+    # 'freedoom2': FREEDOOM_COMMON_LUMPS + ['music_freedoom2', 'graphics_freedoom2'],
+    'freedoom1': FREEDOOM_COMMON_LUMPS + ['music_freedoom1'],
+    'freedoom2': FREEDOOM_COMMON_LUMPS + ['music_freedoom2'],
     # (buckethead tracks use the same names as jimmy's midi)
     'sigil_shreds': ['music_sigil'],
     'sigil2': ['graphics_sigil2', 'music_sigil2', 'patches_sigil2', 'data_sigil2', 'flats_sigil2'],

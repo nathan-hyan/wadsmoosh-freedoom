@@ -1,5 +1,7 @@
 # TODO: Rip skies from Freedoom 1 and 2
 # TODO: Rip intermission graphics
+# TODO: Use FD assets when neither doom 1 nor doom 2 are present
+# TODO: Ask user if wants to use Doom's or FD's assets
 
 import os, time
 from shutil import copyfile
@@ -14,7 +16,7 @@ from wadsmoosh_data import TIDY_DIR_EXTENSIONS
 VERSION_FILENAME = 'version'
 
 # if False, do a dry run with no actual file writing
-should_extract = False
+should_extract = True
 
 DATA_TABLES_FILE = 'wadsmoosh_data.py'
 

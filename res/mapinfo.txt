@@ -112,7 +112,25 @@ episode PL_MAP01
 
 episode FD1_E1M1
 {
-	name = "FreeDoom: Phase 1"
+	name = "Outpost Outbreak"
+	key = "x"
+	optional
+}
+episode FD1_E2M1
+{
+	name = "Military Labs"
+	key = "x"
+	optional
+}
+episode FD1_E3M1
+{
+	name = "Event Horizon"
+	key = "x"
+	optional
+}
+episode FD1_E4M1
+{
+	name = "Doble Impact"
 	key = "x"
 	optional
 }
