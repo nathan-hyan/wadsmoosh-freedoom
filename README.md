@@ -50,10 +50,13 @@ This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *N
 
 The current To-do list is:
 
-    - Add the music for Freedoom Phase 1
-    - Add the intermission screens for Phase 1 and 2 (Graphics and Texts)
-    - Add the map credits into the MAPINFO lump (the map names that are in there are from DOOM 1's lump file)
-    - Try to fix any gameplay issue / missing texture. Haven't found any yet
+    [x] Add the music for Freedoom Phase 1
+    [x] Add the music for Freedoom Phase 2
+    [ ] Make it playable from start to finish without major hiccups
+    [ ] Import skies and custom graphics for intermissions and cutscenes
+    [ ] Add the intermission screens for Phase 1 and 2 (Graphics and Texts)
+    [ ] Add the map credits into the MAPINFO lump (the map names that are in there are from DOOM 1's lump file)
+    [ ] Try to fix any gameplay issue / missing texture. Haven't found any yet
 
 ## Absolute Beginner's Guide
 
