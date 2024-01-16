@@ -53,11 +53,13 @@ Download Freedoom for Free in [this link](https://freedoom.github.io/download.ht
 
 This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
+This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
+
 The current To-do list is:
 
-    - Add the intermission screens for Phase 1 and 2 (Graphics and Texts)
-    - Add the map credits into the MAPINFO lump (the map names that are in there are from DOOM 1's lump file)
-    - Try to fix any gameplay issue / missing texture. Haven't found any yet
+    - Add the map credits into the MAPINFO lump (no map credits are currently included)
+
+Everything else from the to-do list of the upstream of this fork has been done.
 
 ## Absolute Beginner's Guide
 
