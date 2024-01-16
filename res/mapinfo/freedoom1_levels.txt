@@ -15,7 +15,6 @@ map FD1_E1M1 "Outer Prison"
 	cluster = 1
 	par = 30
 	music = "FD1_E1M1"
-	ExitPic = "FD_INTER"
 }
 
 map FD1_E1M2 "Communications Center"
