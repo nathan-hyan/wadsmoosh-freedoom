@@ -30,7 +30,7 @@ WadSmoosh is not a general-purpose tool for merging Doom WADs; it is for *mergin
 
 Here is the official list of WADs that WadSmoosh will recognize:
 - Ultimate Doom (`doom.wad`)
-- Doom (original registered version of `doom.wad`, containing only episodes 1-3)
+- Doom Registered (original registered version of `doom.wad`, containing only episodes 1-3)
 - Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
 - Doom II (`doom2.wad`)
 - The extra content in the Unity releases of Doom and Doom 2. (`doomu.wad` and `doom2u.wad`)
