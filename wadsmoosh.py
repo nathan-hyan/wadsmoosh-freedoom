@@ -12,8 +12,8 @@ should_extract = True
 
 SRC_WAD_DIR = 'source_wads/'
 DATA_DIR = 'data/'
-DEST_DIR = 'pk3/'
-DEST_FILENAME = 'doom_complete.pk3'
+DEST_DIR = 'ipk3/'
+DEST_FILENAME = 'doom_complete.ipk3'
 LOG_FILENAME = 'wadsmoosh.log'
 RES_DIR = 'res/'
 DATA_TABLES_FILE = 'wadsmoosh_data.py'
@@ -323,6 +323,7 @@ def copy_resources():
     else:
         copyfile(RES_DIR + 'mapinfo/doom2_nonbfg_levels.txt',
                  DEST_DIR + 'mapinfo/doom2_secret_levels.txt')
+    copyfile(RES_DIR + "iwadinfo.txt", DEST_DIR + "iwadinfo.txt")
 
 def get_report_found():
     found = []
@@ -370,9 +371,9 @@ def get_eps(wads_found):
         elif wadname == 'sigil2' and 'doom' in wads_found:
             eps += ['Sigil II']
         elif wadname == 'freedoom1' and 'doom' in wads_found:
-            eps += ['Freedoom: Phase 1']
+            eps += ['Outpost Outbreak','Military Labs','Event Horizon','Double Impact']
         elif wadname == 'freedoom2' and 'doom2' in wads_found:
-            eps += ['Freedoom: Phase 2']
+            eps += ['Destination: Earth']
     return eps
 
 def main():
@@ -412,7 +413,7 @@ def main():
     if files_tidied > 0:
         logg('Removed %s files from a previous run.' % files_tidied)
     logg('Found in %s:\n  ' % SRC_WAD_DIR + ', '.join(found))
-    print('A new PK3 format IWAD will be generated with the following episodes:')
+    print('A new IPK3 format IWAD will be generated with the following episodes:')
     for num_eps,ep_name in enumerate(get_eps(found)):
         print('- %s' % ep_name)
     num_eps += 1
@@ -447,10 +448,10 @@ def main():
             logg('Skipping nerve.wad as doom2.wad is not present', error=True)
             continue
         if iwad_name == 'sigil' and not get_wad_filename('doom'):
-            logg('Skipping SIGIL.wad as doom.wad is not present', error=True)
+            logg('Skipping sigil.wad as doom.wad is not present', error=True)
             continue
         if iwad_name == 'sigil_shreds' and not get_wad_filename('sigil'):
-            logg('Skipping SIGIL_SHREDS.wad as SIGIL.wad is not present', error=True)
+            logg('Skipping sigil_shreds.wad as sigil.wad is not present', error=True)
             continue
         if iwad_name == 'sigil2' and not get_wad_filename('doom'):
             logg('Skipping sigil2.wad as doom.wad is not present', error=True)
@@ -491,7 +492,6 @@ def main():
     logg('Generated %s (%.1f MB) with %s maps in %s episodes in %.2f seconds.' % (DEST_FILENAME, ipk3_size, num_maps, num_eps, elapsed_time))
     if num_errors > 0:
         logg('%s errors found, see %s for details.' % (num_errors, LOG_FILENAME))
-    input_func('Press Enter to exit.\n')
     logfile.close()
 
 if __name__ == "__main__":

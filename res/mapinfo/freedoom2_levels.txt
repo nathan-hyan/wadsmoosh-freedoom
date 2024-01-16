@@ -2,6 +2,7 @@
 defaultmap
 {
 	InterMusic = "FD2_DM2INT"
+	ExitPic = "FD_INTER"
 }
 
 map FD2_MAP01 "Hydroelectric Plant"
@@ -13,7 +14,6 @@ map FD2_MAP01 "Hydroelectric Plant"
 	cluster = 5
 	par = 30
 	music = "FD2_RUNNIN"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP02 "Filtration Tunnels"
@@ -25,7 +25,6 @@ map FD2_MAP02 "Filtration Tunnels"
 	cluster = 5
 	par = 90
 	music = "FD2_STALKS"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP03 "Crude Processing Center"
@@ -37,7 +36,6 @@ map FD2_MAP03 "Crude Processing Center"
 	cluster = 5
 	par = 120
 	music = "FD2_COUNTD"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP04 "Containment Bay"
@@ -49,7 +47,6 @@ map FD2_MAP04 "Containment Bay"
 	cluster = 5
 	par = 120
 	music = "FD2_BETWEE"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP05 "Sludge Burrow"
@@ -61,7 +58,6 @@ map FD2_MAP05 "Sludge Burrow"
 	cluster = 5
 	par = 90
 	music = "FD2_DOOM"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP06 "Gamma Labs"
@@ -74,7 +70,6 @@ map FD2_MAP06 "Gamma Labs"
 	par = 150
 	sucktime = 1
 	music = "FD2_THE_DA"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP07 "Outer Storage Warehouse"
@@ -87,7 +82,6 @@ map FD2_MAP07 "Outer Storage Warehouse"
 	par = 120
 	map07special
 	music = "FD2_SHAWN"
-	Author = "$WS_AU_MCGEE_PETERSEN"
 }
 
 map FD2_MAP08 "Astronomy Complex"
@@ -99,7 +93,6 @@ map FD2_MAP08 "Astronomy Complex"
 	cluster = 6
 	par = 120
 	music = "FD2_DDTBLU"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP09 "Datacenter"
@@ -111,7 +104,6 @@ map FD2_MAP09 "Datacenter"
 	cluster = 6
 	par = 270
 	music = "FD2_IN_CIT"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP10 "Deadly Outlands"
@@ -123,7 +115,6 @@ map FD2_MAP10 "Deadly Outlands"
 	cluster = 6
 	par = 90
 	music = "FD2_DEAD"
-	Author = "$WS_AU_PETERSEN_HALL"
 }
 
 map FD2_MAP11 "Infinite Plain"
@@ -135,7 +126,6 @@ map FD2_MAP11 "Infinite Plain"
 	cluster = 6
 	par = 210
 	music = "FD2_STLKS2"
-	Author = "$WS_AU_ROMERO"
 }
 
 map FD2_MAP12 "Railroads"
@@ -147,7 +137,6 @@ map FD2_MAP12 "Railroads"
 	cluster = 7
 	par = 150
 	music = "FD2_THEDA2"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP13 "Station Earth"
@@ -159,7 +148,6 @@ map FD2_MAP13 "Station Earth"
 	cluster = 7
 	par = 150
 	music = "FD2_DOOM2"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP14 "Nuclear Zone"
@@ -171,7 +159,6 @@ map FD2_MAP14 "Nuclear Zone"
 	cluster = 7
 	par = 150
 	music = "FD2_DDTBL2"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP15 "Hostile Takeover"
@@ -183,7 +170,6 @@ map FD2_MAP15 "Hostile Takeover"
 	cluster = 7
 	par = 210
 	music = "FD2_RUNNI2"
-	Author = "$WS_AU_ROMERO"
 }
 
 map FD2_MAP16 "Urban Jungle"
@@ -195,7 +181,6 @@ map FD2_MAP16 "Urban Jungle"
 	cluster = 7
 	par = 150
 	music = "FD2_DEAD2"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP17 "City Capitol"
@@ -207,7 +192,6 @@ map FD2_MAP17 "City Capitol"
 	cluster = 7
 	par = 420
 	music = "FD2_STLKS3"
-	Author = "$WS_AU_ROMERO"
 }
 
 map FD2_MAP18 "Aquatics Lab"
@@ -219,7 +203,6 @@ map FD2_MAP18 "Aquatics Lab"
 	cluster = 7
 	par = 150
 	music = "FD2_ROMERO"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP19 "Sewage Control"
@@ -231,7 +214,6 @@ map FD2_MAP19 "Sewage Control"
 	cluster = 7
 	par = 210
 	music = "FD2_SHAWN2"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP20 "Blood Ember Fortress"
@@ -243,7 +225,6 @@ map FD2_MAP20 "Blood Ember Fortress"
 	cluster = 7
 	par = 150
 	music = "FD2_MESSAG"
-	Author = "$WS_AU_ROMERO"
 }
 
 map FD2_MAP21 "Under Realm"
@@ -255,7 +236,6 @@ map FD2_MAP21 "Under Realm"
 	cluster = 8
 	par = 240
 	music = "FD2_COUNT2"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP22 "Remanasu"
@@ -267,7 +247,6 @@ map FD2_MAP22 "Remanasu"
 	cluster = 8
 	par = 150
 	music = "FD2_DDTBL3"
-	Author = "$WS_AU_MCGEE"
 }
 
 map FD2_MAP23 "Underground Facility"
@@ -279,7 +258,6 @@ map FD2_MAP23 "Underground Facility"
 	cluster = 8
 	par = 180
 	music = "FD2_AMPIE"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP24 "Tertiary Loading Bay"
@@ -291,7 +269,6 @@ map FD2_MAP24 "Tertiary Loading Bay"
 	cluster = 8
 	par = 150
 	music = "FD2_THEDA3"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP25 "Red Works"
@@ -303,7 +280,6 @@ map FD2_MAP25 "Red Works"
 	cluster = 8
 	par = 150
 	music = "FD2_ADRIAN"
-	Author = "$WS_AU_GREEN"
 }
 
 map FD2_MAP26 "Dark Depths"
@@ -315,7 +291,6 @@ map FD2_MAP26 "Dark Depths"
 	cluster = 8
 	par = 300
 	music = "FD2_MESSG2"
-	Author = "$WS_AU_ROMERO"
 }
 
 map FD2_MAP27 "Warped Elementality"
@@ -327,7 +302,6 @@ map FD2_MAP27 "Warped Elementality"
 	cluster = 8
 	par = 330
 	music = "FD2_ROMER2"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP28 "Grim Redoubt"
@@ -339,7 +313,6 @@ map FD2_MAP28 "Grim Redoubt"
 	cluster = 8
 	par = 420
 	music = "FD2_TENSE"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP29 "Last Stand"
@@ -351,7 +324,6 @@ map FD2_MAP29 "Last Stand"
 	cluster = 8
 	par = 300
 	music = "FD2_SHAWN3"
-	Author = "$WS_AU_ROMERO"
 }
 
 map FD2_MAP30 "Jaws of Defeat"
@@ -364,7 +336,6 @@ map FD2_MAP30 "Jaws of Defeat"
 	par = 180
 	allowmonstertelefrags
 	music = "FD2_OPENIN"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP31 "Be Quiet"
@@ -376,7 +347,6 @@ map FD2_MAP31 "Be Quiet"
 	cluster = 8
 	par = 180
 	music = "FD2_DM2INT"
-	Author = "$WS_AU_PETERSEN"
 }
 
 map FD2_MAP32 "Not Sure"
@@ -388,7 +358,6 @@ map FD2_MAP32 "Not Sure"
 	cluster = 8
 	par = 180
 	music = "FD2_EVIL"
-	Author = "$WS_AU_PETERSEN"
 }
 
 // DOOM II first cluster (up thru level 6)
@@ -397,7 +366,18 @@ cluster 5
 {
 	flat = "$BGFLAT06"
 	music = "FD2_ULTIMA"
-	exittext = lookup, "C1TEXT"
+	exittext = "You've found your way to the",
+         "complex's outer storage warehouse.",
+         "Not even Earth was safe from the",
+         "monsters. This AGM space terminal",
+         "is a lost cause. Best to get out.","",
+         "You press the panel to call the lift.",
+         "It slowly lowers, then speeds up.",
+         "Growls come along with it.",
+         "Looks like you're not alone here.","",
+         "Planted your feet.","",
+         "Checked your weapons.","",
+         "Time to go up."
 
 }
 
@@ -407,7 +387,19 @@ cluster 6
 {
 	flat = "$BGFLAT11"
 	music = "FD2_READ_M"
-	exittext = lookup, "C2TEXT"
+	exittext = "The facility is gone, no doubt there.",
+         "You didn't find anyone alive.",
+         "But you don't want to keep fighting",
+         "either. You are only human.",
+         "There's a teleporter here, set for",
+         "a city unknown to you. City means",
+         "people, right?","",
+         "The bolts holding the platform",
+         "fly off over the ledge. The place",
+         "is falling apart. You quickly step on","",
+         "the platform and reappear at the city.",
+         "It's been destroyed to the ground.","",
+         "You can't go back either."
 
 }
 
@@ -417,7 +409,20 @@ cluster 7
 {
 	flat = "$BGFLAT20"
 	music = "FD2_READ_M"
-	exittext = lookup, "C3TEXT"
+	exittext = "There is no AGM here. No humans.",
+         "Just monsters and monsters.",
+         "And you.",
+         "This could be the beginning of",
+         "your freedom.",
+         "The finale of this endless fighting",
+         "against the monsters.",
+         "No man has ever survived in this",
+         "wasteland.","",
+         "Other than you, that is.",
+         "Maybe AGM saw this place.",
+         "But never got through here.",
+         "Either way, it doesn't matter.","",
+         "You're stuck here once again."
 }
 
 // DOOM II fourth cluster (up thru level 30)
@@ -426,7 +431,16 @@ cluster 8
 {
 	flat = "$BGFLAT30"
 	music = "FD2_READ_M"
-	exittext = lookup, "C4TEXT"
+	exittext = "The evil thing becomes unstable.","",
+         "Its final roars echo throughout the",
+         "room until it crumples into scrap metal.",
+         "A portal opens up, and in it, you see a",
+         "small town. You jump in quickly.",
+         "AGM learned its lesson this time.","",
+         "Hopefully.","",
+         "No one will know who saved them.","",
+         "No one will know what happened here.","",
+         "No one will ever find you again."
 }
 
 // DOOM II fifth cluster (level 31)
@@ -435,7 +449,15 @@ cluster 9
 {
 	flat = "$BGFLAT15"
 	music = "FD2_READ_M"
-	entertext = lookup, "C5TEXT"
+	entertext = "You step onto the machine and",
+         "after a strange flash you find",
+         "yourself in a rusty cage.","",
+         "What happened? Where is this?","",
+         "Before you can wonder further",
+         "you notice that you are surrounded",
+         "by monsters. It was a trap.","",
+         "You silently bring out",
+         "your gun, ready to kill."
 }
 
 // DOOM II sixth cluster (level 32)
@@ -444,12 +466,24 @@ cluster 10
 {
 	flat = "$BGFLAT31"
 	music = "FD2_READ_M"
-	entertext = lookup, "C6TEXT"
+	entertext = "The world dissipitates around",
+         "you. You got out of that trap. Only",
+         "to find yourself inside another.",
+         "As the glow of the teleporter",
+         "subsides, it looks like you may",
+         "have made a wrong turn.","",
+         "Again.","",
+         "The world comes back to you.",
+         "The monsters you fought before",
+         "raise their weapons,","",
+         "aiming for your head."
 }
 
 cluster 11
 {
 	flat = "SLIME16"
 	music = "FD2_READ_M"
-	exittext = lookup, "NERVETEXT"
+	exittext = "You're not supposed to be here.",
+	"This episode doesn't exist.",
+	"How'd you manage that anyway?"
 }

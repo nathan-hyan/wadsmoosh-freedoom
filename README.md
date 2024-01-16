@@ -1,3 +1,5 @@
+# Fork of WadSmoosh to fix various things
+
 # WadSmoosh - simple IWAD merge utility
 
 WadSmoosh merges your provided Ultimate Doom, Doom 2, Master Levels, No Rest for the Living, Final Doom, and Sigil data into a single IWAD file that can be played in GZDoom, with each game as its own entry in the episode list. This makes it very convenient to play all of classic Doom's official releases without relaunching the game with different settings.
@@ -10,7 +12,8 @@ If you're not a Doom expert and just bought these games off [Steam](http://store
 
 Simply copy all your WADs into the `source_wads/` subfolder, then run WadSmoosh. A log will appear showing progress and any errors that arise.
 
-If you're in Windows, click `wadsmoosh.exe`.
+If you're in Windows, you're out of luck. Windows support was dropped as I don't have Windows and therefore have no way to compile for it. 
+Switch to a Unix-like system such as macOS or Linux, or compile it yourself.
 
 If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported now.
 
@@ -29,7 +32,9 @@ WadSmoosh is not a general-purpose tool for merging Doom WADs; it is for *mergin
 Here is the official list of WADs that WadSmoosh will recognize:
 - Ultimate Doom (`doom.wad`)
 - Doom (original registered version of `doom.wad`, containing only episodes 1-3)
+- Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
 - Doom II (`doom2.wad`)
+- The extra content in the Unity releases of Doom and Doom 2. (`doomu.wad` and `doom2u.wad`)
 - The Master Levels (the 20 unmodified WAD files from the retail release)
 - Final Doom (`tnt.wad` and `plutonia.wad`)
 - No Rest for the Living (`nerve.wad`)
@@ -50,7 +55,6 @@ This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *N
 
 The current To-do list is:
 
-    - Add the music for Freedoom Phase 1
     - Add the intermission screens for Phase 1 and 2 (Graphics and Texts)
     - Add the map credits into the MAPINFO lump (the map names that are in there are from DOOM 1's lump file)
     - Try to fix any gameplay issue / missing texture. Haven't found any yet
@@ -60,7 +64,7 @@ The current To-do list is:
 1. [Download WadSmoosh](https://jp.itch.io/wadsmoosh) and extract it to a folder.
 2. Find the folder(s) where Steam/GoG installed your game(s). For Steam, this will be something like `<Steam folder>\SteamApps\Common\<game name>\base`.
 3. Copy any files you find with a `.WAD` extension to the `source_wads/` subfolder where you extracted WadSmoosh.
-4. Double-click `wadsmoosh.exe`. A console window will pop up to show progress.
+4. Run `wadsmoosh.sh`. Then the console will prompt confirmation and then show progress.
 5. When it closes, you should have a file in the WadSmoosh folder called `doom_complete.pk3`.
 6. Download [GZDoom](http://gzdoom.drdteam.org) and extract it to a folder.
 7. Copy the `doom_complete.pk3` file to GZDoom's folder.
