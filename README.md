@@ -12,9 +12,9 @@ If you're not a Doom expert and just bought these games off [Steam](http://store
 
 Simply copy all your WADs into the `source_wads/` subfolder, then run WadSmoosh. A log will appear showing progress and any errors that arise.
 
-If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported now.
+If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported.
 
-If you're on Windows, you're out of luck. Windows support was dropped as I don't have Windows.
+If you're on Windows, you're out of luck for the installation method of the upstream versions from before this fork. Windows support was dropped as I don't have Windows. However if you install the Windows Subsystem for Linux you should be able to execute the shell script using that. I don't have Windows to test this though. (I only have Linux and an older version of macOS.)
 
 WadSmoosh will create a new file called `doom_complete.ipk3` with all the game content in it. You can run this in GZDoom with `-iwad doom_complete.ipk3` at the command line, or add it to your configured iwad folder to select it from the list. Current versions of GZDoom will recognize the `doom_complete.ipk3` file as a valid IWAD.
 
