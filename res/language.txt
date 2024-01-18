@@ -215,6 +215,7 @@ PHUSTR_32 = "Go 2 It";
 
 // sigil
 HUSTR_EPI5 = "SIGIL";
+HUSTR_EPI6 = "SIGIL II";
 HUSTR_E5M1 = "E5M1: Baphomet's Demesne";
 HUSTR_E5M2 = "E5M2: Sheol";
 HUSTR_E5M3 = "E5M3: Cages of the Damned";

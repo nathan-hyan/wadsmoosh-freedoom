@@ -69,7 +69,7 @@ WAD_LUMP_LISTS = {
     'tnt': ['graphics_tnt', 'music_tnt', 'patches_tnt'],
     'plutonia': ['graphics_plutonia', 'music_plutonia', 'patches_plutonia'],
     'sigil': ['graphics_sigil', 'music_sigil', 'patches_sigil', 'data_sigil'],
-    'freedoom1': ['patches_freedoom1', 'flats_freedoom1'],
+    'freedoom1': ['graphics_freedoom1','patches_freedoom1', 'flats_freedoom1', 'music_freedoom1'],
     'freedoom2': ['patches_freedoom2', 'music_freedoom2'],
     # (buckethead tracks use the same names as jimmy's midi)
     'sigil_shreds': ['music_sigil'],

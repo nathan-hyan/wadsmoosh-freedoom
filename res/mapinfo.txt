@@ -5,6 +5,7 @@ include mapinfo/masterlevels.txt
 include mapinfo/tnt_levels.txt
 include mapinfo/plutonia_levels.txt
 include mapinfo/sigil_levels.txt
+include mapinfo/sigil2_levels.txt
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
 
@@ -70,6 +71,14 @@ episode E5M1
 	optional
 }
 
+episode E6M1
+{
+	picname = "M_EPI6"
+	name = "$HUSTR_EPI6"
+	key = "s"
+	optional
+}
+
 episode MAP01
 {
 	picname = "M_HELL"
@@ -112,14 +121,35 @@ episode PL_MAP01
 
 episode FD1_E1M1
 {
-	name = "FreeDoom: Phase 1"
+	name = "Outpost Outbreak"
+	key = "x"
+	optional
+}
+
+episode FD1_E2M1
+{
+	name = "Military Labs"
+	key = "x"
+	optional
+}
+
+episode FD1_E3M1
+{
+	name = "Event Horizon"
+	key = "x"
+	optional
+}
+
+episode FD1_E4M1
+{
+	name = "Double Impact"
 	key = "x"
 	optional
 }
 
 episode FD2_MAP01
 {
-	name = "FreeDoom: Phase 2"
+	name = "Destination: Earth"
 	key = "z"
 	optional
 }

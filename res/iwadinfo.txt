@@ -1,0 +1,13 @@
+iwad
+{
+	Name = "DOOM: Complete: WadSmoosh"
+	Autoname = "doom.id.wadsmoosh"
+	Game = "Doom"
+	Config = "Doom"
+	Mapinfo = "mapinfo.txt"
+	IWADName = "doom_complete.pk3"
+	Compatibility = "Shorttex"
+	MustContain = "SMOOSHED", "ANIMDEFS", "LANGUAGE", "MAPINFO", "ENDOOM", "M_DOOM", "TITLEPIC", "TEXTURES"
+	BannerColors = "a8 00 00", "a8 a8 a8"
+	IgnoreTitlePatches = 1
+}
