@@ -12,7 +12,7 @@ If you're not a Doom expert and just bought these games off [Steam](http://store
 
 Simply copy all your WADs into the `source_wads/` subfolder, then run WadSmoosh. A log will appear showing progress and any errors that arise.
 
-If you're in Windows, click `wadsmoosh.exe`.
+If you're in Windows, click `wadsmoosh.exe`. Note: Windows support is only half-working. I do not have Windows so I'm unable to recompile the code. Therefore the file it outputs will be .pk3 instead of .ipk3 which can cause GZDoom to not recognize it.
 
 If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported now.
 
