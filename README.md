@@ -60,7 +60,7 @@ This fork uses the actual episode names rather than simply adding all of Fredoom
 
 The current To-do list is:
 
-    - Add the map credits into the MAPINFO lump (no map credits are currently included)
+    - Locate the remaining freedoom map credits into the MAPINFO lump currently listed as unknown author.
 
 Everything else from the to-do list of the upstream of this fork has been done.
 
