@@ -477,7 +477,8 @@ def main():
         logg('Copying %s' % genmidi_filename)
         copyfile(RES_DIR + genmidi_filename, DEST_DIR + genmidi_filename)
     # create pk3
-    logg('Compressing %s...' % DEST_FILENAME)
+    logg('
+    Compressing %s...' % DEST_FILENAME)
     pk3 = ZipFile(DEST_FILENAME, 'w', ZIP_DEFLATED)
     for dir_name, x, filenames in os.walk(DEST_DIR):
         for filename in filenames:
