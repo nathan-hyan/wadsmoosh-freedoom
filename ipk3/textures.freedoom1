@@ -1,0 +1,2827 @@
+Texture "ALTAQUA", 128, 128
+{
+	Patch "ALTAQUA", 0, 0
+}
+
+Texture "ASPHALT", 256, 128
+{
+	Patch "ASPHALT", 0, 0
+}
+
+Texture "BIGMURAL", 256, 128
+{
+	Patch "BIGMURAL", 0, 0
+}
+
+Texture "BIGWALL", 128, 128
+{
+	Patch "BIGWALL", 0, 0
+}
+
+Texture "BRNOPEN", 64, 128
+{
+	Patch "BRNOPEN", 0, 0
+}
+
+Texture "BTNTMETL", 64, 128
+{
+	Patch "WALL47_1", 0, 0
+	Patch "BLUTNT", 6, 40
+}
+
+Texture "BTNTSLVR", 64, 128
+{
+	Patch "RW32_1", 0, 0
+	Patch "BLUTNT", 6, 49
+}
+
+Texture "CARLLF1", 128, 128
+{
+	Patch "CARLLF1", 0, 0
+}
+
+Texture "CARLLF2", 128, 128
+{
+	Patch "CARLLF2", 0, 0
+}
+
+Texture "CARLRT1", 128, 128
+{
+	Patch "CARLRT1", 0, 0
+}
+
+Texture "CARLRT2", 128, 128
+{
+	Patch "CARLRT2", 0, 0
+}
+
+Texture "CAVERN1", 128, 128
+{
+	Patch "CAVERN1", 0, 0
+}
+
+Texture "CAVERN4", 128, 128
+{
+	Patch "CAVERN4", 0, 0
+}
+
+Texture "CAVERN5", 64, 128
+{
+	Patch "CAVERN5", 0, 0
+}
+
+Texture "CAVERN6", 128, 128
+{
+	Patch "CAVERN6", 0, 0
+}
+
+Texture "CAVERN7", 128, 128
+{
+	Patch "CAVERN7", 0, 0
+}
+
+Texture "CRBLWDH6", 64, 128
+{
+	Patch "CRLWDH6", 0, 0
+	Patch "BLOD64A", -1, -1
+}
+
+Texture "CRBWDH64", 64, 128
+{
+	Patch "CRWDH6B", 0, 0
+	Patch "BLOD64A", -1, 9
+}
+
+Texture "CRLWDL6B", 64, 128
+{
+	Patch "CRLWDL6B", 0, 0
+	Patch "CRWDL6D", 0, 64
+}
+
+Texture "CRWDL128", 128, 128
+{
+	Patch "CRWDL12", 0, 0
+	Patch "CRWDL6", 0, 64
+	Patch "CRWDL6B", 64, 64
+}
+
+Texture "CRAWHBP", 128, 128
+{
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATEM1", 40, 64
+	Patch "BCRATEM1", 32, 64
+	Patch "BCRATEM1", 48, 64
+	Patch "BCRATEM1", 56, 64
+	Patch "BCRATEM1", 96, 64
+	Patch "BCRATEM1", 88, 64
+	Patch "BCRATEM1", 80, 64
+	Patch "BCRATEM1", 72, 64
+	Patch "BCRATEM1", 64, 64
+	Patch "BCRATER1", 96, 64
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 96, 0
+	Patch "GCRATEM1", 48, 0
+	Patch "GCRATEM1", 40, 0
+	Patch "GCRATEM1", 32, 0
+	Patch "GCRATEM1", 72, 0
+	Patch "GCRATEM1", 64, 0
+	Patch "GCRATEM1", 56, 0
+	Patch "GCRATEM1", 80, 0
+	Patch "GCRATEM1", 88, 0
+	Patch "BTNTCRAT", 16, 96
+	Patch "BTNTCRAT", 16, 32
+	Patch "BUL64D", 54, 0
+}
+
+Texture "CR64HBRM", 64, 128
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATER1", 32, 0
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 32
+	Patch "BTNTCRAT", 16, 96
+	Patch "BUL64A", 0, 0
+	Patch "BUL64B", 0, 64
+	Patch "BLOD64B", 0, 0
+	Patch "ROMERO1", 3, 98
+}
+
+Texture "CR64HBBP", 64, 128
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATER1", 32, 0
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 32
+	Patch "BTNTCRAT", 16, 96
+	Patch "BLOD64A", 1, -21
+	Patch "BUL64C", 0, 0
+	Patch "BLOD64B", 0, 0
+}
+
+Texture "CR64HGBP", 64, 128
+{
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 32, 0
+	Patch "GCRATEL1", 0, 64
+	Patch "GCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 32
+	Patch "BTNTCRAT", 16, 96
+	Patch "BLOD64A", 0, 16
+	Patch "BUL64A", 0, 0
+	Patch "BUL64B", 0, 0
+}
+
+Texture "CR64SLGB", 64, 128
+{
+	Patch "SGCRATE2", 0, 0
+	Patch "SGCRATE2", 32, 0
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATER1", 32, 64
+	Patch "SMCRATG", 7, 15
+	Patch "SMCRATG", 38, 15
+	Patch "SMCRATG", 7, 47
+	Patch "SMCRATG", 38, 47
+	Patch "BTNTCRAT", 16, 96
+}
+
+Texture "CR64HBG", 64, 128
+{
+	Patch "GCRATEL1", 0, 64
+	Patch "GCRATER1", 32, 64
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATER1", 32, 0
+	Patch "BTNTCRAT", 16, 96
+	Patch "BTNTCRAT", 16, 32
+}
+
+Texture "CR128LG", 128, 64
+{
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 96, 0
+	Patch "GCRATEM1", 48, 0
+	Patch "GCRATEM1", 40, 0
+	Patch "GCRATEM1", 32, 0
+	Patch "GCRATEM1", 72, 0
+	Patch "GCRATEM1", 64, 0
+	Patch "GCRATEM1", 56, 0
+	Patch "GCRATEM1", 80, 0
+	Patch "GCRATEM1", 88, 0
+	Patch "BTNTCRAT", 16, 32
+}
+
+Texture "CR64LB", 64, 64
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATER1", 32, 0
+	Patch "BTNTCRAT", 16, 32
+}
+
+Texture "CR64HBB", 64, 128
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATER1", 32, 0
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 32
+	Patch "BTNTCRAT", 16, 96
+}
+
+Texture "CR64HGB", 64, 128
+{
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 32, 0
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 32
+	Patch "BTNTCRAT", 16, 96
+}
+
+Texture "CR64HGG", 64, 128
+{
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 32, 0
+	Patch "GCRATEL1", 0, 64
+	Patch "GCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 32
+	Patch "BTNTCRAT", 16, 96
+}
+
+Texture "CRBWHBP", 128, 128
+{
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATEM1", 40, 64
+	Patch "BCRATEM1", 32, 64
+	Patch "BCRATEM1", 48, 64
+	Patch "BCRATEM1", 56, 64
+	Patch "BCRATER1", 96, 64
+	Patch "BCRATEM1", 88, 64
+	Patch "BCRATEM1", 80, 64
+	Patch "BCRATEM1", 72, 64
+	Patch "BCRATEM1", 64, 64
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 96, 0
+	Patch "GCRATEM1", 48, 0
+	Patch "GCRATEM1", 40, 0
+	Patch "GCRATEM1", 32, 0
+	Patch "GCRATEM1", 72, 0
+	Patch "GCRATEM1", 64, 0
+	Patch "GCRATEM1", 56, 0
+	Patch "GCRATEM1", 80, 0
+	Patch "GCRATEM1", 88, 0
+	Patch "BTNTCRAT", 16, 96
+	Patch "BTNTCRAT", 16, 32
+	Patch "BUL64C", 37, -5
+	Patch "BLOD128B", -2, 11
+}
+
+Texture "CRSMB", 64, 128
+{
+	Patch "BCRAT32", 0, 0
+	Patch "BCRAT32", 32, 0
+	Patch "SMCRATG", 5, 17
+	Patch "SMCRATG", 37, 17
+	Patch "SGCRATE2", 0, 32
+	Patch "SGCRATE2", 32, 32
+	Patch "SMCRATG", 5, 49
+	Patch "SMCRATG", 37, 49
+	Patch "SMCRATG", 5, 81
+	Patch "SMCRATG", 37, 81
+	Patch "BCRAT32", 0, 96
+	Patch "BCRAT32", 32, 96
+	Patch "SMCRATG", 5, 115
+	Patch "SMCRATG", 37, 115
+}
+
+Texture "CRWDL64A", 64, 128
+{
+	Patch "CRWDL6B", 0, 0
+	Patch "CRWDL6B", 0, 64
+}
+
+Texture "CRWDL64B", 64, 128
+{
+	Patch "CRWDL6C", 0, 0
+	Patch "CRWDL6B", 0, 64
+}
+
+Texture "CRWDL64C", 64, 128
+{
+	Patch "CRWDL6D", 0, 0
+	Patch "CRWDL6B", 0, 64
+}
+
+Texture "CRLWDT3", 32, 16
+{
+	Patch "CRLWDT3", 0, 0
+}
+
+Texture "CRWDT32", 64, 128
+{
+	Patch "CRWDT3", 0, 0
+	Patch "CRWDT3", 32, 0
+	Patch "CLWDVS3", 0, 16
+	Patch "CLWDVS3", 32, 16
+	Patch "CRWDVS3", 0, 40
+	Patch "CRWDVS3", 32, 40
+	Patch "CRWDL6D", 0, 64
+}
+
+Texture "CRBWLBP", 128, 64
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATEM1", 32, 0
+	Patch "BCRATEM1", 40, 0
+	Patch "BCRATEM1", 48, 0
+	Patch "BCRATEM1", 56, 0
+	Patch "BCRATEM1", 64, 0
+	Patch "BCRATEM1", 72, 0
+	Patch "BCRATEM1", 80, 0
+	Patch "BCRATEM1", 88, 0
+	Patch "BCRATER1", 96, 0
+	Patch "BTNTCRAT", 16, 32
+	Patch "BUL64B", 28, 0
+	Patch "BLOD64A", 56, -47
+}
+
+Texture "CR128LB", 128, 64
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATEM1", 32, 0
+	Patch "BCRATEM1", 40, 0
+	Patch "BCRATEM1", 48, 0
+	Patch "BCRATEM1", 56, 0
+	Patch "BCRATEM1", 64, 0
+	Patch "BCRATEM1", 72, 0
+	Patch "BCRATEM1", 80, 0
+	Patch "BCRATEM1", 88, 0
+	Patch "BCRATER1", 96, 0
+	Patch "BTNTCRAT", 16, 32
+}
+
+Texture "CRWDH64", 64, 128
+{
+	Patch "CRWDH6", 0, 0
+}
+
+Texture "CRWDH64B", 64, 128
+{
+	Patch "CRWDH6B", 0, 0
+}
+
+Texture "CRLWDS6", 64, 32
+{
+	Patch "CRLWDS6", 0, 0
+}
+
+Texture "CR128HGB", 128, 128
+{
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATEM1", 40, 64
+	Patch "BCRATEM1", 32, 64
+	Patch "BCRATEM1", 48, 64
+	Patch "BCRATEM1", 56, 64
+	Patch "BCRATER1", 96, 64
+	Patch "BCRATEM1", 88, 64
+	Patch "BCRATEM1", 80, 64
+	Patch "BCRATEM1", 72, 64
+	Patch "BCRATEM1", 64, 64
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 96, 0
+	Patch "GCRATEM1", 48, 0
+	Patch "GCRATEM1", 40, 0
+	Patch "GCRATEM1", 32, 0
+	Patch "GCRATEM1", 72, 0
+	Patch "GCRATEM1", 64, 0
+	Patch "GCRATEM1", 56, 0
+	Patch "GCRATEM1", 80, 0
+	Patch "GCRATEM1", 88, 0
+	Patch "BTNTCRAT", 16, 96
+	Patch "BTNTCRAT", 16, 32
+}
+
+Texture "CRAWLBP", 128, 128
+{
+	Patch "BCRATEL1", 0, 0
+	Patch "BCRATEM1", 40, 0
+	Patch "BCRATEM1", 32, 0
+	Patch "BCRATEM1", 48, 0
+	Patch "BCRATEM1", 56, 0
+	Patch "BCRATER1", 96, 0
+	Patch "BCRATEM1", 88, 0
+	Patch "BCRATEM1", 80, 0
+	Patch "BCRATEM1", 72, 0
+	Patch "BCRATEM1", 64, 0
+	Patch "BTNTCRAT", 16, 32
+	Patch "BCRATEM1", 88, 64
+	Patch "BCRATEM1", 32, 64
+	Patch "BCRATEL1", 0, 64
+	Patch "BCRATEM1", 48, 64
+	Patch "BCRATEM1", 56, 64
+	Patch "BCRATER1", 96, 64
+	Patch "BCRATEM1", 40, 64
+	Patch "BTNTCRAT", 16, 96
+	Patch "BCRATEM1", 64, 64
+	Patch "BCRATEM1", 72, 64
+	Patch "BCRATEM1", 80, 64
+	Patch "BUL64A", 60, 0
+	Patch "BLOD128A", 2, -31
+}
+
+Texture "CRWDS64", 64, 128
+{
+	Patch "CRWDS6", 0, 0
+	Patch "CRLWDL6D", 0, 64
+	Patch "CRLWDS6", 0, 32
+	Patch "BLOD64A", 0, 2
+}
+
+Texture "CRLWDH6B", 64, 128
+{
+	Patch "CRLWDH6B", 0, 0
+}
+
+Texture "CRLWDL6", 64, 128
+{
+	Patch "CRLWDL6", 0, 0
+	Patch "CRLWDL6D", 0, 64
+}
+
+Texture "CRLWDL6E", 64, 128
+{
+	Patch "CRLWDL6E", 0, 0
+	Patch "CRLWDL6C", 0, 64
+}
+
+Texture "CRLWDL6C", 64, 128
+{
+	Patch "CRLWDL6C", 0, 0
+	Patch "CRLWDL6E", 0, 64
+}
+
+Texture "CRLWDL6D", 64, 128
+{
+	Patch "CRLWDL6D", 0, 0
+	Patch "CRLWDL6B", 0, 64
+}
+
+Texture "CRTINYB", 64, 128
+{
+	Patch "BCRAT16", 0, 0
+	Patch "BCRAT16", 16, 0
+	Patch "BCRAT16", 32, 0
+	Patch "BCRAT16", 48, 0
+	Patch "VGCRATE1", 0, 16
+	Patch "VGCRATE1", 16, 16
+	Patch "VGCRATE1", 32, 16
+	Patch "VGCRATE1", 48, 16
+	Patch "BCRAT16", 32, 32
+	Patch "BCRAT16", 48, 32
+	Patch "VGCRATE1", 0, 32
+	Patch "VGCRATE1", 16, 32
+	Patch "BCRAT16", 0, 48
+	Patch "BCRAT16", 16, 48
+	Patch "VGCRATE1", 32, 48
+	Patch "VGCRATE1", 48, 48
+	Patch "SGCRATE2", 0, 64
+	Patch "SGCRATE2", 32, 64
+	Patch "SMCRATG", 7, 79
+	Patch "SMCRATG", 38, 79
+	Patch "SMCRATG", 7, 111
+	Patch "SMCRATG", 38, 111
+}
+
+Texture "CUBICLE", 128, 128
+{
+	Patch "RW34_2", 0, 0
+	Patch "RW34_2", 64, 0
+	Patch "WLITA0", 3, 60
+	Patch "WLITC0", 117, 60
+	Patch "WLITB0", 109, 60
+	Patch "WLITB0", 11, 60
+	Patch "WLITC0", 19, 60
+	Patch "WLITA0", 101, 60
+	Patch "WLITC0", 52, 60
+	Patch "WLITB0", 44, 60
+	Patch "WLITA0", 36, 60
+	Patch "WLITA0", 68, 60
+	Patch "WLITB0", 76, 60
+	Patch "WLITC0", 84, 60
+}
+
+Texture "CRLWDL12", 128, 128
+{
+	Patch "CRLWDL12", 0, 0
+	Patch "CRWDL12", 0, 64
+}
+
+Texture "CRLWDH6", 64, 128
+{
+	Patch "CRLWDH6", 0, 0
+}
+
+Texture "CRBWDL12", 128, 128
+{
+	Patch "CRWDL12", 0, 0
+	Patch "CRWDL12", 0, 64
+	Patch "BLOD64B", 23, -44
+}
+
+Texture "CR64LG", 64, 128
+{
+	Patch "GCRATEL1", 0, 0
+	Patch "GCRATER1", 32, 0
+	Patch "BTNTCRAT", 16, 32
+	Patch "GCRATEL1", 0, 64
+	Patch "GCRATER1", 32, 64
+	Patch "BTNTCRAT", 16, 96
+}
+
+Texture "CRLWDVS", 64, 128
+{
+	Patch "CLWDVS3", 0, 0
+	Patch "CLWDVS3", 32, 0
+	Patch "CRWDL6C", 0, 64
+	Patch "CRWDT3", 0, 24
+	Patch "CRWDT3", 32, 48
+	Patch "CLWDVS3", 0, 40
+	Patch "CLWDVS3", 32, 24
+}
+
+Texture "DOC1", 128, 128
+{
+	Patch "AG128_1", 0, 0
+	Patch "AG128_1", 64, 0
+	Patch "REDTNT2", 4, 32
+}
+
+Texture "DOGRID", 128, 128
+{
+	Patch "DOGRID", 0, 0
+}
+
+Texture "DOWINDOW", 64, 68
+{
+	Patch "DOWINDOW", 0, 0
+}
+
+Texture "DOGLPANL", 64, 128
+{
+	Patch "DOGLPANL", 0, 0
+}
+
+Texture "DOGRMSC", 128, 128
+{
+	Patch "DOGRMSC", 0, 0
+}
+
+Texture "DOKGRIR", 128, 128
+{
+	Patch "DOKGRIR", 0, 0
+}
+
+Texture "DOPUNK4", 128, 128
+{
+	Patch "DOPUNK4", 0, 0
+}
+
+Texture "DRFRONT", 128, 128
+{
+	Patch "DRFRONT", 0, 0
+}
+
+Texture "DRSIDE1", 32, 128
+{
+	Patch "DRSIDE1", 0, 0
+}
+
+Texture "DRSIDE2", 32, 128
+{
+	Patch "DRSIDE2", 0, 0
+}
+
+Texture "DRTOPFR", 128, 65
+{
+	Patch "DRTOPFR", 0, 0
+}
+
+Texture "DRTOPSID", 32, 65
+{
+	Patch "DRTOPSID", 0, 0
+}
+
+Texture "DORED", 128, 128
+{
+	Patch "DORED", 0, 0
+}
+
+Texture "DISASTER", 128, 128
+{
+	Patch "DOGRNMEN", 0, 0
+	Patch "DISASTER", 0, 32
+}
+
+Texture "DOGLDIR", 128, 128
+{
+	Patch "DOGLDIR", 0, 0
+}
+
+Texture "DOKODO1B", 64, 128
+{
+	Patch "DOKODO1B", 0, 0
+}
+
+Texture "DOKODO2B", 64, 128
+{
+	Patch "DOKODO2B", 0, 0
+}
+
+Texture "DOBWIRE", 128, 128
+{
+	Patch "DOBWIRE", 0, 0
+}
+
+Texture "DOBWIRE2", 128, 128
+{
+	Patch "DOBWIRE2", 0, 0
+}
+
+Texture "EGGREENI", 8, 128
+{
+	Patch "EGGREENI", 0, 0
+}
+
+Texture "EGREDI", 8, 128
+{
+	Patch "EGREDI", 0, 0
+}
+
+Texture "EGSUPRT3", 16, 128
+{
+	Patch "WALL42_3", -4, 0
+}
+
+Texture "GRNMEN", 128, 128
+{
+	Patch "DOGRNMEN", 0, 0
+}
+
+Texture "GRNOPEN", 64, 128
+{
+	Patch "GRNOPEN", 0, 0
+}
+
+Texture "LITEGRN1", 32, 128
+{
+	Patch "GRNLIT1", 0, 0
+}
+
+Texture "LITERED1", 32, 128
+{
+	Patch "REDLITE1", 0, 0
+}
+
+Texture "LITERED2", 8, 128
+{
+	Patch "REDLITE2", 0, 0
+}
+
+Texture "LITEYEL1", 32, 128
+{
+	Patch "YELLITE1", 0, 0
+}
+
+Texture "LITEYEL2", 8, 128
+{
+	Patch "YELLITE2", 0, 0
+}
+
+Texture "LITEYEL3", 128, 128
+{
+	Patch "YELLITE3", 0, 0
+}
+
+Texture "LONGWALL", 256, 128
+{
+	Patch "LONGWALL", 0, 0
+}
+
+Texture "MURAL1", 128, 128
+{
+	Patch "MURAL1", 0, 0
+}
+
+Texture "MURAL2", 128, 128
+{
+	Patch "MURAL2", 0, 0
+}
+
+Texture "MTNT1", 128, 128
+{
+	Patch "MWALL3_1", 0, 0
+	Patch "MTNT2", 0, 0
+}
+
+Texture "METAL-BD", 64, 128
+{
+	Patch "WALL47_1", 0, 0
+	Patch "BLOD64A", 0, 0
+}
+
+Texture "METAL-RM", 64, 128
+{
+	Patch "WALL47_1", 0, 0
+	Patch "ROMERO1", 4, 81
+}
+
+Texture "METAL2BD", 64, 128
+{
+	Patch "RW33_1", 0, 0
+	Patch "BLOD64B", 0, 6
+}
+
+Texture "METALDR", 128, 128
+{
+	Patch "WALL47_1", 0, 0
+	Patch "WALL47_1", 64, 0
+	Patch "WALL42_3", 21, 0
+	Patch "WALL42_3", 85, 0
+	Patch "W111_3", 0, 0
+	Patch "W111_3", 0, 64
+	Patch "W111_3", 64, 0
+	Patch "W111_3", 64, 64
+	Patch "SW2_1", 52, 37
+}
+
+Texture "M_TEC", 256, 128
+{
+	Patch "RW33_1", 0, 0
+	Patch "RW33_2", 32, 0
+	Patch "RW33_3", 96, 0
+	Patch "RW33_2", 192, 0
+	Patch "COMP03_5", 160, 0
+	Patch "COMP04_1", 160, 43
+	Patch "COMP04_8", 160, 86
+}
+
+Texture "M_RDOOR", 128, 128
+{
+	Patch "RW33_1", 0, 0
+	Patch "RW33_1", 64, 0
+	Patch "RIPW15", 0, 112
+	Patch "RIPW15", 0, 0
+	Patch "W46_38", 13, 29
+	Patch "W46_38", 45, 29
+	Patch "W46_38", 77, 29
+	Patch "W46_38", 109, 29
+}
+
+Texture "M_YDOOR", 128, 128
+{
+	Patch "RW33_1", 0, 0
+	Patch "RW33_1", 64, 0
+	Patch "RIPW15", 0, 0
+	Patch "RIPW15", 0, 112
+	Patch "W46_39", 13, 29
+	Patch "W46_39", 44, 29
+	Patch "W46_39", 109, 29
+	Patch "W46_39", 77, 29
+}
+
+Texture "PILLAR", 32, 128
+{
+	Patch "PILLAR", 0, 0
+}
+
+Texture "PNK4EXIT", 128, 128
+{
+	Patch "DOPUNK4", 0, 0
+	Patch "EXIT1", 48, 25
+}
+
+Texture "REDOPEN", 64, 128
+{
+	Patch "REDOPEN", 0, 0
+}
+
+Texture "SMGLASS1", 64, 128
+{
+	Patch "PCWINL", 0, 0
+}
+
+Texture "SMSTONE6", 128, 128
+{
+	Patch "PSTON2", 0, 0
+	Patch "PIVY3", 0, 0
+}
+
+Texture "STONEW1", 128, 128
+{
+	Patch "STONEW1", 0, 0
+}
+
+Texture "STONEW5", 128, 128
+{
+	Patch "STONEW5", 0, 0
+}
+
+Texture "SKIRTING", 256, 43
+{
+	Patch "SKIRTING", 0, 0
+}
+
+Texture "STWALL", 128, 128
+{
+	Patch "STWALL", 0, 0
+}
+
+Texture "TNTDOOR", 128, 128
+{
+	Patch "DOTNTDR", 0, 0
+}
+
+Texture "TYIRONLG", 128, 128
+{
+	Patch "FENCE4", 0, 0
+}
+
+Texture "TYIRONSM", 64, 72
+{
+	Patch "FENCE5", 0, 0
+}
+
+Texture "TYWHEEL1", 128, 64
+{
+	Patch "TYWHEEL1", 0, 0
+}
+
+Texture "TYUNDER1", 64, 64
+{
+	Patch "TYUNDER1", 0, 0
+}
+
+Texture "WEBL", 128, 128
+{
+	Patch "DOWEBL", 0, 0
+}
+
+Texture "WEBR", 128, 128
+{
+	Patch "DOWEBR", 0, 0
+}
+
+Texture "YELMETAL", 128, 128
+{
+	Patch "RW38_1", 0, 0
+	Patch "RW38_1", 64, 0
+	Patch "YELTNT", 0, 0
+}
+
+Texture "A-BRBRK", 128, 128
+{
+	Patch "BRBRICK", 0, 0
+}
+
+Texture "A-BRBRK2", 128, 128
+{
+	Patch "BRBRICK2", 0, 0
+}
+
+Texture "A-BRICK1", 128, 128
+{
+	Patch "BRICK1", 0, 0
+}
+
+Texture "A-BRICK2", 128, 128
+{
+	Patch "BRICK2", 0, 0
+}
+
+Texture "A-BRICK3", 128, 128
+{
+	Patch "BRICK", 0, 0
+}
+
+Texture "A-BROCK2", 128, 128
+{
+	Patch "BROCK2", 0, 0
+}
+
+Texture "A-BROWN1", 128, 128
+{
+	Patch "BROWN1", 0, 0
+}
+
+Texture "A-BROWN2", 128, 128
+{
+	Patch "BROWN2", 0, 0
+}
+
+Texture "A-BROWN3", 128, 128
+{
+	Patch "BROWN3", 0, 0
+}
+
+Texture "A-BROWN4", 128, 128
+{
+	Patch "BROWN1", 0, 0
+	Patch "W111_2", 0, 0
+	Patch "W111_3", 64, 64
+	Patch "W111_2", 0, 64
+	Patch "W111_3", 64, 0
+	Patch "SKULFACE", 40, 35
+}
+
+Texture "A-BROWN5", 128, 128
+{
+	Patch "BROWN5", 0, 0
+}
+
+Texture "A-DBRI1", 128, 128
+{
+	Patch "DIRBRI1", 0, 0
+}
+
+Texture "A-DBRI2", 128, 128
+{
+	Patch "DIRBRI2", 0, 0
+}
+
+Texture "A-CAMO1", 128, 128
+{
+	Patch "CAMO1", 0, 0
+}
+
+Texture "A-CAMO2", 256, 128
+{
+	Patch "CAMO1", 0, 0
+	Patch "CAMO1", 128, 0
+	Patch "W107_1", 0, 0
+}
+
+Texture "A-CAMO3", 256, 128
+{
+	Patch "CAMO1", 0, 0
+	Patch "CAMO1", 128, 0
+	Patch "W106_1", 0, 0
+}
+
+Texture "A-CAMO4", 128, 128
+{
+	Patch "CAMO4", 0, 0
+}
+
+Texture "A-CAMO5", 128, 128
+{
+	Patch "CAMO5", 0, 0
+}
+
+Texture "A-CONCTE", 128, 128
+{
+	Patch "CONCRETE", 0, 0
+}
+
+Texture "A-DROCK1", 256, 128
+{
+	Patch "DARKROCK", 0, 0
+}
+
+Texture "A-DROCK2", 256, 128
+{
+	Patch "NATROCK", 0, 0
+}
+
+Texture "A-GRATE", 128, 128
+{
+	Patch "GRATE", 0, 0
+}
+
+Texture "A-MARBLE", 128, 128
+{
+	Patch "MARBLE1", 0, 0
+}
+
+Texture "A-MOSBRI", 128, 128
+{
+	Patch "MOSSBRIK", 0, 0
+}
+
+Texture "A-MOSROK", 128, 128
+{
+	Patch "MOSSROCK", 0, 0
+}
+
+Texture "A-MOSRK2", 128, 128
+{
+	Patch "MOSROK2", 0, 0
+}
+
+Texture "A-MOULD", 128, 128
+{
+	Patch "MOULD", 0, 0
+}
+
+Texture "A-MUD", 128, 128
+{
+	Patch "MUD", 0, 0
+}
+
+Texture "A-MYWOOD", 128, 128
+{
+	Patch "MYWOOD", 0, 0
+}
+
+Texture "A-POIS", 64, 64
+{
+	Patch "POISON", 0, 0
+}
+
+Texture "A-RAIL1", 64, 32
+{
+	Patch "RAILING", 0, 0
+}
+
+Texture "A-ASKIN1", 32, 128
+{
+	Patch "HELL6_1", 0, 0
+}
+
+Texture "A-ASKIN2", 32, 128
+{
+	Patch "HELL8_3", 0, 0
+}
+
+Texture "A-ASKIN3", 128, 128
+{
+	Patch "W109_1", 0, 0
+}
+
+Texture "A-ASKIN4", 128, 128
+{
+	Patch "W109_2", 0, 0
+}
+
+Texture "A-ASKIN5", 256, 128
+{
+	Patch "W110_1", 0, 0
+}
+
+Texture "A-REDROK", 256, 128
+{
+	Patch "REDROCK", 0, 0
+}
+
+Texture "A-ROCK", 128, 128
+{
+	Patch "ROCK", 0, 0
+}
+
+Texture "SLIME1", 128, 128
+{
+	Patch "RW41_1", 0, 0
+	Patch "RW41_1", 64, 0
+	Patch "RW9_1", 0, 0
+	Patch "RW9_1", 64, 0
+}
+
+Texture "SLIME2", 128, 128
+{
+	Patch "RW41_1", 0, 0
+	Patch "RW41_1", 64, 0
+	Patch "WALL47_1", 0, 64
+	Patch "WALL47_1", 64, 64
+}
+
+Texture "SLIME3", 128, 128
+{
+	Patch "RW41_1", 0, 0
+	Patch "RW41_1", 64, 0
+	Patch "W111_3", 0, 0
+	Patch "W111_3", 64, 0
+	Patch "W111_3", 0, 64
+	Patch "W111_3", 64, 64
+	Patch "PS20A0", 33, 51
+}
+
+Texture "SLIME4", 128, 128
+{
+	Patch "RW41_1", 0, 0
+	Patch "RW41_1", 64, 0
+	Patch "DUCT1", 16, 16
+}
+
+Texture "SLIME5", 128, 128
+{
+	Patch "RW41_1", 0, 0
+	Patch "RW41_1", 64, 0
+	Patch "RW33_1", 0, 64
+	Patch "RW33_1", 64, 64
+}
+
+Texture "SLIME8", 128, 128
+{
+	Patch "RW41_1", 0, 0
+	Patch "RW41_1", 64, 0
+	Patch "T14_5", 20, 32
+}
+
+Texture "A-TILE", 128, 128
+{
+	Patch "TILE", 0, 0
+}
+
+Texture "A-VINES", 128, 128
+{
+	Patch "VINES1", 0, 0
+}
+
+Texture "A-VINE1", 256, 128
+{
+	Patch "W107_1", 0, 0
+}
+
+Texture "A-VINE2", 256, 128
+{
+	Patch "W106_1", 0, 0
+}
+
+Texture "A-VINE3", 256, 128
+{
+	Patch "RW1_2", 0, 0
+	Patch "RW1_2", 64, 0
+	Patch "RW1_2", 128, 0
+	Patch "RW1_2", 192, 0
+	Patch "W107_1", 0, 0
+}
+
+Texture "A-VINE4", 256, 128
+{
+	Patch "RW1_2", 0, 0
+	Patch "RW1_2", 64, 0
+	Patch "RW1_2", 128, 0
+	Patch "RW1_2", 192, 0
+	Patch "W106_1", 0, 0
+}
+
+Texture "A-WOOD1", 128, 128
+{
+	Patch "WOOD", 0, 0
+	Patch "WOOD", 0, 64
+}
+
+Texture "A-YELLOW", 16, 8
+{
+	Patch "YELLOW", 0, 0
+}
+
+Texture "WFALL1", 64, 128
+{
+	Patch "WFALL1", 0, 0
+}
+
+Texture "WFALL2", 64, 128
+{
+	Patch "WFALL2", 0, 0
+}
+
+Texture "WFALL3", 64, 128
+{
+	Patch "WFALL3", 0, 0
+}
+
+Texture "WFALL4", 64, 128
+{
+	Patch "WFALL4", 0, 0
+}
+
+Texture "EXITSGN2", 64, 16
+{
+	Patch "EXIT_RED", 0, 0
+	Patch "EXIT_GRN", 32, 0
+}
+
+Texture "P-DBRAN1", 128, 128
+{
+	Patch "MC1", 0, 0
+}
+
+Texture "MC2", 128, 128
+{
+	Patch "MC2", 0, 0
+}
+
+Texture "MC3", 128, 128
+{
+	Patch "MC3", 0, 0
+}
+
+Texture "MC4", 128, 128
+{
+	Patch "MC4", 0, 0
+}
+
+Texture "MC5", 128, 128
+{
+	Patch "MC5", 0, 0
+}
+
+Texture "MC6", 128, 128
+{
+	Patch "MC6", 0, 0
+}
+
+Texture "MC7", 128, 128
+{
+	Patch "MC7", 0, 0
+}
+
+Texture "MC8", 128, 128
+{
+	Patch "MC8", 0, 0
+}
+
+Texture "MC10", 128, 128
+{
+	Patch "MC10", 0, 0
+}
+
+Texture "MC11", 128, 128
+{
+	Patch "MC11", 0, 0
+}
+
+Texture "MC12", 128, 128
+{
+	Patch "MC12", 0, 0
+}
+
+Texture "MC13", 128, 128
+{
+	Patch "MC13", 0, 0
+}
+
+Texture "MC14", 128, 128
+{
+	Patch "MC14", 0, 0
+}
+
+Texture "MC15", 128, 128
+{
+	Patch "MC15", 0, 0
+}
+
+Texture "MC16", 128, 128
+{
+	Patch "MC16", 0, 0
+}
+
+Texture "MC17", 128, 128
+{
+	Patch "MC17", 0, 0
+}
+
+Texture "MC18", 128, 128
+{
+	Patch "MC18", 0, 0
+}
+
+Texture "MC19", 128, 128
+{
+	Patch "MC19", 0, 0
+}
+
+Texture "P-DBRAN4", 128, 128
+{
+	Patch "MC20", 0, 0
+}
+
+Texture "P-FRBLU1", 128, 128
+{
+	Patch "FIREBLU1", 0, 0
+}
+
+Texture "AROCK2", 128, 128
+{
+	Patch "AROCK2", 0, 0
+}
+
+Texture "AROCK3", 128, 128
+{
+	Patch "AROCK3", 0, 0
+}
+
+Texture "AROCK4", 128, 128
+{
+	Patch "AROCK4", 0, 0
+}
+
+Texture "AROCK5", 128, 128
+{
+	Patch "AROCK5", 0, 0
+}
+
+Texture "P-FRBLU2", 128, 128
+{
+	Patch "FIREBLU2", 0, 0
+}
+
+Texture "P-SKY1", 256, 128
+{
+	Patch "SKY1", 0, 0
+}
+
+Texture "P-SKY2", 1024, 128
+{
+	Patch "SKY2A", 0, 0
+	Patch "SKY2B", 256, 0
+	Patch "SKY2C", 512, 0
+	Patch "SKY2D", 768, 0
+}
+
+Texture "P-SKY3", 512, 128
+{
+	Patch "SKY3A", 0, 0
+	Patch "SKY3B", 256, 0
+}
+
+Texture "SW1PSKUL", 64, 64
+{
+	Patch "SW1SKULL", 0, 0
+}
+
+Texture "SW2PSKUL", 64, 64
+{
+	Patch "SW2SKULL", 0, 0
+}
+
+Texture "T-BLODG1", 512, 128
+{
+	Patch "RW48_4", 0, 0
+	Patch "RW48_4", 64, 0
+	Patch "DOSW1C", 128, 0
+	Patch "DOSW1", 200, 0
+	Patch "DOSLVR11", 272, 0
+	Patch "DOSLVR21", 344, 0
+	Patch "DOBLIP1A", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "SW1TSKUL", 512, 128
+{
+	Patch "RW48_4", 0, 0
+	Patch "RW48_4", 64, 0
+	Patch "DOSW2C", 128, 0
+	Patch "DOSW2", 200, 0
+	Patch "DOSLVR12", 272, 0
+	Patch "DOSLVR22", 344, 0
+	Patch "DOBLIP2A", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "BLOD3", 512, 128
+{
+	Patch "RW48_4", 0, 0
+	Patch "RW48_4", 64, 0
+	Patch "DOSW3C", 128, 0
+	Patch "DOSW3", 200, 0
+	Patch "DOSLVR13", 272, 0
+	Patch "DOSLVR23", 344, 0
+	Patch "DOBLIP3A", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "T-BLODG4", 512, 128
+{
+	Patch "RW48_4", 0, 0
+	Patch "RW48_4", 64, 0
+	Patch "DOSW4C", 128, 0
+	Patch "DOSW4", 200, 0
+	Patch "DOSLVR14", 272, 0
+	Patch "DOSLVR24", 344, 0
+	Patch "DOBLIP4A", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "T-WFALL1", 512, 128
+{
+	Patch "RW48_2", 0, 0
+	Patch "RW48_2", 64, 0
+	Patch "DOSWX1C", 128, 0
+	Patch "DOSWX1", 200, 0
+	Patch "DOBIGTVA", 272, 0
+	Patch "DOTV1B", 344, 0
+	Patch "TYWFALL1", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "SW2TSKUL", 512, 128
+{
+	Patch "RW48_2", 0, 0
+	Patch "RW48_2", 64, 0
+	Patch "DOSWX2C", 128, 0
+	Patch "DOSWX2", 200, 0
+	Patch "DOBIGTVB", 272, 0
+	Patch "DOTV2B", 344, 0
+	Patch "TYWFALL2", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "FALL3", 512, 128
+{
+	Patch "RW48_2", 0, 0
+	Patch "RW48_2", 64, 0
+	Patch "DOSWX3C", 128, 0
+	Patch "DOSWX3", 200, 0
+	Patch "DOBIGTVC", 272, 0
+	Patch "DOTV3B", 344, 0
+	Patch "TYWFALL3", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "T-WFALL4", 512, 128
+{
+	Patch "RW48_2", 0, 0
+	Patch "RW48_2", 64, 0
+	Patch "DOSWX4C", 128, 0
+	Patch "DOSWX4", 200, 0
+	Patch "DOBIGTVD", 272, 0
+	Patch "DOTV4B", 344, 0
+	Patch "TYWFALL4", 416, 0
+	Patch "CYAN", 488, 0
+}
+
+Texture "T-SKY1", 1024, 128
+{
+	Patch "DOEDAY", 0, 0
+	Patch "DONDAY", 256, 0
+	Patch "DOWDAY", 512, 0
+	Patch "DOSDAY", 768, 0
+}
+
+Texture "T-SKY2", 1024, 128
+{
+	Patch "DOENITE", 0, 0
+	Patch "DONNITE", 256, 0
+	Patch "DOWNITE", 512, 0
+	Patch "DOSNITE", 768, 0
+}
+
+Texture "T-SKY3", 1024, 128
+{
+	Patch "DOEHELL", 0, 0
+	Patch "DONHELL", 256, 0
+	Patch "DOWHELL", 512, 0
+	Patch "DOSHELL", 768, 0
+}
+
+Texture "T-SLDRP1", 512, 128
+{
+	Patch "DOSHA1", 0, 0
+	Patch "DOSPI1B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL1", 283, 21
+	Patch "PREEL2", 311, 21
+	Patch "SAW1", 344, 0
+	Patch "SAW1SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_01", 462, 2
+}
+
+Texture "SLAD2", 512, 128
+{
+	Patch "DOSHB1", 0, 0
+	Patch "DOSPI2B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL1", 283, 21
+	Patch "PREEL2", 311, 21
+	Patch "SAW2", 344, 0
+	Patch "SAW2SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_05", 454, 2
+}
+
+Texture "SLAD3", 512, 128
+{
+	Patch "DOSHC1", 0, 0
+	Patch "DOSPI3B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL4", 283, 21
+	Patch "PREEL5", 311, 21
+	Patch "SAW3", 344, 0
+	Patch "SAW3SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_10", 454, 2
+}
+
+Texture "SLAD4", 512, 128
+{
+	Patch "DOSHD1", 0, 0
+	Patch "DOSPI2B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL3", 283, 21
+	Patch "PREEL3", 311, 21
+	Patch "SAW4", 344, 0
+	Patch "SAW2SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+}
+
+Texture "SLAD5", 512, 128
+{
+	Patch "DOSHE1", 0, 0
+	Patch "DOSPI3B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL3", 283, 21
+	Patch "PREEL3", 311, 21
+	Patch "SAW5", 344, 0
+	Patch "SAW5SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_19", 454, 2
+}
+
+Texture "SLAD6", 512, 128
+{
+	Patch "DOSHF1", 0, 0
+	Patch "DOSPI4B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL2", 283, 21
+	Patch "PREEL1", 311, 21
+	Patch "SAW6", 344, 0
+	Patch "SAW6SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_20", 453, 4
+}
+
+Texture "SLAD7", 512, 128
+{
+	Patch "DOSHA1", 0, 0
+	Patch "DOSPI1B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL2", 283, 21
+	Patch "PREEL1", 311, 21
+	Patch "SAW1", 344, 0
+	Patch "SAW1SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_U", 452, 20
+	Patch "PL_25", 464, 6
+}
+
+Texture "SLAD8", 512, 128
+{
+	Patch "DOSHB1", 0, 0
+	Patch "DOSPI2B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL7", 283, 21
+	Patch "PREEL6", 311, 21
+	Patch "SAW2", 344, 0
+	Patch "SAW2SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_U", 452, 20
+	Patch "PL_A", 464, 20
+	Patch "PL_31", 467, 2
+}
+
+Texture "SLAD9", 512, 128
+{
+	Patch "DOSHC1", 0, 0
+	Patch "DOSPI3B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL3", 283, 21
+	Patch "PREEL3", 311, 21
+	Patch "SAW3", 344, 0
+	Patch "SAW3SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_U", 452, 20
+	Patch "PL_A", 464, 20
+	Patch "PL_C", 476, 20
+}
+
+Texture "SLAD10", 512, 128
+{
+	Patch "DOSHD1", 0, 0
+	Patch "DOSPI2B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL3", 283, 21
+	Patch "PREEL3", 311, 21
+	Patch "SAW4", 344, 0
+	Patch "SAW4SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_A", 464, 20
+	Patch "PL_C", 476, 20
+	Patch "TFOGF0", 452, 20
+	Patch "TFOGI0", 462, 18
+}
+
+Texture "SLAD11", 512, 128
+{
+	Patch "DOSHE1", 0, 0
+	Patch "DOSPI3B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL3", 283, 21
+	Patch "PREEL3", 311, 21
+	Patch "SAW5", 344, 0
+	Patch "SAW5SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_T", 452, 20
+	Patch "PL_N", 464, 20
+	Patch "TFOGF0", 458, 20
+	Patch "TFOGI0", 476, 18
+}
+
+Texture "T-SLDRP3", 512, 128
+{
+	Patch "DOSHF1", 0, 0
+	Patch "DOSPI4B", 136, 0
+	Patch "SMFILLER", 272, 0
+	Patch "COMP03_4", 276, 0
+	Patch "COMP03_4", 276, 64
+	Patch "COMP03_4", 308, 0
+	Patch "COMP03_4", 308, 64
+	Patch "SMFILLER", 340, 0
+	Patch "PREEL3", 283, 21
+	Patch "PREEL3", 311, 21
+	Patch "SAW6", 344, 0
+	Patch "SAW6SD", 416, 0
+	Patch "PBLAK", 448, 0
+	Patch "PL_18", 454, 2
+	Patch "PL_T", 452, 20
+	Patch "PL_N", 464, 20
+	Patch "PL_T", 476, 20
+}
+
+Texture "SW1TSTON", 512, 128
+{
+	Patch "WALL48_2", 0, 0
+	Patch "SW2_7", 13, 67
+	Patch "WALL48_2", 64, 0
+	Patch "SW2_7", 77, 67
+	Patch "WALL48_2", 128, 0
+	Patch "SW2_7", 141, 67
+	Patch "WALL48_2", 192, 0
+	Patch "SW2_7", 205, 67
+	Patch "RW7_2", 256, 0
+	Patch "SW2_7", 270, 69
+	Patch "RW7_2", 320, 0
+	Patch "SW2_7", 334, 69
+	Patch "RW7_2", 384, 0
+	Patch "SW2_7", 398, 69
+	Patch "RW7_2", 448, 0
+	Patch "SW2_7", 462, 69
+}
+
+Texture "SW2TSTON", 512, 128
+{
+	Patch "WALL48_2", 0, 0
+	Patch "SW2_8", 13, 67
+	Patch "WALL48_2", 64, 0
+	Patch "SW2_8", 77, 67
+	Patch "WALL48_2", 128, 0
+	Patch "SW2_8", 141, 67
+	Patch "WALL48_2", 192, 0
+	Patch "SW2_8", 205, 67
+	Patch "RW7_2", 256, 0
+	Patch "SW2_8", 270, 69
+	Patch "RW7_2", 320, 0
+	Patch "SW2_8", 334, 69
+	Patch "RW7_2", 384, 0
+	Patch "SW2_8", 398, 69
+	Patch "RW7_2", 448, 0
+	Patch "SW2_8", 462, 69
+}
+
+Texture "PDUMMY", 64, 128
+{
+	Patch "PDUMMY", 0, 0
+}
+
+Texture "PRED", 64, 128
+{
+	Patch "PRED", 0, 0
+}
+
+Texture "PBLUE", 64, 128
+{
+	Patch "PBLUE", 0, 0
+}
+
+Texture "PGREEN", 64, 128
+{
+	Patch "PGREEN", 0, 0
+}
+
+Texture "PORAN", 64, 128
+{
+	Patch "PORAN", 0, 0
+}
+
+Texture "PWHITE", 64, 128
+{
+	Patch "PWHITE", 0, 0
+}
+
+Texture "DLEVSIGN", 128, 128
+{
+	Patch "AG128_2", 0, 70
+	Patch "AG128_2", 64, 70
+	Patch "DLEVSIGN", 0, 0
+}
+
+Texture "AQCONC01", 64, 128
+{
+	Patch "AQCONC01", 0, 0
+	Patch "AQCONC01", 0, 64
+}
+
+Texture "AQCONC02", 128, 128
+{
+	Patch "AQCONC02", 0, 0
+}
+
+Texture "AQCONC03", 128, 128
+{
+	Patch "AQCONC03", 0, 0
+}
+
+Texture "AQCONC04", 128, 128
+{
+	Patch "AQCONC04", 0, 0
+}
+
+Texture "AQCONC05", 64, 128
+{
+	Patch "AQCONC05", 0, 0
+}
+
+Texture "AQCONC06", 64, 128
+{
+	Patch "AQCONC06", 0, 0
+	Patch "AQCONC06", 0, 64
+}
+
+Texture "AQCONC07", 64, 128
+{
+	Patch "AQCONC07", 0, 0
+	Patch "AQCONC07", 0, 64
+}
+
+Texture "AQCONC08", 64, 128
+{
+	Patch "AQCONC08", 0, 0
+	Patch "AQCONC08", 0, 64
+}
+
+Texture "AQCONC09", 64, 128
+{
+	Patch "AQCONC09", 0, 0
+	Patch "AQCONC09", 0, 64
+}
+
+Texture "AQCONC10", 64, 128
+{
+	Patch "AQCONC10", 0, 0
+	Patch "AQCONC10", 0, 64
+}
+
+Texture "AQCONC11", 64, 128
+{
+	Patch "AQCONC11", 0, 0
+	Patch "AQCONC11", 0, 64
+}
+
+Texture "AQCONC12", 64, 128
+{
+	Patch "AQCONC12", 0, 0
+	Patch "AQCONC12", 0, 64
+}
+
+Texture "AQCONC13", 128, 128
+{
+	Patch "AQCONC13", 0, 0
+}
+
+Texture "AQCONC14", 128, 128
+{
+	Patch "AQCONC14", 0, 0
+}
+
+Texture "AQCONC15", 128, 128
+{
+	Patch "AQCONC15", 0, 0
+}
+
+Texture "AQCONC16", 128, 128
+{
+	Patch "AQCONC16", 0, 0
+}
+
+Texture "AQCONC17", 64, 128
+{
+	Patch "AQCONC17", 0, 0
+	Patch "AQCONC17", 0, 64
+}
+
+Texture "AQCONC18", 64, 128
+{
+	Patch "AQCONC18", 0, 0
+	Patch "AQCONC18", 0, 64
+}
+
+Texture "AQDOOR01", 128, 128
+{
+	Patch "AQDOOR01", 0, 0
+}
+
+Texture "AQDOOR02", 128, 128
+{
+	Patch "AQDOOR02", 0, 0
+}
+
+Texture "AQLITE01", 64, 128
+{
+	Patch "AQLITE01", 0, 0
+	Patch "AQLITE01", 0, 64
+}
+
+Texture "AQLITE02", 64, 128
+{
+	Patch "AQLITE02", 0, 0
+	Patch "AQLITE02", 0, 64
+}
+
+Texture "AQLITE03", 64, 128
+{
+	Patch "AQLITE03", 0, 0
+	Patch "AQLITE03", 0, 64
+}
+
+Texture "AQLITE04", 64, 128
+{
+	Patch "AQLITE04", 0, 0
+	Patch "AQLITE04", 0, 64
+}
+
+Texture "AQLITE05", 64, 128
+{
+	Patch "AQLITE05", 0, 0
+	Patch "AQLITE05", 0, 64
+}
+
+Texture "AQLITE06", 64, 128
+{
+	Patch "AQLITE06", 0, 0
+	Patch "AQLITE06", 0, 64
+}
+
+Texture "AQLITE07", 64, 128
+{
+	Patch "AQLITE07", 0, 0
+	Patch "AQLITE07", 0, 64
+}
+
+Texture "AQLITE08", 64, 128
+{
+	Patch "AQLITE08", 0, 0
+	Patch "AQLITE08", 0, 64
+}
+
+Texture "AQLITE09", 64, 128
+{
+	Patch "AQLITE09", 0, 0
+	Patch "AQLITE09", 0, 64
+}
+
+Texture "AQLITE10", 64, 128
+{
+	Patch "AQLITE10", 0, 0
+	Patch "AQLITE10", 0, 64
+}
+
+Texture "AQLITE11", 64, 128
+{
+	Patch "AQLITE11", 0, 0
+	Patch "AQLITE11", 0, 64
+}
+
+Texture "AQLITE12", 64, 128
+{
+	Patch "AQLITE12", 0, 0
+	Patch "AQLITE12", 0, 64
+}
+
+Texture "AQLITE13", 64, 128
+{
+	Patch "AQLITE13", 0, 0
+	Patch "AQLITE13", 0, 64
+}
+
+Texture "AQLITE14", 64, 128
+{
+	Patch "AQLITE14", 0, 0
+	Patch "AQLITE14", 0, 64
+}
+
+Texture "AQLITE15", 64, 128
+{
+	Patch "AQLITE15", 0, 0
+	Patch "AQLITE15", 0, 64
+}
+
+Texture "AQLITE16", 64, 128
+{
+	Patch "AQLITE16", 0, 0
+	Patch "AQLITE16", 0, 64
+}
+
+Texture "AQLITE17", 64, 128
+{
+	Patch "AQLITE17", 0, 0
+	Patch "AQLITE17", 0, 64
+}
+
+Texture "AQLITE18", 64, 128
+{
+	Patch "AQLITE18", 0, 0
+	Patch "AQLITE18", 0, 64
+}
+
+Texture "AQLITE19", 64, 128
+{
+	Patch "AQLITE19", 0, 0
+	Patch "AQLITE19", 0, 64
+}
+
+Texture "AQLITE20", 64, 128
+{
+	Patch "AQLITE20", 0, 0
+	Patch "AQLITE20", 0, 64
+}
+
+Texture "AQLITE21", 64, 128
+{
+	Patch "AQLITE21", 0, 0
+	Patch "AQLITE21", 0, 64
+}
+
+Texture "AQLITE22", 64, 128
+{
+	Patch "AQLITE22", 0, 0
+	Patch "AQLITE22", 0, 64
+}
+
+Texture "AQLITE23", 64, 128
+{
+	Patch "AQLITE23", 0, 0
+	Patch "AQLITE23", 0, 64
+}
+
+Texture "AQLITE24", 64, 128
+{
+	Patch "AQLITE24", 0, 0
+	Patch "AQLITE24", 0, 64
+}
+
+Texture "AQLITE25", 64, 128
+{
+	Patch "AQLITE25", 0, 0
+	Patch "AQLITE25", 0, 64
+}
+
+Texture "AQMETL01", 64, 128
+{
+	Patch "AQMETL01", 0, 0
+	Patch "AQMETL01", 0, 64
+}
+
+Texture "AQMETL02", 64, 128
+{
+	Patch "AQMETL02", 0, 0
+}
+
+Texture "AQMETL03", 128, 128
+{
+	Patch "AQMETL03", 0, 0
+}
+
+Texture "AQMETL04", 128, 128
+{
+	Patch "AQMETL04", 0, 0
+}
+
+Texture "AQMETL05", 128, 128
+{
+	Patch "AQMETL05", 0, 0
+}
+
+Texture "AQMETL06", 128, 128
+{
+	Patch "AQMETL06", 0, 0
+}
+
+Texture "AQMETL07", 64, 128
+{
+	Patch "AQMETL07", 0, 0
+}
+
+Texture "AQMETL08", 64, 128
+{
+	Patch "AQMETL08", 0, 0
+}
+
+Texture "AQMETL09", 64, 128
+{
+	Patch "AQMETL09", 0, 0
+}
+
+Texture "AQMETL10", 64, 128
+{
+	Patch "AQMETL10", 0, 0
+}
+
+Texture "AQMETL11", 64, 128
+{
+	Patch "AQMETL11", 0, 0
+}
+
+Texture "AQMETL12", 64, 128
+{
+	Patch "AQMETL12", 0, 0
+}
+
+Texture "AQMETL13", 128, 128
+{
+	Patch "AQMETL13", 0, 0
+}
+
+Texture "AQMETL14", 128, 128
+{
+	Patch "AQMETL14", 0, 0
+}
+
+Texture "AQMETL15", 64, 128
+{
+	Patch "AQMETL15", 0, 0
+}
+
+Texture "AQMETL16", 64, 128
+{
+	Patch "AQMETL16", 0, 0
+}
+
+Texture "AQMETL17", 64, 128
+{
+	Patch "AQMETL17", 0, 0
+}
+
+Texture "AQMETL18", 64, 128
+{
+	Patch "AQMETL18", 0, 0
+}
+
+Texture "AQMETL19", 64, 128
+{
+	Patch "AQMETL19", 0, 0
+}
+
+Texture "AQMETL20", 64, 128
+{
+	Patch "AQMETL20", 0, 0
+	Patch "AQMETL20", 0, 64
+}
+
+Texture "AQMETL21", 64, 128
+{
+	Patch "AQMETL21", 0, 0
+}
+
+Texture "AQMETL22", 64, 128
+{
+	Patch "AQMETL22", 0, 0
+}
+
+Texture "AQMETL23", 64, 128
+{
+	Patch "AQMETL23", 0, 0
+}
+
+Texture "AQMETL24", 64, 128
+{
+	Patch "AQMETL24", 0, 0
+}
+
+Texture "AQMETL25", 64, 128
+{
+	Patch "AQMETL25", 0, 0
+}
+
+Texture "AQMETL26", 64, 128
+{
+	Patch "AQMETL26", 0, 0
+}
+
+Texture "AQMETL27", 64, 128
+{
+	Patch "AQMETL27", 0, 0
+}
+
+Texture "AQMETL28", 64, 128
+{
+	Patch "AQMETL28", 0, 0
+	Patch "AQMETL28", 0, 64
+}
+
+Texture "AQMETL29", 64, 64
+{
+	Patch "AQMETL29", 0, 0
+}
+
+Texture "AQMETL30", 64, 128
+{
+	Patch "AQMETL30", 0, 0
+	Patch "AQMETL30", 0, 64
+}
+
+Texture "AQMETL31", 64, 64
+{
+	Patch "AQMETL31", 0, 0
+}
+
+Texture "AQMETL32", 64, 128
+{
+	Patch "AQMETL32", 0, 0
+	Patch "AQMETL32", 0, 64
+}
+
+Texture "AQMETL33", 64, 128
+{
+	Patch "AQMETL33", 0, 0
+	Patch "AQMETL33", 0, 64
+}
+
+Texture "AQPANL01", 128, 128
+{
+	Patch "AQPANL01", 0, 0
+}
+
+Texture "AQPANL02", 128, 128
+{
+	Patch "AQPANL02", 0, 0
+}
+
+Texture "AQPANL03", 128, 128
+{
+	Patch "AQPANL03", 0, 0
+}
+
+Texture "AQPANL04", 128, 128
+{
+	Patch "AQPANL04", 0, 0
+}
+
+Texture "AQPANL05", 128, 128
+{
+	Patch "AQPANL05", 0, 0
+	Patch "AQPANL05", 0, 64
+}
+
+Texture "AQPANL06", 128, 128
+{
+	Patch "AQPANL06", 0, 0
+	Patch "AQPANL06", 0, 64
+}
+
+Texture "AQPANL07", 128, 128
+{
+	Patch "AQPANL07", 0, 0
+	Patch "AQPANL07", 0, 64
+}
+
+Texture "AQPANL08", 64, 128
+{
+	Patch "AQPANL08", 0, 0
+}
+
+Texture "AQPANL09", 64, 128
+{
+	Patch "AQPANL09", 0, 0
+}
+
+Texture "AQPANL10", 64, 128
+{
+	Patch "AQPANL10", 0, 0
+}
+
+Texture "AQPIPE01", 64, 128
+{
+	Patch "AQPIPE01", 0, 0
+}
+
+Texture "AQPIPE02", 64, 128
+{
+	Patch "AQPIPE02", 0, 0
+}
+
+Texture "AQPIPE03", 64, 128
+{
+	Patch "AQPIPE03", 0, 0
+}
+
+Texture "AQPIPE04", 64, 128
+{
+	Patch "AQPIPE04", 0, 0
+}
+
+Texture "AQPIPE05", 64, 128
+{
+	Patch "AQPIPE05", 0, 0
+}
+
+Texture "AQPIPE08", 64, 128
+{
+	Patch "AQPIPE08", 0, 0
+}
+
+Texture "AQPIPE09", 128, 128
+{
+	Patch "AQPIPE09", 0, 0
+}
+
+Texture "AQPIPE10", 128, 128
+{
+	Patch "AQPIPE10", 0, 0
+}
+
+Texture "AQPIPE11", 128, 128
+{
+	Patch "AQPIPE11", 0, 0
+}
+
+Texture "AQPIPE12", 128, 128
+{
+	Patch "AQPIPE12", 0, 0
+}
+
+Texture "AQPIPE13", 128, 128
+{
+	Patch "AQPIPE13", 0, 0
+}
+
+Texture "AQPIPE14", 128, 128
+{
+	Patch "AQPIPE14", 0, 0
+}
+
+Texture "AQRUST01", 64, 128
+{
+	Patch "AQRUST01", 0, 0
+	Patch "AQRUST01", 0, 64
+}
+
+Texture "AQRUST02", 64, 128
+{
+	Patch "AQRUST02", 0, 0
+}
+
+Texture "AQRUST03", 64, 128
+{
+	Patch "AQRUST03", 0, 0
+}
+
+Texture "AQRUST04", 64, 128
+{
+	Patch "AQRUST04", 0, 0
+}
+
+Texture "AQRUST05", 128, 128
+{
+	Patch "AQRUST05", 0, 0
+}
+
+Texture "AQRUST06", 128, 128
+{
+	Patch "AQRUST06", 0, 0
+}
+
+Texture "AQRUST07", 128, 128
+{
+	Patch "AQRUST07", 0, 0
+}
+
+Texture "AQRUST08", 128, 128
+{
+	Patch "AQRUST08", 0, 0
+}
+
+Texture "AQRUST09", 64, 128
+{
+	Patch "AQRUST09", 0, 0
+}
+
+Texture "AQRUST10", 64, 128
+{
+	Patch "AQRUST10", 0, 0
+}
+
+Texture "AQSUPP01", 32, 128
+{
+	Patch "AQSUPP01", 0, 0
+}
+
+Texture "AQSUPP02", 128, 128
+{
+	Patch "AQSUPP02", 0, 0
+}
+
+Texture "AQSUPP03", 64, 128
+{
+	Patch "AQSUPP03", 0, 0
+}
+
+Texture "AQSUPP04", 16, 128
+{
+	Patch "AQSUPP04", 0, 0
+}
+
+Texture "AQSUPP05", 16, 128
+{
+	Patch "AQSUPP05", 0, 0
+}
+
+Texture "AQSUPP06", 16, 128
+{
+	Patch "AQSUPP06", 0, 0
+}
+
+Texture "AQSUPP07", 16, 128
+{
+	Patch "AQSUPP07", 0, 0
+}
+
+Texture "AQSUPP08", 32, 128
+{
+	Patch "AQSUPP08", 0, 0
+}
+
+Texture "AQSUPP09", 64, 128
+{
+	Patch "AQSUPP09", 0, 0
+}
+
+Texture "AQSUPP10", 16, 128
+{
+	Patch "AQSUPP10", 0, 0
+}
+
+Texture "AQSUPP11", 16, 128
+{
+	Patch "AQSUPP11", 0, 0
+}
+
+Texture "AQSUPP12", 64, 128
+{
+	Patch "AQSUPP12", 0, 0
+	Patch "AQSUPP12", 0, 64
+}
+
+Texture "AQSUPP13", 8, 128
+{
+	Patch "AQSUPP13", 0, 0
+}
+
+Texture "AQTRIM01", 128, 128
+{
+	Patch "AQTRIM01", 0, 0
+	Patch "AQTRIM01", 0, 16
+	Patch "AQTRIM01", 0, 32
+	Patch "AQTRIM01", 0, 48
+	Patch "AQTRIM01", 0, 64
+	Patch "AQTRIM01", 0, 80
+	Patch "AQTRIM01", 0, 96
+	Patch "AQTRIM01", 0, 112
+}
+
+Texture "AQTRIM02", 128, 128
+{
+	Patch "AQTRIM02", 0, 0
+	Patch "AQTRIM02", 0, 16
+	Patch "AQTRIM02", 0, 32
+	Patch "AQTRIM02", 0, 48
+	Patch "AQTRIM02", 0, 64
+	Patch "AQTRIM02", 0, 80
+	Patch "AQTRIM02", 0, 96
+	Patch "AQTRIM02", 0, 112
+}
+
+Texture "AQTRIM03", 128, 128
+{
+	Patch "AQTRIM03", 0, 0
+	Patch "AQTRIM03", 0, 8
+	Patch "AQTRIM03", 0, 16
+	Patch "AQTRIM03", 0, 24
+	Patch "AQTRIM03", 0, 32
+	Patch "AQTRIM03", 0, 40
+	Patch "AQTRIM03", 0, 48
+	Patch "AQTRIM03", 0, 56
+	Patch "AQTRIM03", 0, 64
+	Patch "AQTRIM03", 0, 72
+	Patch "AQTRIM03", 0, 80
+	Patch "AQTRIM03", 0, 88
+	Patch "AQTRIM03", 0, 96
+	Patch "AQTRIM03", 0, 104
+	Patch "AQTRIM03", 0, 112
+}
+
+Texture "AQTRIM04", 128, 128
+{
+	Patch "AQTRIM04", 0, 0
+	Patch "AQTRIM04", 0, 16
+	Patch "AQTRIM04", 0, 32
+	Patch "AQTRIM04", 0, 48
+	Patch "AQTRIM04", 0, 64
+	Patch "AQTRIM04", 0, 80
+	Patch "AQTRIM04", 0, 96
+	Patch "AQTRIM04", 0, 112
+}
+
+Texture "AQTRIM05", 128, 128
+{
+	Patch "AQTRIM05", 0, 0
+	Patch "AQTRIM05", 0, 8
+	Patch "AQTRIM05", 0, 16
+	Patch "AQTRIM05", 0, 24
+	Patch "AQTRIM05", 0, 32
+	Patch "AQTRIM05", 0, 40
+	Patch "AQTRIM05", 0, 48
+	Patch "AQTRIM05", 0, 56
+	Patch "AQTRIM05", 0, 64
+	Patch "AQTRIM05", 0, 72
+	Patch "AQTRIM05", 0, 80
+	Patch "AQTRIM05", 0, 88
+	Patch "AQTRIM05", 0, 96
+	Patch "AQTRIM05", 0, 104
+	Patch "AQTRIM05", 0, 112
+	Patch "AQTRIM05", 0, 120
+}
+
+Texture "AQTRIM06", 128, 128
+{
+	Patch "AQTRIM06", 0, 0
+	Patch "AQTRIM06", 0, 64
+}
+
+Texture "AQTRIM07", 128, 128
+{
+	Patch "AQTRIM07", 0, 0
+	Patch "AQTRIM07", 0, 64
+}
+
+Texture "AQTRIM08", 64, 128
+{
+	Patch "AQTRIM08", 0, 0
+	Patch "AQTRIM08", 0, 16
+	Patch "AQTRIM08", 0, 32
+	Patch "AQTRIM08", 0, 48
+	Patch "AQTRIM08", 0, 64
+	Patch "AQTRIM08", 0, 80
+	Patch "AQTRIM08", 0, 96
+	Patch "AQTRIM08", 0, 112
+}
+
+Texture "AQDIRT01", 64, 128
+{
+	Patch "AQDIRT01", 0, 0
+}
+
+Texture "AQDIRT02", 64, 128
+{
+	Patch "AQDIRT02", 0, 0
+	Patch "AQDIRT02", 0, 64
+}
+
+Texture "AQDIRT03", 128, 128
+{
+	Patch "AQDIRT03", 0, 0
+}
+
+Texture "AQBRIK01", 64, 128
+{
+	Patch "AQBRIK01", 0, 0
+	Patch "AQBRIK01", 0, 64
+}
+
+Texture "AQBRIK02", 64, 128
+{
+	Patch "AQBRIK02", 0, 0
+	Patch "AQBRIK02", 0, 64
+}
+
+Texture "AQBRIK03", 64, 128
+{
+	Patch "AQBRIK03", 0, 0
+	Patch "AQBRIK03", 0, 64
+}
+
+Texture "AQSECT01", 128, 128
+{
+	Patch "AQSECT01", 0, 0
+}
+
+Texture "AQSECT02", 64, 128
+{
+	Patch "AQSECT02", 0, 0
+}
+
+Texture "AQSECT03", 64, 128
+{
+	Patch "AQSECT03", 0, 0
+}
+
+Texture "AQSECT04", 128, 128
+{
+	Patch "AQSECT04", 0, 0
+}
+
+Texture "AQSECT05", 128, 128
+{
+	Patch "AQSECT05", 0, 0
+}
+
+Texture "AQSECT06", 64, 128
+{
+	Patch "AQSECT06", 0, 0
+}
+
+Texture "AQSECT07", 64, 128
+{
+	Patch "AQSECT07", 0, 0
+}
+
+Texture "AQSECT08", 128, 128
+{
+	Patch "AQSECT08", 0, 0
+}
+
+Texture "AQSECT09", 128, 128
+{
+	Patch "AQSECT09", 0, 0
+}
+
+Texture "AQSECT10", 128, 128
+{
+	Patch "AQSECT10", 0, 0
+}
+
+Texture "AQSECT11", 128, 128
+{
+	Patch "AQSECT11", 0, 0
+}
+
+Texture "AQSECT12", 128, 128
+{
+	Patch "AQSECT12", 0, 0
+}
+
+Texture "AQSECT13", 128, 128
+{
+	Patch "AQSECT13", 0, 0
+}
+
+Texture "AQSECT14", 128, 128
+{
+	Patch "AQSECT14", 0, 0
+}
+
+Texture "AQSECT15", 128, 128
+{
+	Patch "AQSECT15", 0, 0
+}
+
+Texture "AQSECT16", 128, 128
+{
+	Patch "AQSECT16", 0, 0
+}
+
+Texture "AQCOMP01", 256, 128
+{
+	Patch "AQCOMP01", 0, 0
+}
+
+Texture "AQTILE01", 64, 128
+{
+	Patch "AQTILE01", 0, 0
+	Patch "AQTILE01", 0, 64
+}
+
+Texture "AQTILE02", 64, 128
+{
+	Patch "AQTILE02", 0, 0
+	Patch "AQTILE02", 0, 64
+}
+
+Texture "AQTILE03", 64, 128
+{
+	Patch "AQTILE03", 0, 0
+	Patch "AQTILE03", 0, 64
+}
+
+Texture "AMOD1", 64, 128
+{
+	Patch "AMOD1", 0, 0
+}
+
+Texture "SHAWN01", 128, 128
+{
+	Patch "SHAWN01", 0, 0
+}
+
+Texture "SHAWN02", 128, 128
+{
+	Patch "SHAWN02", 0, 0
+}
+
+Texture "SHAWN03", 128, 128
+{
+	Patch "SHAWN03", 0, 0
+}
+
+Texture "MOD1", 64, 128
+{
+	Patch "MOD1", 0, 0
+}
+
+Texture "MOD2", 128, 128
+{
+	Patch "MOD2", 0, 0
+}
+
+Texture "MOD3", 64, 128
+{
+	Patch "MOD3", 0, 0
+}
+
+Texture "MOD4", 64, 128
+{
+	Patch "MOD4", 0, 0
+}
+
+Texture "MOD5", 64, 128
+{
+	Patch "MOD5", 0, 0
+}
+
+Texture "DEXAL", 128, 128
+{
+	Patch "DEXAL", 0, 0
+}
+
+Texture "BASE", 128, 128
+{
+	Patch "BASE", 0, 0
+}
+
+Texture "BASE2", 128, 128
+{
+	Patch "BASE2", 0, 0
+}
+
+Texture "BASE3", 128, 128
+{
+	Patch "BASE3", 0, 0
+}
+
+Texture "GLASS2B", 64, 96
+{
+	Patch "GLASS2B", 0, 0
+}
+
+Texture "GLASS1B", 64, 96
+{
+	Patch "GLASS1B", 0, 0
+}
+
+Texture "GLASS2", 64, 96
+{
+	Patch "GLASS2", 0, 0
+}
+
+Texture "GLASS1", 64, 96
+{
+	Patch "GLASS1", 0, 0
+}
+
+Texture "CEILVINE", 128, 128
+{
+	Patch "CEILVINE", 0, 0
+}
+
+Texture "CGRATE1", 128, 128
+{
+	Patch "CGRATE1", 0, 0
+}
+
+Texture "A-BRBK8", 128, 128
+{
+	Patch "BRBRICK8", 0, 0
+}
+
+Texture "A-BRBK28", 128, 128
+{
+	Patch "BRBRIK28", 0, 0
+}
+
+Texture "A-PBRIK8", 128, 128
+{
+	Patch "PBRICK8", 0, 0
+}
+
+Texture "A-PBRK18", 128, 128
+{
+	Patch "PBRICK18", 0, 0
+}
+
+Texture "A-PBRK28", 128, 128
+{
+	Patch "PBRICK28", 0, 0
+}
+
+Texture "A-BROK28", 128, 128
+{
+	Patch "BROCK28", 0, 0
+}
+
+Texture "A-DBRI18", 128, 128
+{
+	Patch "DIRBRI18", 0, 0
+}
+
+Texture "A-DBRI28", 128, 128
+{
+	Patch "DIRBRI28", 0, 0
+}
+
+Texture "A-MOSBK8", 128, 128
+{
+	Patch "MOSSBRK8", 0, 0
+}

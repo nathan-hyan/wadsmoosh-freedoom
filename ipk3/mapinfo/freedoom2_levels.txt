@@ -1,0 +1,521 @@
+
+defaultmap
+{
+	InterMusic = "FD2_DM2INT"
+	ExitPic = "FD_INTER"
+}
+
+map FD2_MAP01 "Hydroelectric Plant"
+{
+	next = "FD2_MAP02"
+	secretnext = "FD2_MAP02"
+	titlepatch = "CWILV00"
+	sky1 = "RSKY1"
+	cluster = 5
+	par = 30
+	music = "FD2_RUNNIN"
+	author = "Samuel Oliver, Eric Baker, and Xindage"
+}
+
+map FD2_MAP02 "Filtration Tunnels"
+{
+	next = "FD2_MAP03"
+	secretnext = "FD2_MAP33"
+	titlepatch = "CWILV01"
+	sky1 = "RSKY1"
+	cluster = 5
+	par = 90
+	music = "FD2_STALKS"
+	author = "Stephen Finniss"
+}
+
+map FD2_MAP03 "Crude Processing Center"
+{
+	next = "FD2_MAP04"
+	secretnext = "FD2_MAP04"
+	titlepatch = "CWILV02"
+	sky1 = "RSKY1"
+	cluster = 5
+	par = 120
+	music = "FD2_COUNTD"
+	author = "SgtCrispy"
+}
+
+map FD2_MAP04 "Containment Bay"
+{
+	next = "FD2_MAP05"
+	secretnext = "FD2_MAP05"
+	titlepatch = "CWILV03"
+	sky1 = "RSKY1"
+	cluster = 5
+	par = 120
+	music = "FD2_BETWEE"
+	author = "The Green Herring"
+}
+
+map FD2_MAP05 "Sludge Burrow"
+{
+	next = "FD2_MAP06"
+	secretnext = "FD2_MAP06"
+	titlepatch = "CWILV04"
+	sky1 = "RSKY1"
+	cluster = 5
+	par = 90
+	music = "FD2_DOOM"
+	author = "Patrick Kalinauskas"
+}
+
+map FD2_MAP06 "Gamma Labs"
+{
+	next = "FD2_MAP07"
+	secretnext = "FD2_MAP07"
+	titlepatch = "CWILV05"
+	sky1 = "RSKY1"
+	cluster = 5
+	par = 150
+	sucktime = 1
+	music = "FD2_THE_DA"
+	author = "Unknown Author"
+}
+
+map FD2_MAP07 "Outer Storage Warehouse"
+{
+	next = "FD2_MAP08"
+	secretnext = "FD2_MAP08"
+	titlepatch = "CWILV06"
+	sky1 = "RSKY1"
+	cluster = 6
+	par = 120
+	map07special
+	music = "FD2_SHAWN"
+	author = "Unknown Author"
+}
+
+map FD2_MAP08 "Astronomy Complex"
+{
+	next = "FD2_MAP09"
+	secretnext = "FD2_MAP09"
+	titlepatch = "CWILV07"
+	sky1 = "RSKY1"
+	cluster = 6
+	par = 120
+	music = "FD2_DDTBLU"
+	author = "Boris Iwanski"
+}
+
+map FD2_MAP09 "Datacenter"
+{
+	next = "FD2_MAP10"
+	secretnext = "FD2_MAP10"
+	titlepatch = "CWILV08"
+	sky1 = "RSKY1"
+	cluster = 6
+	par = 270
+	music = "FD2_IN_CIT"
+	author = "Svante Ekholm"
+}
+
+map FD2_MAP10 "Deadly Outlands"
+{
+	next = "FD2_MAP11"
+	secretnext = "FD2_MAP11"
+	titlepatch = "CWILV09"
+	sky1 = "RSKY1"
+	cluster = 6
+	par = 90
+	music = "FD2_DEAD"
+	author = "Svante Ekholm"
+}
+
+map FD2_MAP11 "Infinite Plain"
+{
+	next = "FD2_MAP12"
+	secretnext = "FD2_MAP12"
+	titlepatch = "CWILV10"
+	sky1 = "RSKY1"
+	cluster = 6
+	par = 210
+	music = "FD2_STLKS2"
+	author = "Unknown Author"
+}
+
+map FD2_MAP12 "Railroads"
+{
+	next = "FD2_MAP13"
+	secretnext = "FD2_MAP13"
+	titlepatch = "CWILV11"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 150
+	music = "FD2_THEDA2"
+	author = "Z0k"
+}
+
+map FD2_MAP13 "Station Earth"
+{
+	next = "FD2_MAP14"
+	secretnext = "FD2_MAP14"
+	titlepatch = "CWILV12"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 150
+	music = "FD2_DOOM2"
+	author = "Jayextee"
+}
+
+map FD2_MAP14 "Nuclear Zone"
+{
+	next = "FD2_MAP15"
+	secretnext = "FD2_MAP15"
+	titlepatch = "CWILV13"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 150
+	music = "FD2_DDTBL2"
+	author = "Jayextee"
+}
+
+map FD2_MAP15 "Hostile Takeover"
+{
+	next = "FD2_MAP16"
+	secretnext = "FD2_MAP31"
+	titlepatch = "CWILV14"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 210
+	music = "FD2_RUNNI2"
+	author = "Z0k"
+}
+
+map FD2_MAP16 "Urban Jungle"
+{
+	next = "FD2_MAP17"
+	secretnext = "FD2_MAP17"
+	titlepatch = "CWILV15"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 150
+	music = "FD2_DEAD2"
+	author = "Tom White"
+}
+
+map FD2_MAP17 "City Capitol"
+{
+	next = "FD2_MAP18"
+	secretnext = "FD2_MAP18"
+	titlepatch = "CWILV16"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 420
+	music = "FD2_STLKS3"
+	author = "Jayextee"
+}
+
+map FD2_MAP18 "Aquatics Lab"
+{
+	next = "FD2_MAP19"
+	secretnext = "FD2_MAP19"
+	titlepatch = "CWILV17"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 150
+	music = "FD2_ROMERO"
+	author = "James Paddock"
+}
+
+map FD2_MAP19 "Sewage Control"
+{
+	next = "FD2_MAP20"
+	secretnext = "FD2_MAP20"
+	titlepatch = "CWILV18"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 210
+	music = "FD2_SHAWN2"
+	author = "Jayextee"
+}
+
+map FD2_MAP20 "Blood Ember Fortress"
+{
+	next = "FD2_MAP21"
+	secretnext = "FD2_MAP21"
+	titlepatch = "CWILV19"
+	sky1 = "RSKY2"
+	cluster = 7
+	par = 150
+	music = "FD2_MESSAG"
+	author = "Devin Afshin"
+}
+
+map FD2_MAP21 "Under Realm"
+{
+	next = "FD2_MAP22"
+	secretnext = "FD2_MAP22"
+	titlepatch = "CWILV20"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 240
+	music = "FD2_COUNT2"
+	author = "Mortrixs19"
+}
+
+map FD2_MAP22 "Remanasu"
+{
+	next = "FD2_MAP23"
+	secretnext = "FD2_MAP23"
+	titlepatch = "CWILV21"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 150
+	music = "FD2_DDTBL3"
+	author = "Boris Iwanski"
+}
+
+map FD2_MAP23 "Underground Facility"
+{
+	next = "FD2_MAP24"
+	secretnext = "FD2_MAP24"
+	titlepatch = "CWILV22"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 180
+	music = "FD2_AMPIE"
+	author = "Joel Poston"
+}
+
+map FD2_MAP24 "Tertiary Loading Bay"
+{
+	next = "FD2_MAP25"
+	secretnext = "FD2_MAP25"
+	titlepatch = "CWILV23"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 150
+	music = "FD2_THEDA3"
+	author = "Unknown Author"
+}
+
+map FD2_MAP25 "Red Works"
+{
+	next = "FD2_MAP26"
+	secretnext = "FD2_MAP26"
+	titlepatch = "CWILV24"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 150
+	music = "FD2_ADRIAN"
+	author = "Unknown Author"
+}
+
+map FD2_MAP26 "Dark Depths"
+{
+	next = "FD2_MAP27"
+	secretnext = "FD2_MAP27"
+	titlepatch = "CWILV25"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 300
+	music = "FD2_MESSG2"
+	author = "Nathaniel Patasky"
+}
+
+map FD2_MAP27 "Warped Elementality"
+{
+	next = "FD2_MAP28"
+	secretnext = "FD2_MAP28"
+	titlepatch = "CWILV26"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 330
+	music = "FD2_ROMER2"
+	author = "Unknown Author"
+}
+
+map FD2_MAP28 "Grim Redoubt"
+{
+	next = "FD2_MAP29"
+	secretnext = "FD2_MAP29"
+	titlepatch = "CWILV27"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 420
+	music = "FD2_TENSE"
+	author = "Z0k"
+}
+
+map FD2_MAP29 "Last Stand"
+{
+	next = "FD2_MAP30"
+	secretnext = "FD2_MAP30"
+	titlepatch = "CWILV28"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 300
+	music = "FD2_SHAWN3"
+	author = "Unknown Author"
+}
+
+map FD2_MAP30 "Jaws of Defeat"
+{
+	titlepatch = "CWILV29"
+	next = "EndGameC"
+	secretnext = "EndGameC"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 180
+	allowmonstertelefrags
+	music = "FD2_OPENIN"
+	author = "Hawkwind"
+}
+
+map FD2_MAP31 "Be Quiet"
+{
+	titlepatch = "CWILV29"
+	next = "FD2_MAP16"
+	secretnext = "FD2_MAP32"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 180
+	music = "FD2_DM2INT"
+	author = "Jayextee"
+}
+
+map FD2_MAP32 "Not Sure"
+{
+	titlepatch = "CWILV29"
+	next = "FD2_MAP16"
+	secretnext = "FD2_MAP32"
+	sky1 = "RSKY3"
+	cluster = 8
+	par = 180
+	music = "FD2_EVIL"
+	author = "Catoptromancy"
+}
+
+// DOOM II first cluster (up thru level 6)
+
+cluster 5
+{
+	flat = "$BGFLAT06"
+	music = "FD2_ULTIMA"
+	exittext = "You've found your way to the",
+         "complex's outer storage warehouse.",
+         "Not even Earth was safe from the",
+         "monsters. This AGM space terminal",
+         "is a lost cause. Best to get out.","",
+         "You press the panel to call the lift.",
+         "It slowly lowers, then speeds up.",
+         "Growls come along with it.",
+         "Looks like you're not alone here.","",
+         "Planted your feet.","",
+         "Checked your weapons.","",
+         "Time to go up."
+
+}
+
+// DOOM II second cluster (up thru level 11)
+
+cluster 6
+{
+	flat = "$BGFLAT11"
+	music = "FD2_READ_M"
+	exittext = "The facility is gone, no doubt there.",
+         "You didn't find anyone alive.",
+         "But you don't want to keep fighting",
+         "either. You are only human.",
+         "There's a teleporter here, set for",
+         "a city unknown to you. City means",
+         "people, right?","",
+         "The bolts holding the platform",
+         "fly off over the ledge. The place",
+         "is falling apart. You quickly step on","",
+         "the platform and reappear at the city.",
+         "It's been destroyed to the ground.","",
+         "You can't go back either."
+
+}
+
+// DOOM II third cluster (up thru level 20)
+
+cluster 7
+{
+	flat = "$BGFLAT20"
+	music = "FD2_READ_M"
+	exittext = "There is no AGM here. No humans.",
+         "Just monsters and monsters.",
+         "And you.",
+         "This could be the beginning of",
+         "your freedom.",
+         "The finale of this endless fighting",
+         "against the monsters.",
+         "No man has ever survived in this",
+         "wasteland.","",
+         "Other than you, that is.",
+         "Maybe AGM saw this place.",
+         "But never got through here.",
+         "Either way, it doesn't matter.","",
+         "You're stuck here once again."
+}
+
+// DOOM II fourth cluster (up thru level 30)
+
+cluster 8
+{
+	flat = "$BGFLAT30"
+	music = "FD2_READ_M"
+	exittext = "The evil thing becomes unstable.","",
+         "Its final roars echo throughout the",
+         "room until it crumples into scrap metal.",
+         "A portal opens up, and in it, you see a",
+         "small town. You jump in quickly.",
+         "AGM learned its lesson this time.","",
+         "Hopefully.","",
+         "No one will know who saved them.","",
+         "No one will know what happened here.","",
+         "No one will ever find you again."
+}
+
+// DOOM II fifth cluster (level 31)
+
+cluster 9
+{
+	flat = "$BGFLAT15"
+	music = "FD2_READ_M"
+	entertext = "You step onto the machine and",
+         "after a strange flash you find",
+         "yourself in a rusty cage.","",
+         "What happened? Where is this?","",
+         "Before you can wonder further",
+         "you notice that you are surrounded",
+         "by monsters. It was a trap.","",
+         "You silently bring out",
+         "your gun, ready to kill."
+}
+
+// DOOM II sixth cluster (level 32)
+
+cluster 10
+{
+	flat = "$BGFLAT31"
+	music = "FD2_READ_M"
+	entertext = "The world dissipitates around",
+         "you. You got out of that trap. Only",
+         "to find yourself inside another.",
+         "As the glow of the teleporter",
+         "subsides, it looks like you may",
+         "have made a wrong turn.","",
+         "Again.","",
+         "The world comes back to you.",
+         "The monsters you fought before",
+         "raise their weapons,","",
+         "aiming for your head."
+}
+
+cluster 11
+{
+	flat = "SLIME16"
+	music = "FD2_READ_M"
+	exittext = "You're not supposed to be here.",
+	"This episode doesn't exist.",
+	"How'd you manage that anyway?"
+}

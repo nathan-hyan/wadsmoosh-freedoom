@@ -1,0 +1,544 @@
+// FreeDoom Episode 1
+
+defaultmap
+{
+	InterMusic = "FD1_INTER"
+	ExitPic = "FD_INTER"
+}
+
+map FD1_E1M1 "Outer Prison"
+{
+	levelnum = 1
+	next = "FD1_E1M2"
+	secretnext = "FD1_E1M10"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 30
+	music = "FD1_E1M1"
+	author = "Gabriel Antonio"
+}
+
+map FD1_E1M2 "Communications Center"
+{
+	levelnum = 2
+	next = "FD1_E1M3"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 75
+	music = "FD1_E1M2"
+	author = "acc"
+}
+
+map FD1_E1M3 "Waste Disposal"
+{
+	levelnum = 3
+	next = "FD1_E1M4"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 120
+	music = "FD1_E1M3"
+	author = "Josef Šustek"
+}
+
+map FD1_E1M4 "Supply Depot"
+{
+	levelnum = 4
+	next = "FD1_E1M5"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 90
+	music = "FD1_E1M4"
+	author = "GeekMarine"
+}
+
+map FD1_E1M5 "Main Control"
+{
+	levelnum = 5
+	next = "FD1_E1M6"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 165
+	music = "FD1_E1M5"
+	author = "Unknown Author"
+}
+
+map FD1_E1M6 "Training Facility"
+{
+	levelnum = 6
+	next = "FD1_E1M7"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 180
+	music = "FD1_E1M6"
+	author = "Luiz Henrique Gasparin Jerônimo"
+}
+
+map FD1_E1M7 "Transportation Bay"
+{
+	levelnum = 7
+	next = "FD1_E1M8"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 180
+	music = "FD1_E1M7"
+	author = "Will Hackney"
+}
+
+map FD1_E1M8 "Outpost Quarry"
+{
+	levelnum = 8
+	next = "EndGame1"
+	secretnext = "FD1_E1M9"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 165
+	nointermission
+	nosoundclipping
+	baronspecial
+	specialaction_lowerfloor
+	music = "FD1_E1M8"
+	author = "Luiz Henrique Gasparin Jerônimo"
+}
+
+map FD1_E1M9 "Armory"
+{
+	levelnum = 9
+	next = "FD1_E1M4"
+	secretnext = "FD1_E1M4"
+	sky1 = "SKY1"
+	cluster = 1
+	par = 165
+	music = "FD1_E1M9"
+	author = "Oleg Vovk"
+}
+
+// FreeDoom Episode 2
+
+map FD1_E2M1 "Ruins"
+{
+	levelnum = 11
+	next = "FD1_E2M2"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 90
+	music = "FD1_E2M1"
+	author = "Unknown Author"
+}
+
+map FD1_E2M2 "Power Plant"
+{
+	levelnum = 12
+	next = "FD1_E2M3"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 90
+	music = "FD1_E2M2"
+	author = "Unknown Author"
+}
+
+map FD1_E2M3 "Archaelogy Site"
+{
+	levelnum = 13
+	next = "FD1_E2M4"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 90
+	music = "FD1_E2M3"
+	author = "Unknown Author"
+}
+
+map FD1_E2M4 "Sample Holding Site"
+{
+	levelnum = 14
+	next = "FD1_E2M5"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 120
+	music = "FD1_E2M4"
+	author = "Unknown Author"
+}
+
+map FD1_E2M5 "Fortress 31"
+{
+	levelnum = 15
+	next = "FD1_E2M6"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 90
+	music = "FD1_E2M5"
+	author = "Miguel Suarez Gomez"
+}
+
+map FD1_E2M6 "Trepidation Site"
+{
+	levelnum = 16
+	next = "FD1_E2M7"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 360
+	music = "FD1_E2M6"
+	author = "Unknown Author"
+}
+
+map FD1_E2M7 "Quarantine Vessel"
+{
+	levelnum = 17
+	next = "FD1_E2M8"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 240
+	music = "FD1_E2M7"
+	author = "Unknown Author"
+}
+
+map FD1_E2M8 "Containment Cell"
+{
+	levelnum = 18
+	next = "EndGame2"
+	secretnext = "FD1_E2M9"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 135
+	nointermission
+	nosoundclipping
+	cyberdemonspecial
+	specialaction_exitlevel
+	music = "FD1_E2M8"
+	author = "Xindage"
+}
+
+map FD1_E2M9 "Corruption of Man"
+{
+	levelnum = 19
+	next = "FD1_E2M6"
+	secretnext = "FD1_E2M6"
+	sky1 = "SKY2"
+	cluster = 2
+	par = 170
+	music = "FD1_E2M9"
+	author = "Unknown Author"
+}
+
+// FreeDoom Episode 3
+
+map FD1_E3M1 "Land of the Lost"
+{
+	levelnum = 21
+	next = "FD1_E3M2"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 90
+	music = "FD1_E3M1"
+	author = "Jay Trent"
+}
+
+map FD1_E3M2 "Infernal Caverns"
+{
+	levelnum = 22
+	next = "FD1_E3M3"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 45
+	music = "FD1_E3M2"
+	author = "Unknown Author"
+}
+
+map FD1_E3M3 "Derelict Temple"
+{
+	levelnum = 23
+	next = "FD1_E3M4"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 90
+	music = "FD1_E3M3"
+	author = "Unknown Author"
+}
+
+map FD1_E3M4 "Sacrificial Bastion"
+{
+	levelnum = 24
+	next = "FD1_E3M5"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 150
+	music = "FD1_E3M4"
+	author = "Jeremy Elder"
+}
+
+map FD1_E3M5 "Oblation Temple"
+{
+	levelnum = 25
+	next = "FD1_E3M6"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 90
+	music = "FD1_E3M5"
+	author = "Mortrix19 and Erick Tenorio"
+}
+
+map FD1_E3M6 "Igneous Intrusion"
+{
+	levelnum = 26
+	next = "FD1_E3M7"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 90
+	music = "FD1_E3M6"
+	author = "Archfile"
+}
+
+map FD1_E3M7 "No Regrets"
+{
+	levelnum = 27
+	next = "FD1_E3M8"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 165
+	music = "FD1_E3M7"
+	author = "Robin Palmer"
+}
+
+map FD1_E3M8 "Ancient Lair"
+{
+	levelnum = 28
+	next = "endbunny"
+	secretnext = "FD1_E3M9"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 105
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_exitlevel
+	music = "FD1_E3M8"
+	author = "Kim Bach"
+}
+
+map FD1_E3M9 "Acquainted With Grief"
+{
+	levelnum = 29
+	next = "FD1_E3M7"
+	secretnext = "FD1_E3M7"
+	sky1 = "SKY3"
+	cluster = 3
+	par = 135
+	music = "FD1_E3M9"
+	author = "Angry Saint"
+}
+
+// Retail Episode 4
+
+map FD1_E4M1 "Maintenance Area"
+{
+	levelnum = 31
+	next = "FD1_E4M2"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 165
+	music = "FD1_E3M4"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M2 "Research Complex"
+{
+	levelnum = 32
+	next = "FD1_E4M3"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 255
+	music = "FD1_E3M2"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M3 "Central Computing"
+{
+	levelnum = 33
+	next = "FD1_E4M4"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 135
+	music = "FD1_E3M3"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M4 "Hydroponic Facility"
+{
+	levelnum = 34
+	next = "FD1_E4M5"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 150
+	music = "FD1_E1M5"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M5 "Engineering Station"
+{
+	levelnum = 35
+	next = "FD1_E4M6"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 180
+	music = "FD1_E2M7"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M6 "Command Center"
+{
+	levelnum = 36
+	next = "FD1_E4M7"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 390
+	cyberdemonspecial
+	specialaction_opendoor
+	music = "FD1_E2M4"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M7 "Waste Treatment"
+{
+	levelnum = 37
+	next = "FD1_E4M8"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 135
+	music = "FD1_E2M6"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M8 "Launch Bay"
+{
+	levelnum = 38
+	next = "EndGame"
+	secretnext = "FD1_E4M9"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 360
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_lowerfloor
+	music = "FD1_E2M5"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+map FD1_E4M9 "Operations"
+{
+	levelnum = 39
+	next = "FD1_E4M3"
+	secretnext = "FD1_E4M3"
+	sky1 = "SKY4"
+	cluster = 4
+	par = 180
+	music = "FD1_E1M9"
+	author = "Matt Cibulas and Ralph Vickers"
+}
+
+// Clusters (correspond with same-numbered episode)
+
+cluster 1
+{
+	flat = "$bgflatE1"
+	music = "FD1_VICTOR"
+	exittext = "You've made it out of the outpost.",
+         "But you're still stuck on this rock.",
+         "AGM sure has been busy with their",
+         "'experiments,' with those monsters",
+         "infesting that dreadful place. You are",
+         "an experiment as well, so who cares?",
+         "There weren't any ships inside the",
+         "outpost. The only section that might",
+         "have one is the Military Labs. The",
+         "very place you got your strength",
+         "from. Damned AGM scientists.","",
+         "This nightmare is too much. You",
+         "step through the massive doors of",
+         "the Military Labs.","",
+         "There could be a way to escape in there."
+}
+
+cluster 2
+{
+	flat = "$bgflatE2"
+	music = "FD1_VICTOR"
+	exittext = "The massive brutes collapse onto",
+         "the ground. They fall apart bit by bit.",
+         "Unfortunately, there was no ship",
+         "here either. The Labs have bizarre",
+         "technology though. Like this one.","",
+         "A huge teleporter machine, set for...",
+         "A place called Horizon?","",
+         "You never heard of such a thing before.",
+         "Maybe it's another AGM facility.",
+         "Meaning there could be a ship on",
+         "the other side. Sounds like a good",
+         "plan. Or at least, as good as it gets.","",
+         "Next stop, Horizon"
+}
+
+cluster 3
+{
+	flat = "$bgflatE3"
+	music = "FD1_VICTOR"
+	exittext = "The abomination explodes into",
+         "oblivion. That's that. Horizon is a",
+         "whole new world, not a facility.",
+         "Even worse than the outpost you",
+         "rotted away for years in. Meaning",
+         "you're still trapped.","",
+         "An AGM teleporter is here somehow.",
+         "They must have been here, then.",
+         "The teleporter is set for a facility",
+         "called "Double Impact," which is a",
+         "ridiculous name. Who cares? All",
+         "you need is a working ship.","",
+         "You drop all your weapons on",
+         "the ground and step on the platform,",
+         "reintegrating on Double Impact."
+}
+
+cluster 4
+{
+	flat = "$bgflatE4"
+	music = "FD1_VICTOR"
+	exittext = "After yet another army of monsters",
+         "you manage to find a functioning ship.",
+         "Looks like freedom is yours.","",
+         "You practically melt into the soft",
+         "pilot's seat, a luxurious welcome",
+         "as you leave this wretched rock.","",
+         "The ship rumbles as she wakes up;",
+         "you think of Earth as she lifts off.",
+         "Hopefully, AGM won't find you there:",
+         "they've got the outbreak to deal",
+         "with, so that'll give you some time.","",
+         "Destination: Earth!"
+}
