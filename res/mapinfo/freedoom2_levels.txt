@@ -14,6 +14,7 @@ map FD2_MAP01 "Hydroelectric Plant"
 	cluster = 5
 	par = 30
 	music = "FD2_RUNNIN"
+	author = "Samuel Oliver, Eric Baker, and Xindage"
 }
 
 map FD2_MAP02 "Filtration Tunnels"
@@ -25,6 +26,7 @@ map FD2_MAP02 "Filtration Tunnels"
 	cluster = 5
 	par = 90
 	music = "FD2_STALKS"
+	author = "Stephen Finniss"
 }
 
 map FD2_MAP03 "Crude Processing Center"
@@ -36,6 +38,7 @@ map FD2_MAP03 "Crude Processing Center"
 	cluster = 5
 	par = 120
 	music = "FD2_COUNTD"
+	author = "SgtCrispy"
 }
 
 map FD2_MAP04 "Containment Bay"
@@ -47,6 +50,7 @@ map FD2_MAP04 "Containment Bay"
 	cluster = 5
 	par = 120
 	music = "FD2_BETWEE"
+	author = "The Green Herring"
 }
 
 map FD2_MAP05 "Sludge Burrow"
@@ -58,6 +62,7 @@ map FD2_MAP05 "Sludge Burrow"
 	cluster = 5
 	par = 90
 	music = "FD2_DOOM"
+	author = "Patrick Kalinauskas"
 }
 
 map FD2_MAP06 "Gamma Labs"
@@ -70,6 +75,7 @@ map FD2_MAP06 "Gamma Labs"
 	par = 150
 	sucktime = 1
 	music = "FD2_THE_DA"
+	author = "Unknown Author"
 }
 
 map FD2_MAP07 "Outer Storage Warehouse"
@@ -82,6 +88,7 @@ map FD2_MAP07 "Outer Storage Warehouse"
 	par = 120
 	map07special
 	music = "FD2_SHAWN"
+	author = "Unknown Author"
 }
 
 map FD2_MAP08 "Astronomy Complex"
@@ -93,6 +100,7 @@ map FD2_MAP08 "Astronomy Complex"
 	cluster = 6
 	par = 120
 	music = "FD2_DDTBLU"
+	author = "Boris Iwanski"
 }
 
 map FD2_MAP09 "Datacenter"
@@ -104,6 +112,7 @@ map FD2_MAP09 "Datacenter"
 	cluster = 6
 	par = 270
 	music = "FD2_IN_CIT"
+	author = "Svante Ekholm"
 }
 
 map FD2_MAP10 "Deadly Outlands"
@@ -115,6 +124,7 @@ map FD2_MAP10 "Deadly Outlands"
 	cluster = 6
 	par = 90
 	music = "FD2_DEAD"
+	author = "Svante Ekholm"
 }
 
 map FD2_MAP11 "Infinite Plain"
@@ -126,6 +136,7 @@ map FD2_MAP11 "Infinite Plain"
 	cluster = 6
 	par = 210
 	music = "FD2_STLKS2"
+	author = "Unknown Author"
 }
 
 map FD2_MAP12 "Railroads"
@@ -137,6 +148,7 @@ map FD2_MAP12 "Railroads"
 	cluster = 7
 	par = 150
 	music = "FD2_THEDA2"
+	author = "Z0k"
 }
 
 map FD2_MAP13 "Station Earth"
@@ -148,6 +160,7 @@ map FD2_MAP13 "Station Earth"
 	cluster = 7
 	par = 150
 	music = "FD2_DOOM2"
+	author = "Jayextee"
 }
 
 map FD2_MAP14 "Nuclear Zone"
@@ -159,6 +172,7 @@ map FD2_MAP14 "Nuclear Zone"
 	cluster = 7
 	par = 150
 	music = "FD2_DDTBL2"
+	author = "Jayextee"
 }
 
 map FD2_MAP15 "Hostile Takeover"
@@ -170,6 +184,7 @@ map FD2_MAP15 "Hostile Takeover"
 	cluster = 7
 	par = 210
 	music = "FD2_RUNNI2"
+	author = "Z0k"
 }
 
 map FD2_MAP16 "Urban Jungle"
@@ -181,6 +196,7 @@ map FD2_MAP16 "Urban Jungle"
 	cluster = 7
 	par = 150
 	music = "FD2_DEAD2"
+	author = "Tom White"
 }
 
 map FD2_MAP17 "City Capitol"
@@ -192,6 +208,7 @@ map FD2_MAP17 "City Capitol"
 	cluster = 7
 	par = 420
 	music = "FD2_STLKS3"
+	author = "Jayextee"
 }
 
 map FD2_MAP18 "Aquatics Lab"
@@ -203,6 +220,7 @@ map FD2_MAP18 "Aquatics Lab"
 	cluster = 7
 	par = 150
 	music = "FD2_ROMERO"
+	author = "James Paddock"
 }
 
 map FD2_MAP19 "Sewage Control"
@@ -214,6 +232,7 @@ map FD2_MAP19 "Sewage Control"
 	cluster = 7
 	par = 210
 	music = "FD2_SHAWN2"
+	author = "Jayextee"
 }
 
 map FD2_MAP20 "Blood Ember Fortress"
@@ -225,6 +244,7 @@ map FD2_MAP20 "Blood Ember Fortress"
 	cluster = 7
 	par = 150
 	music = "FD2_MESSAG"
+	author = "Devin Afshin"
 }
 
 map FD2_MAP21 "Under Realm"
@@ -236,6 +256,7 @@ map FD2_MAP21 "Under Realm"
 	cluster = 8
 	par = 240
 	music = "FD2_COUNT2"
+	author = "Mortrixs19"
 }
 
 map FD2_MAP22 "Remanasu"
@@ -247,6 +268,7 @@ map FD2_MAP22 "Remanasu"
 	cluster = 8
 	par = 150
 	music = "FD2_DDTBL3"
+	author = "Boris Iwanski"
 }
 
 map FD2_MAP23 "Underground Facility"
@@ -258,6 +280,7 @@ map FD2_MAP23 "Underground Facility"
 	cluster = 8
 	par = 180
 	music = "FD2_AMPIE"
+	author = "Joel Poston"
 }
 
 map FD2_MAP24 "Tertiary Loading Bay"
@@ -269,6 +292,7 @@ map FD2_MAP24 "Tertiary Loading Bay"
 	cluster = 8
 	par = 150
 	music = "FD2_THEDA3"
+	author = "Unknown Author"
 }
 
 map FD2_MAP25 "Red Works"
@@ -280,6 +304,7 @@ map FD2_MAP25 "Red Works"
 	cluster = 8
 	par = 150
 	music = "FD2_ADRIAN"
+	author = "Unknown Author"
 }
 
 map FD2_MAP26 "Dark Depths"
@@ -291,6 +316,7 @@ map FD2_MAP26 "Dark Depths"
 	cluster = 8
 	par = 300
 	music = "FD2_MESSG2"
+	author = "Nathaniel Patasky"
 }
 
 map FD2_MAP27 "Warped Elementality"
@@ -302,6 +328,7 @@ map FD2_MAP27 "Warped Elementality"
 	cluster = 8
 	par = 330
 	music = "FD2_ROMER2"
+	author = "Unknown Author"
 }
 
 map FD2_MAP28 "Grim Redoubt"
@@ -313,6 +340,7 @@ map FD2_MAP28 "Grim Redoubt"
 	cluster = 8
 	par = 420
 	music = "FD2_TENSE"
+	author = "Z0k"
 }
 
 map FD2_MAP29 "Last Stand"
@@ -324,6 +352,7 @@ map FD2_MAP29 "Last Stand"
 	cluster = 8
 	par = 300
 	music = "FD2_SHAWN3"
+	author = "Unknown Author"
 }
 
 map FD2_MAP30 "Jaws of Defeat"
@@ -336,6 +365,7 @@ map FD2_MAP30 "Jaws of Defeat"
 	par = 180
 	allowmonstertelefrags
 	music = "FD2_OPENIN"
+	author = "Hawkwind"
 }
 
 map FD2_MAP31 "Be Quiet"
@@ -347,6 +377,7 @@ map FD2_MAP31 "Be Quiet"
 	cluster = 8
 	par = 180
 	music = "FD2_DM2INT"
+	author = "Jayextee"
 }
 
 map FD2_MAP32 "Not Sure"
@@ -358,6 +389,7 @@ map FD2_MAP32 "Not Sure"
 	cluster = 8
 	par = 180
 	music = "FD2_EVIL"
+	author = "Catoptromancy"
 }
 
 // DOOM II first cluster (up thru level 6)

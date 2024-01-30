@@ -15,6 +15,7 @@ map FD1_E1M1 "Outer Prison"
 	cluster = 1
 	par = 30
 	music = "FD1_E1M1"
+	author = "Gabriel Antonio"
 }
 
 map FD1_E1M2 "Communications Center"
@@ -26,6 +27,7 @@ map FD1_E1M2 "Communications Center"
 	cluster = 1
 	par = 75
 	music = "FD1_E1M2"
+	author = "acc"
 }
 
 map FD1_E1M3 "Waste Disposal"
@@ -37,6 +39,7 @@ map FD1_E1M3 "Waste Disposal"
 	cluster = 1
 	par = 120
 	music = "FD1_E1M3"
+	author = "Josef Šustek"
 }
 
 map FD1_E1M4 "Supply Depot"
@@ -48,6 +51,7 @@ map FD1_E1M4 "Supply Depot"
 	cluster = 1
 	par = 90
 	music = "FD1_E1M4"
+	author = "GeekMarine"
 }
 
 map FD1_E1M5 "Main Control"
@@ -59,6 +63,7 @@ map FD1_E1M5 "Main Control"
 	cluster = 1
 	par = 165
 	music = "FD1_E1M5"
+	author = "Unknown Author"
 }
 
 map FD1_E1M6 "Training Facility"
@@ -70,6 +75,7 @@ map FD1_E1M6 "Training Facility"
 	cluster = 1
 	par = 180
 	music = "FD1_E1M6"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
 map FD1_E1M7 "Transportation Bay"
@@ -81,6 +87,7 @@ map FD1_E1M7 "Transportation Bay"
 	cluster = 1
 	par = 180
 	music = "FD1_E1M7"
+	author = "Will Hackney"
 }
 
 map FD1_E1M8 "Outpost Quarry"
@@ -96,6 +103,7 @@ map FD1_E1M8 "Outpost Quarry"
 	baronspecial
 	specialaction_lowerfloor
 	music = "FD1_E1M8"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
 map FD1_E1M9 "Armory"
@@ -107,6 +115,7 @@ map FD1_E1M9 "Armory"
 	cluster = 1
 	par = 165
 	music = "FD1_E1M9"
+	author = "Oleg Vovk"
 }
 
 // FreeDoom Episode 2
@@ -120,6 +129,7 @@ map FD1_E2M1 "Ruins"
 	cluster = 2
 	par = 90
 	music = "FD1_E2M1"
+	author = "Unknown Author"
 }
 
 map FD1_E2M2 "Power Plant"
@@ -131,6 +141,7 @@ map FD1_E2M2 "Power Plant"
 	cluster = 2
 	par = 90
 	music = "FD1_E2M2"
+	author = "Unknown Author"
 }
 
 map FD1_E2M3 "Archaelogy Site"
@@ -142,6 +153,7 @@ map FD1_E2M3 "Archaelogy Site"
 	cluster = 2
 	par = 90
 	music = "FD1_E2M3"
+	author = "Unknown Author"
 }
 
 map FD1_E2M4 "Sample Holding Site"
@@ -153,6 +165,7 @@ map FD1_E2M4 "Sample Holding Site"
 	cluster = 2
 	par = 120
 	music = "FD1_E2M4"
+	author = "Unknown Author"
 }
 
 map FD1_E2M5 "Fortress 31"
@@ -164,6 +177,7 @@ map FD1_E2M5 "Fortress 31"
 	cluster = 2
 	par = 90
 	music = "FD1_E2M5"
+	author = "Miguel Suarez Gomez"
 }
 
 map FD1_E2M6 "Trepidation Site"
@@ -175,6 +189,7 @@ map FD1_E2M6 "Trepidation Site"
 	cluster = 2
 	par = 360
 	music = "FD1_E2M6"
+	author = "Unknown Author"
 }
 
 map FD1_E2M7 "Quarantine Vessel"
@@ -186,6 +201,7 @@ map FD1_E2M7 "Quarantine Vessel"
 	cluster = 2
 	par = 240
 	music = "FD1_E2M7"
+	author = "Unknown Author"
 }
 
 map FD1_E2M8 "Containment Cell"
@@ -201,6 +217,7 @@ map FD1_E2M8 "Containment Cell"
 	cyberdemonspecial
 	specialaction_exitlevel
 	music = "FD1_E2M8"
+	author = "Xindage"
 }
 
 map FD1_E2M9 "Corruption of Man"
@@ -212,6 +229,7 @@ map FD1_E2M9 "Corruption of Man"
 	cluster = 2
 	par = 170
 	music = "FD1_E2M9"
+	author = "Unknown Author"
 }
 
 // FreeDoom Episode 3
@@ -225,6 +243,7 @@ map FD1_E3M1 "Land of the Lost"
 	cluster = 3
 	par = 90
 	music = "FD1_E3M1"
+	author = "Jay Trent"
 }
 
 map FD1_E3M2 "Infernal Caverns"
@@ -236,6 +255,7 @@ map FD1_E3M2 "Infernal Caverns"
 	cluster = 3
 	par = 45
 	music = "FD1_E3M2"
+	author = "Unknown Author"
 }
 
 map FD1_E3M3 "Derelict Temple"
@@ -247,6 +267,7 @@ map FD1_E3M3 "Derelict Temple"
 	cluster = 3
 	par = 90
 	music = "FD1_E3M3"
+	author = "Unknown Author"
 }
 
 map FD1_E3M4 "Sacrificial Bastion"
@@ -258,6 +279,7 @@ map FD1_E3M4 "Sacrificial Bastion"
 	cluster = 3
 	par = 150
 	music = "FD1_E3M4"
+	author = "Jeremy Elder"
 }
 
 map FD1_E3M5 "Oblation Temple"
@@ -269,6 +291,7 @@ map FD1_E3M5 "Oblation Temple"
 	cluster = 3
 	par = 90
 	music = "FD1_E3M5"
+	author = "Mortrix19 and Erick Tenorio"
 }
 
 map FD1_E3M6 "Igneous Intrusion"
@@ -280,6 +303,7 @@ map FD1_E3M6 "Igneous Intrusion"
 	cluster = 3
 	par = 90
 	music = "FD1_E3M6"
+	author = "Archfile"
 }
 
 map FD1_E3M7 "No Regrets"
@@ -291,6 +315,7 @@ map FD1_E3M7 "No Regrets"
 	cluster = 3
 	par = 165
 	music = "FD1_E3M7"
+	author = "Robin Palmer"
 }
 
 map FD1_E3M8 "Ancient Lair"
@@ -306,6 +331,7 @@ map FD1_E3M8 "Ancient Lair"
 	spidermastermindspecial
 	specialaction_exitlevel
 	music = "FD1_E3M8"
+	author = "Kim Bach"
 }
 
 map FD1_E3M9 "Acquainted With Grief"
@@ -317,6 +343,7 @@ map FD1_E3M9 "Acquainted With Grief"
 	cluster = 3
 	par = 135
 	music = "FD1_E3M9"
+	author = "Angry Saint"
 }
 
 // Retail Episode 4
@@ -330,6 +357,7 @@ map FD1_E4M1 "Maintenance Area"
 	cluster = 4
 	par = 165
 	music = "FD1_E3M4"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M2 "Research Complex"
@@ -341,6 +369,7 @@ map FD1_E4M2 "Research Complex"
 	cluster = 4
 	par = 255
 	music = "FD1_E3M2"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M3 "Central Computing"
@@ -352,6 +381,7 @@ map FD1_E4M3 "Central Computing"
 	cluster = 4
 	par = 135
 	music = "FD1_E3M3"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M4 "Hydroponic Facility"
@@ -363,6 +393,7 @@ map FD1_E4M4 "Hydroponic Facility"
 	cluster = 4
 	par = 150
 	music = "FD1_E1M5"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M5 "Engineering Station"
@@ -374,6 +405,7 @@ map FD1_E4M5 "Engineering Station"
 	cluster = 4
 	par = 180
 	music = "FD1_E2M7"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M6 "Command Center"
@@ -387,6 +419,7 @@ map FD1_E4M6 "Command Center"
 	cyberdemonspecial
 	specialaction_opendoor
 	music = "FD1_E2M4"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M7 "Waste Treatment"
@@ -398,6 +431,7 @@ map FD1_E4M7 "Waste Treatment"
 	cluster = 4
 	par = 135
 	music = "FD1_E2M6"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M8 "Launch Bay"
@@ -413,6 +447,7 @@ map FD1_E4M8 "Launch Bay"
 	spidermastermindspecial
 	specialaction_lowerfloor
 	music = "FD1_E2M5"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 map FD1_E4M9 "Operations"
@@ -424,6 +459,7 @@ map FD1_E4M9 "Operations"
 	cluster = 4
 	par = 180
 	music = "FD1_E1M9"
+	author = "Matt Cibulas and Ralph Vickers"
 }
 
 // Clusters (correspond with same-numbered episode)

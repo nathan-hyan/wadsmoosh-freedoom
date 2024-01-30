@@ -2,7 +2,7 @@
 
 # WadSmoosh - simple IWAD merge utility
 
-WadSmoosh merges your provided Ultimate Doom, Doom 2, Master Levels, No Rest for the Living, Final Doom, Sigil, Sigil II, and FreeDoom data into a single IWAD file that can be played in GZDoom, with each game as its own entry in the episode list. This makes it very convenient to play all of classic Doom's official releases plus FreeDoom without relaunching the game with different settings.
+WadSmoosh merges your provided Ultimate Doom, Doom 2, Master Levels, No Rest for the Living, Final Doom, and Sigil data into a single IWAD file that can be played in GZDoom, with each game as its own entry in the episode list. This makes it very convenient to play all of classic Doom's official releases without relaunching the game with different settings.
 
 It's fine if you don't have all of the Doom games, eg you have Doom 2 but not Final Doom - WadSmoosh will package up everything it can find.
 
@@ -12,25 +12,29 @@ If you're not a Doom expert and just bought these games off [Steam](http://store
 
 Simply copy all your WADs into the `source_wads/` subfolder, then run WadSmoosh. A log will appear showing progress and any errors that arise.
 
-If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported.
+If you're in Windows, click `wadsmoosh.exe`.
 
-If you're on Windows, you're out of luck for the installation method of the upstream versions from before this fork. Windows support was dropped as I don't have Windows. However if you install the Windows Subsystem for Linux you should be able to execute the shell script using that. I don't have Windows to test this though. (I only have Linux and an older version of macOS.)
+Note: Windows support is only half-working. I do not have Windows so I'm unable to recompile the code. 
+As a result, the file it outputs will be called `doom_complete.pk3` instead of `doom_complete.ipk3` which can cause GZDoom to not recognize it. 
+Simply rename the file and it will work. I have tested it in wine and it worked so presumably it should work just as well on actual Windows beyond that little issue.
 
-WadSmoosh will create a new file called `doom_complete.ipk3` with all the game content in it. You can run this in GZDoom with `-iwad doom_complete.ipk3` at the command line, or add it to your configured iwad folder to select it from the list. Current versions of GZDoom will recognize the `doom_complete.ipk3` file as a valid IWAD.
+If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported now.
+
+WadSmoosh will create a new file called `doom_complete.pk3` with all the game content in it. You can run this in GZDoom with `-iwad doom_complete.pk3` at the command line, or even rename it to `doom2.wad` and run without any command line needed. GZDoom 2.4 and later will recognize the `doom_complete.pk3` file as a valid IWAD without any name change needed.
 
 If you've extracted the No Rest for the Living add-on episode for Doom 2 from Doom 3: BFG Edition or the PSN or XBLA versions, make sure it's named `nerve.wad` in the `source_wads/` folder.
 
 In rare cases, you may need to uncheck the `source_wads/` folder's read-only status.
 
-You can customize the ordering of the Master Levels by running WadSmoosh from the command line with a text file defining the ordering as an extra parameter. The ["Xaser ordering"](https://forum.zdoom.org/viewtopic.php?p=634600#p634600) is the default, but `masterlevels_order.txt` provides the mostly-alphabetical "PSN ordering", and more info on this customization option is included in comments at the top of that file. This is the only configuration option that WadSmoosh supports.
+Advanced users can edit `wadsmoosh_data.py` to customize how and what WadSmoosh extracts. This file is Python code, read by the main program at runtime, so no recompile is required. You can also customize the ordering of the Master Levels by running WadSmoosh from the command line with a text file defining the ordering as an extra parameter. The ["Xaser ordering"](https://forum.zdoom.org/viewtopic.php?p=634600#p634600) is the default, but `masterlevels_order.txt` provides the mostly-alphabetical "PSN ordering", and more info on this customization option is included in comments at the top of that file. This is the only configuration option that WadSmoosh supports, and in general I'm opposed to adding more such options without turning WadSmoosh into a full-on GUI program.
 
 ## Supported WADs
 
-WadSmoosh is not a general-purpose tool for merging Doom WADs; it is for *merging supported content* only - it was created in 2016 out of a desire for a "complete" retail version of Doom and Doom II, and only exists as a program because the IWAD file that it generates cannot be distributed legally. Please do not ask if WadSmoosh will support any specific WAD. If you want to add your own content to a custom IWAD, please either modify [WadSmoosh's source code](https://heptapod.host/jp-lebreton/wadsmoosh) yourself, or simply edit the `doom_complete.ipk3` file WadSmoosh generated on your computer by opening it in a ZIP archive management program. Please do not ask me for support when doing either.
+WadSmoosh is not a general-purpose tool for merging Doom WADs; it is for *merging retail content* only - it was created in 2016 out of a desire for a "complete" retail version of Doom and Doom II, and only exists as a program because the IWAD file that it generates cannot be distributed legally. Please do not ask if WadSmoosh will support any specific WAD. If you want to add your own content to a custom IWAD, please either modify [WadSmoosh's source code](https://heptapod.host/jp-lebreton/wadsmoosh) yourself, or simply edit the `doom_complete.pk3` file WadSmoosh generated on your computer by opening it in a ZIP archive management program. Please do not ask me for support when doing either.
 
 Here is the official list of WADs that WadSmoosh will recognize:
 - Ultimate Doom (`doom.wad`)
-- Doom Registered (original registered version of `doom.wad`, containing only episodes 1-3)
+- Doom (original registered version of `doom.wad`, containing only episodes 1-3)
 - Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
 - Doom II (`doom2.wad`)
 - The extra content in the Unity releases of Doom and Doom 2. (`doomu.wad` and `doom2u.wad`)
@@ -39,7 +43,8 @@ Here is the official list of WADs that WadSmoosh will recognize:
 - No Rest for the Living (`nerve.wad`)
 - Sigil (`sigil.wad` and its optional music addon `sigil_shreds.wad`)
 - Sigil II (`sigil2.wad`, either its MIDI or MP3 soundtrack versions)
-- FreeDoom (`freedoom1.wad` and `freedoom2.wad`)
+- Freedoom Phase 1
+- Freedoom Phase 2
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
 
@@ -49,13 +54,13 @@ None of the "official add-on" content from the [Unity-based rereleases of Doom a
 
 Download Freedoom for Free in [this link](https://freedoom.github.io/download.html)
 
-This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. This is intentional.
+This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
-This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1. I personally think this is a better way to go about it.
+This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
 
 The current To-do list is:
 
-    - Add the map credits into the MAPINFO lump (no map credits are currently included)
+    - Locate the remaining freedoom map credits into the MAPINFO lump currently listed as unknown author.
 
 Everything else from the to-do list of the upstream of this fork has been done.
 
@@ -71,3 +76,5 @@ Everything else from the to-do list of the upstream of this fork has been done.
 8. Launch GZDoom and play!
 
 If you have any issues, the [How_to_download_and_run_Doom](http://doomwiki.org/wiki/How_to_download_and_run_Doom) page on the [Doom wiki](http://doomwiki.org) might be helpful.
+
+_Copyright © 2001-2022 Contributors to the Freedoom project. All rights reserved._
