@@ -65,7 +65,7 @@ map FD2_MAP05 "Sludge Burrow"
 	author = "Patrick Kalinauskas"
 }
 
-map FD2_MAP06 "Gamma Labs"
+map FD2_MAP06 "Janus Terminal"
 {
 	next = "FD2_MAP07"
 	secretnext = "FD2_MAP07"
@@ -75,10 +75,10 @@ map FD2_MAP06 "Gamma Labs"
 	par = 150
 	sucktime = 1
 	music = "FD2_THE_DA"
-	author = "Unknown Author"
+	author = "Jayextee"
 }
 
-map FD2_MAP07 "Outer Storage Warehouse"
+map FD2_MAP07 "Logic Gate"
 {
 	next = "FD2_MAP08"
 	secretnext = "FD2_MAP08"
@@ -88,7 +88,7 @@ map FD2_MAP07 "Outer Storage Warehouse"
 	par = 120
 	map07special
 	music = "FD2_SHAWN"
-	author = "Unknown Author"
+	author = "Mortrixs19"
 }
 
 map FD2_MAP08 "Astronomy Complex"
@@ -127,7 +127,7 @@ map FD2_MAP10 "Deadly Outlands"
 	author = "Svante Ekholm"
 }
 
-map FD2_MAP11 "Infinite Plain"
+map FD2_MAP11 "Dimensional Rift"
 {
 	next = "FD2_MAP12"
 	secretnext = "FD2_MAP12"
@@ -136,7 +136,7 @@ map FD2_MAP11 "Infinite Plain"
 	cluster = 6
 	par = 210
 	music = "FD2_STLKS2"
-	author = "Unknown Author"
+	author = "Samuel Villarreal and Catoptromancy"
 }
 
 map FD2_MAP12 "Railroads"
@@ -283,7 +283,7 @@ map FD2_MAP23 "Underground Facility"
 	author = "Joel Poston"
 }
 
-map FD2_MAP24 "Tertiary Loading Bay"
+map FD2_MAP24 "Abandoned Teleporter Lab"
 {
 	next = "FD2_MAP25"
 	secretnext = "FD2_MAP25"
@@ -292,10 +292,10 @@ map FD2_MAP24 "Tertiary Loading Bay"
 	cluster = 8
 	par = 150
 	music = "FD2_THEDA3"
-	author = "Unknown Author"
+	author = "Jayextee"
 }
 
-map FD2_MAP25 "Red Works"
+map FD2_MAP25 "Persistence of Memory"
 {
 	next = "FD2_MAP26"
 	secretnext = "FD2_MAP26"
@@ -304,7 +304,7 @@ map FD2_MAP25 "Red Works"
 	cluster = 8
 	par = 150
 	music = "FD2_ADRIAN"
-	author = "Unknown Author"
+	author = "Mike Watson"
 }
 
 map FD2_MAP26 "Dark Depths"
@@ -319,7 +319,7 @@ map FD2_MAP26 "Dark Depths"
 	author = "Nathaniel Patasky"
 }
 
-map FD2_MAP27 "Warped Elementality"
+map FD2_MAP27 "Palace of Red"
 {
 	next = "FD2_MAP28"
 	secretnext = "FD2_MAP28"
@@ -328,7 +328,7 @@ map FD2_MAP27 "Warped Elementality"
 	cluster = 8
 	par = 330
 	music = "FD2_ROMER2"
-	author = "Unknown Author"
+	author = "DOGB01"
 }
 
 map FD2_MAP28 "Grim Redoubt"
@@ -343,7 +343,7 @@ map FD2_MAP28 "Grim Redoubt"
 	author = "Z0k"
 }
 
-map FD2_MAP29 "Last Stand"
+map FD2_MAP29 "Melting Point"
 {
 	next = "FD2_MAP30"
 	secretnext = "FD2_MAP30"
@@ -352,7 +352,7 @@ map FD2_MAP29 "Last Stand"
 	cluster = 8
 	par = 300
 	music = "FD2_SHAWN3"
-	author = "Unknown Author"
+	author = "Amarande"
 }
 
 map FD2_MAP30 "Jaws of Defeat"

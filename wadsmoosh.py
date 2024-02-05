@@ -456,6 +456,12 @@ def main():
         if iwad_name == 'sigil2' and not get_wad_filename('doom'):
             logg('Skipping sigil2.wad as doom.wad is not present', error=True)
             continue
+        if iwad_name == 'sigil2_mp3' and not get_wad_filename('sigil2'):
+            logg('Skipping sigil2_mp3.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'doom3do' and not get_wad_filename('doom'):
+            logg('Skipping doom3do.wad as doom.wad is not present', error=True)
+            continue
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:
             extract_lumps(iwad_name)
@@ -496,3 +502,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

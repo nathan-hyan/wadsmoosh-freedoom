@@ -34,15 +34,15 @@ TIDY_DIR_EXTENSIONS = {
 
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
-        'sigil2', 'doomu', 'doom2u', 'nerveu', 'tntu', 'plutoniau', 'extras', 
-        'freedoom1', 'freedoom2']
+        'sigil2', 'doomu', 'doom2u', 'nerveu', 'tntu', 'plutoniau', 'extras',
+        'freedoom1', 'freedoom2','doom3do']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'doom2', 'nerve', 'attack', 'tnt', 'plutonia', 
                'sewers', 'betray', 'doomu', 'doom2u',
                'nerveu', 'tntu', 'plutoniau', 'extras', 
-               'freedoom1', 'freedoom2']
+               'freedoom1', 'freedoom2','doom3do']
 
 # lists of lumps common to doom 1+2
 COMMON_LUMPS = [
@@ -81,7 +81,9 @@ WAD_LUMP_LISTS = {
     'tntu': ['graphics_tntu'],
     'plutoniau': ['graphics_plutoniau'],
     # "found secret" sound from unity port
-    'extras': ['sounds_unity']
+    'extras': ['sounds_unity'],
+    # add live recorded music from Doom's 3DO port
+    'doom3do': ['music_doom3do']
 }
 
 # prefixes for filenames of maps extracted from IWADs
