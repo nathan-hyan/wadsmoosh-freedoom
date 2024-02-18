@@ -58,10 +58,6 @@ This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *N
 
 This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
 
-## The current To-do list is:
-
-    - Fix animated textures when Final Doom is not present
-
 Everything else from the to-do list of the upstream of this fork has been done.
 
 ## Absolute Beginner's Guide
