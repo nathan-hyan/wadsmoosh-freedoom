@@ -361,3 +361,47 @@ Texture "NUKPOIS1", 64, 128
 	Patch "WALL04_2", 48, 33
 	Patch "PS20A0", -1, 68
 }
+Texture "COMPBLUE", 64, 128
+{
+	Patch "COMP03_1", 0, 0
+	Patch "COMP03_2", 0, 64
+}
+
+Texture "COMPSPAN", 32, 128
+{
+	Patch "COMP03_4", 0, 0
+	Patch "COMP03_4", 0, 64
+}
+
+Texture "COMPSTA1", 128, 128
+{
+	Patch "TOMW2_1", 0, 0
+	Patch "AG128_2", 0, 72
+	Patch "AG128_2", 64, 72
+}
+
+Texture "COMPSTA2", 128, 128
+{
+	Patch "TOMW2_2", 0, 0
+	Patch "AG128_2", 0, 72
+	Patch "AG128_2", 64, 72
+}
+
+Texture "COMPTALL", 256, 128
+{
+	Patch "COMP04_5", 32, 0
+	Patch "COMP04_8", 96, 0
+	Patch "COMP03_8", 160, 0
+	Patch "COMP04_6", 0, 64
+	Patch "COMP04_7", 64, 64
+	Patch "COMP04_2", 128, 64
+	Patch "COMP03_5", 192, 0
+	Patch "COMP04_1", 192, 64
+	Patch "COMP03_8", 0, 0
+}
+
+Texture "COMPWERD", 64, 128
+{
+	Patch "COMP04_6", 0, 0
+	Patch "COMP04_6", 0, 64
+}

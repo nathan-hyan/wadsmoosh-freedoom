@@ -1,6 +1,6 @@
-
 // define null textures
 // https://forum.zdoom.org/viewtopic.php?f=2&t=69836
+
 Texture "AASTINKY", 24, 72
 {
 	Patch "WALL00_3", 0, 0
