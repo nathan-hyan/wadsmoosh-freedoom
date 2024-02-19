@@ -6,6 +6,7 @@ include mapinfo/doom2_secret_levels.txt
 include mapinfo/masterlevels.txt
 include mapinfo/tnt_levels.txt
 include mapinfo/plutonia_levels.txt
+include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
@@ -117,6 +118,13 @@ episode PL_MAP01
 	picname = "M_PLUT"
 	name = "$TXT_PLUT_EP"
 	key = "p"
+	optional
+}
+
+episode HP_MAP01
+{
+	name = "Hell To Pay"
+	key = "h"
 	optional
 }
 
