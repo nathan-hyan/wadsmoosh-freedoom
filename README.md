@@ -47,6 +47,7 @@ Here is the official list of WADs that WadSmoosh will recognize:
 - Freedoom Phase 2 (`freedoom2.wad`)
 - Perdition's Gate (`perdgate.wad`)
 - Hell To Pay (`hell2pay.wad`)
+- No End in Sight (`neis.wad`)
 - Doom 3DO Soundtrack (`doom3do.wad`)
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
