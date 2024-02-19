@@ -305,6 +305,8 @@ def copy_resources():
             continue
         elif src_file == 'textures.plut' and not get_wad_filename('plutonia'):
             continue
+        elif src_file == 'textures.perdgate' and not get_wad_filename('perdgate'):
+            continue
         logg('Copying %s' % src_file)
         copyfile(RES_DIR + src_file, DEST_DIR + src_file)
     # doom2 vs doom2bfg map31/32 names differ, different mapinfos with same name
@@ -356,6 +358,10 @@ def get_eps(wads_found):
     for wadname in wads_found:
         if wadname == 'doom':
             eps += ['Knee Deep in the Dead', 'The Shores of Hell', 'Inferno', 'Thy Flesh Consumed']
+        elif wadname == 'sigil' and 'doom' in wads_found:
+            eps += ['Sigil']
+        elif wadname == 'sigil2' and 'doom' in wads_found:
+            eps += ['Sigil II']
         elif wadname == 'doom2':
             eps += ['Hell on Earth']
         elif wadname == 'nerve' and 'doom2' in wads_found:
@@ -366,10 +372,8 @@ def get_eps(wads_found):
             eps += ['TNT: Evilution']
         elif wadname == 'plutonia':
             eps += ['The Plutonia Experiment']
-        elif wadname == 'sigil' and 'doom' in wads_found:
-            eps += ['Sigil']
-        elif wadname == 'sigil2' and 'doom' in wads_found:
-            eps += ['Sigil II']
+        elif wadname == 'perdgate' and 'doom2' in wads_found:
+            eps += ['Perdition\'s Gate']
         elif wadname == 'freedoom1' and 'doom' in wads_found:
             eps += ['Outpost Outbreak','Military Labs','Event Horizon','Double Impact']
         elif wadname == 'freedoom2' and 'doom2' in wads_found:
@@ -461,6 +465,9 @@ def main():
             continue
         if iwad_name == 'doom3do' and not get_wad_filename('doom'):
             logg('Skipping doom3do.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'perdgate' and not get_wad_filename('doom2'):
+            logg('Skipping perdagte.wad as doom2.wad is not present', error=True)
             continue
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:

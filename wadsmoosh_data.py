@@ -6,7 +6,7 @@ RES_FILES = [
     'mapinfo.txt', 'language.txt', 'endoom', 'smooshed.txt',
     'textures.common', 'textures.doom1', 'textures.doom2',
     'textures.freedoom1', 'textures.freedoom2',
-    'textures.tnt', 'textures.plut', 'animdefs.txt',
+    'textures.tnt', 'textures.plut','textures.perdgate', 'animdefs.txt',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
     'graphics/M_HELL.lmp', 'graphics/M_NOREST.lmp',
     'graphics/M_MASTER.lmp', 'graphics/M_TNT.lmp',
@@ -14,8 +14,8 @@ RES_FILES = [
     'mapinfo/doom1_levels.txt', 'mapinfo/doom2_levels.txt',
     'mapinfo/tnt_levels.txt', 'mapinfo/plutonia_levels.txt',
     'mapinfo/masterlevels.txt', 'mapinfo/sigil_levels.txt',
+    'mapinfo/sigil2_levels.txt', 'mapinfo/perdgate_levels.txt',
     'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
-    'mapinfo/sigil2_levels.txt',
     'menudef.txt', 'cvarinfo.txt', 'zscript.txt'
 ]
 
@@ -33,15 +33,15 @@ TIDY_DIR_EXTENSIONS = {
 }
 
 # list of files we can extract from
-WADS = ['doom', 'doom2', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
-        'sigil2', 'doomu', 'doom2u', 'nerveu', 'tntu', 'plutoniau', 'extras',
+WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
+        'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
         'freedoom1', 'freedoom2','doom3do']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'doom2', 'nerve', 'attack', 'tnt', 'plutonia', 
-               'sewers', 'betray', 'doomu', 'doom2u',
-               'nerveu', 'tntu', 'plutoniau', 'extras', 
+               'sewers', 'betray', 'doomunity', 'doom2unity',
+               'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
                'freedoom1', 'freedoom2','doom3do']
 
 # lists of lumps common to doom 1+2
@@ -69,21 +69,22 @@ WAD_LUMP_LISTS = {
     'tnt': ['graphics_tnt', 'music_tnt', 'patches_tnt'],
     'plutonia': ['graphics_plutonia', 'music_plutonia', 'patches_plutonia'],
     'sigil': ['graphics_sigil', 'music_sigil', 'patches_sigil', 'data_sigil'],
-    'freedoom1': ['graphics_freedoom1','patches_freedoom1', 'flats_freedoom1', 'music_freedoom1'],
-    'freedoom2': ['graphics_freedoom2','patches_freedoom2', 'flats_freedoom2', 'music_freedoom2'],
     # (buckethead tracks use the same names as jimmy's midi)
     'sigil_shreds': ['music_sigil'],
     'sigil2': ['graphics_sigil2', 'music_sigil2', 'patches_sigil2', 'data_sigil2', 'flats_sigil2'],
     # widescreen assets from unity ports
-    'doomu': ['graphics_doomu'],
-    'doom2u': ['graphics_doom2u'],
+    'doomunity': ['graphics_doomunity'],
+    'doom2unity': ['graphics_doom2unity'],
     'nerveu': ['graphics_nerveu'],
     'tntu': ['graphics_tntu'],
     'plutoniau': ['graphics_plutoniau'],
+    'perdgate': ['graphics_perdgate', 'patches_perdgate', 'flats_perdgate', 'music_perdgate'],
     # "found secret" sound from unity port
     'extras': ['sounds_unity'],
     # add live recorded music from Doom's 3DO port
-    'doom3do': ['music_doom3do']
+    'doom3do': ['music_doom3do'],
+    'freedoom1': ['graphics_freedoom1', 'patches_freedoom1', 'flats_freedoom1', 'music_freedoom1'],
+    'freedoom2': ['graphics_freedoom2', 'patches_freedoom2', 'flats_freedoom2', 'music_freedoom2']
 }
 
 # prefixes for filenames of maps extracted from IWADs
@@ -97,6 +98,7 @@ WAD_MAP_PREFIXES = {
     'masterlevels': 'ML_',
     'sigil': '',
     'sigil2': '',
+    'perdgate': 'PG_',
     'freedoom1': 'FD1_',
     'freedoom2': 'FD2_'
 }

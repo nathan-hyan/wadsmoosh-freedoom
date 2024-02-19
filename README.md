@@ -31,18 +31,22 @@ Advanced users can edit `wadsmoosh_data.py` to customize how and what WadSmoosh 
 WadSmoosh is not a general-purpose tool for merging Doom WADs; it is for *merging retail content* only - it was created in 2016 out of a desire for a "complete" retail version of Doom and Doom II, and only exists as a program because the IWAD file that it generates cannot be distributed legally. Please do not ask if WadSmoosh will support any specific WAD. If you want to add your own content to a custom IWAD, please either modify [WadSmoosh's source code](https://heptapod.host/jp-lebreton/wadsmoosh) yourself, or simply edit the `doom_complete.pk3` file WadSmoosh generated on your computer by opening it in a ZIP archive management program. Please do not ask me for support when doing either.
 
 Here is the official list of WADs that WadSmoosh will recognize:
-- Ultimate Doom (`doom.wad`)
 - Doom (original registered version of `doom.wad`, containing only episodes 1-3)
+- Ultimate Doom (`doom.wad`)
 - Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
 - Doom II (`doom2.wad`)
-- The extra content in the Unity releases of Doom and Doom 2. (`doomu.wad` and `doom2u.wad`)
+- The extra content in the Unity releases of Doom and Doom 2. (`doomunity.wad` and `doom2unity.wad`)
+- The extras file from the Unity releases (`extras.wad`)
+- The extra content in the BFG release of Doom 2. (`doom2bfg.wad`)
 - The Master Levels (the 20 unmodified WAD files from the retail release)
 - Final Doom (`tnt.wad` and `plutonia.wad`)
 - No Rest for the Living (`nerve.wad`)
 - Sigil (`sigil.wad` and its optional music addon `sigil_shreds.wad`)
 - Sigil II (`sigil2.wad`, either its MIDI or MP3 soundtrack versions)
-- Freedoom Phase 1
-- Freedoom Phase 2
+- Freedoom Phase 1 (`freedoom1.wad`)
+- Freedoom Phase 2 (`freedoom2.wad`)
+- Perdition's Gate (`perdgate.wad`)
+- Doom 3DO Soundtrack (`doom3do.wad`)
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
 

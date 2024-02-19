@@ -1,11 +1,12 @@
 include mapinfo/doom1_levels.txt
+include mapinfo/sigil_levels.txt
+include mapinfo/sigil2_levels.txt
 include mapinfo/doom2_levels.txt
 include mapinfo/doom2_secret_levels.txt
 include mapinfo/masterlevels.txt
 include mapinfo/tnt_levels.txt
 include mapinfo/plutonia_levels.txt
-include mapinfo/sigil_levels.txt
-include mapinfo/sigil2_levels.txt
+include mapinfo/perdgate_levels.txt
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
 
@@ -115,6 +116,13 @@ episode PL_MAP01
 {
 	picname = "M_PLUT"
 	name = "$TXT_PLUT_EP"
+	key = "p"
+	optional
+}
+
+episode PG_MAP01
+{
+	name = "Perdition's Gate"
 	key = "p"
 	optional
 }
