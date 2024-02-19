@@ -18,6 +18,7 @@ RES_FILES = [
     'mapinfo/sigil2_levels.txt', 'mapinfo/perdgate_levels.txt',
     'mapinfo/hell2pay_levels.txt','mapinfo/neis_levels.txt',
     'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
+    'mapinfo/tntr_levels.txt','mapinfo/pl2_levels.txt',
     'menudef.txt', 'cvarinfo.txt', 'zscript.txt'
 ]
 
@@ -37,14 +38,14 @@ TIDY_DIR_EXTENSIONS = {
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
         'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
-        'neis', 'freedoom1', 'freedoom2','doom3do']
+        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'doom2', 'nerve', 'attack', 'tnt', 'plutonia', 
                'sewers', 'betray', 'doomunity', 'doom2unity',
                'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
-               'hell2pay', 'neis',
+               'hell2pay', 'neis', 'pl2', 'tntr',
                'freedoom1', 'freedoom2','doom3do']
 
 # lists of lumps common to doom 1+2
@@ -81,6 +82,8 @@ WAD_LUMP_LISTS = {
     'nerveu': ['graphics_nerveu'],
     'tntu': ['graphics_tntu'],
     'plutoniau': ['graphics_plutoniau'],
+    'tntr': ['graphics_tntr', 'patches_tntr', 'flats_tntr', 'music_tntr'],
+    'pl2': ['graphics_pl2', 'patches_pl2', 'flats_pl2', 'music_pl2'],
     'perdgate': ['graphics_perdgate', 'patches_perdgate', 'flats_perdgate', 'music_perdgate'],
     'hell2pay': ['graphics_hell2pay', 'patches_hell2pay', 'flats_hell2pay', 'music_hell2pay'],
     'neis': ['graphics_neis', 'patches_neis', 'flats_neis'],
@@ -107,7 +110,9 @@ WAD_MAP_PREFIXES = {
     'perdgate': 'PG_',
     'neis': 'NS_',
     'freedoom1': 'FD1_',
-    'freedoom2': 'FD2_'
+    'freedoom2': 'FD2_',
+    'tntr': 'TR_',
+    'pl2': 'P2_'
 }
 
 # texture patches to extract from specific master levels PWADs

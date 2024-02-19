@@ -1,2 +1,2 @@
-This file was created by WadSmoosh:
-https://heptapod.host/jp-lebreton/wadsmoosh
+This file was created by WadSmoosh Plus:
+https://github.com/vanessakindell/wadsmoosh-plus

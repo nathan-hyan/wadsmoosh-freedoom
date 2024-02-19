@@ -1,0 +1,423 @@
+// TNT: Revilution mapinfo
+
+defaultmap
+{
+	ExitPic = "TR_INTER"
+	InterMusic = "TR_DM2INT"
+}
+
+map TR_MAP01 "Uprising"
+{
+	next = TR_MAP02
+	secretnext = TR_MAP02
+	sky1 = "SKY1"
+	cluster = 43
+	par = 60
+	music = TR_RUNNIN
+}
+
+map TR_MAP02 "Geothermal"
+{
+	next = TR_MAP03
+	secretnext = TR_MAP03
+	sky1 = "SKY1"
+	cluster = 43
+	par = 165
+	music = TR_STALKS
+}
+
+map TR_MAP03 "Access Denied"
+{
+	next = TR_MAP04
+	secretnext = TR_MAP04
+	sky1 = "SKY1"
+	cluster = 43
+	par = 390
+	music = TR_COUNTD
+}
+
+map TR_MAP04 "Blood Factory"
+{
+	next = TR_MAP05
+	secretnext = TR_MAP05
+	sky1 = "SKY1"
+	cluster = 43
+	par = 240
+	music = TR_BETWEE
+}
+
+map TR_MAP05 "Graveyard Shift"
+{
+	next = TR_MAP06
+	secretnext = TR_MAP06
+	sky1 = "SKY1"
+	cluster = 43
+	par = 240
+	music = TR_DOOM
+}
+
+map TR_MAP06 "Communications Relay"
+{
+	next = TR_MAP07
+	secretnext = TR_MAP07
+	sky1 = "SKY1"
+	cluster = 43
+	par = 255
+	music = TR_THE_DA
+}
+
+map TR_MAP07 "No Man's Station"
+{
+	next = TR_MAP08
+	secretnext = TR_MAP08
+	sky1 = "SKY1"
+	cluster = 44
+	par = 120
+	sucktime = 1
+	music = TR_SHAWN
+}
+
+map TR_MAP08 "Fortress Of Bullets"
+{
+	next = TR_MAP09
+	secretnext = TR_MAP09
+	sky1 = "SKY1"
+	cluster = 44
+	par = 270
+	music = TR_DDTBLU
+}
+
+map TR_MAP09 "Bunker Complex"
+{
+	next = TR_MAP10
+	secretnext = TR_MAP10
+	sky1 = "SKY1"
+	cluster = 44
+	par = 315
+	music = TR_IN_CIT
+}
+
+map TR_MAP10 "Underground Activity"
+{
+	next = TR_MAP11
+	secretnext = TR_MAP11
+	sky1 = "SKY1"
+	cluster = 44
+	par = 345
+	music = TR_DEAD
+}
+
+map TR_MAP11 "Pourriture"
+{
+	next = TR_MAP12
+	secretnext = TR_MAP12
+	sky1 = "SKY1"
+	cluster = 44
+	par = 75
+	music = TR_STLKS2
+}
+
+map TR_MAP12 "Transduction"
+{
+	next = TR_MAP13
+	secretnext = TR_MAP13
+	sky1 = "SKY2"
+	cluster = 45
+	par = 150
+	music = TR_THEDA2
+}
+
+map TR_MAP13 "Hangman's Curse"
+{
+	next = TR_MAP14
+	secretnext = TR_MAP14
+	sky1 = "SKY2"
+	cluster = 45
+	par = 90
+	music = TR_DOOM2
+}
+
+map TR_MAP14 "Abandoned Port"
+{
+	next = TR_MAP15
+	secretnext = TR_MAP15
+	sky1 = "SKY2"
+	cluster = 45
+	par = 90
+	music = TR_DDTBL2
+}
+
+map TR_MAP15 "Nukage Zone"
+{
+	next = TR_MAP16
+	secretnext = TR_MAP31
+	sky1 = "SKY2"
+	cluster = 45
+	par = 180
+	music = TR_RUNNI2
+}
+
+map TR_MAP16 "Devil's Den"
+{
+	next = TR_MAP17
+	secretnext = TR_MAP17
+	sky1 = "SKY2"
+	cluster = 45
+	par = 270
+	music = TR_DEAD2
+}
+
+map TR_MAP17 "Spider Colony"
+{
+	next = TR_MAP18
+	secretnext = TR_MAP18
+	sky1 = "SKY2"
+	cluster = 45
+	par = 165
+	music = TR_STLKS3
+}
+
+map TR_MAP18 "Hell's Signs"
+{
+	next = TR_MAP19
+	secretnext = TR_MAP19
+	sky1 = "SKY2"
+	cluster = 45
+	par = 540
+	music = TR_ROMERO
+}
+
+map TR_MAP19 "The Crash Site"
+{
+	next = TR_MAP20
+	secretnext = TR_MAP20
+	sky1 = "SKY2"
+	cluster = 45
+	par = 330
+	music = TR_SHAWN2
+}
+
+map TR_MAP20 "Portal Facility"
+{
+	next = TR_MAP21
+	secretnext = TR_MAP21
+	sky1 = "SKY2"
+	cluster = 45
+	par = 195
+	music = TR_MESSAG
+}
+
+map TR_MAP21 "Bloody Garden"
+{
+	next = TR_MAP22
+	secretnext = TR_MAP22
+	sky1 = "SKY3"
+	cluster = 46
+	par = 465
+	music = TR_COUNT2
+}
+
+map TR_MAP22 "Pharaoh's Claim"
+{
+	next = TR_MAP23
+	secretnext = TR_MAP23
+	sky1 = "SKY3"
+	cluster = 46
+	par = 240
+	music = TR_DDTBL3
+}
+
+map TR_MAP23 "Desolation"
+{
+	next = TR_MAP24
+	secretnext = TR_MAP24
+	sky1 = "SKY3"
+	cluster = 46
+	par = 90
+	music = TR_AMPIE
+}
+
+map TR_MAP24 "Redrum"
+{
+	next = TR_MAP25
+	secretnext = TR_MAP25
+	sky1 = "SKY3"
+	cluster = 46
+	par = 990
+	music = TR_THEDA3
+}
+
+map TR_MAP25 "Malware"
+{
+	next = TR_MAP26
+	secretnext = TR_MAP26
+	sky1 = "SKY3"
+	cluster = 46
+	par = 300
+	music = TR_ADRIAN
+}
+
+map TR_MAP26 "Revengineer"
+{
+	next = TR_MAP27
+	secretnext = TR_MAP27
+	sky1 = "SKY3"
+	cluster = 46
+	par = 45
+	music = TR_MESSG2
+}
+
+map TR_MAP27 "The Visage Of Time"
+{
+	next = TR_MAP28
+	secretnext = TR_MAP28
+	sky1 = "SKY3"
+	cluster = 46
+	par = 150
+	music = TR_ROMER2
+}
+
+map TR_MAP28 "Superweapon Facility"
+{
+	next = TR_MAP29
+	secretnext = TR_MAP29
+	sky1 = "SKY3"
+	cluster = 46
+	par = 150
+	music = TR_TENSE
+}
+
+map TR_MAP29 "Across The Blood Sea"
+{
+	next = TR_MAP30
+	secretnext = TR_MAP30
+	sky1 = "SKY3"
+	cluster = 46
+	par = 435
+	music = TR_SHAWN3
+}
+
+map TR_MAP30 "Malignata"
+{
+	sky1 = "SKY3"
+	cluster = 46
+	par = 420
+	music = TR_OPENIN
+	next = endgame
+}
+
+map TR_MAP31 "Anubis"
+{
+	next = TR_MAP16
+	secretnext = TR_MAP32
+	sky1 = "SKY3"
+	cluster = 47
+	par = 690
+	music = TR_EVIL
+}
+
+map TR_MAP32 "Duality"
+{
+	next = TR_MAP16
+	secretnext = TR_MAP16
+	sky1 = "SKY3"
+	cluster = 48
+	par = 210
+	music = TR_ULTIMA
+}
+
+cluster 43
+{
+	flat = BLOOD1
+	music = TR_REATR_M
+	exittext = SUCCESS! YOU HAVE SENT A MESSAGE TO EARTH",
+	"WARNING THEM OF THE INCOMING DEMONIC",
+	"FLEET. THE DEMONS WILL HAVE A RATHER",
+	"UNPLEASANT SURPRISE WAITING FOR THEM WHEN",
+	"THEY GET TO EARTH.",
+	"",
+	"WITH EARTH OUT OF HARMS WAY, IT'S TIME TO",
+	"TAKE THIS FIGHT TO HELL. THERE'S A SHIP",
+	"NOT TOO FAR FROM YOUR LOCATION AT THE",
+	"BOTTOM OF A THERMAL VENT. YOU CAN USE IT",
+	"TO FLY UP TO THE DEMONIC SHIP AND SET IT",
+	"ON A RETURN COURSE TO HELL."
+}
+
+cluster 44
+{
+	flat = TEKDARKF
+	music = TR_REATR_M
+	exittext = "YOU'VE MADE IT TO THE SHIP. NOW YOU WISH",
+	"YOU HAD PAID MORE ATTENTION IN FLIGHT",
+	"CLASS. WITH THE PRESS OF A FEW BUTTONS",
+	"THE ENGINES RUMBLE TO LIFE. YOU PLOT AN",
+	"INTERCEPT COURSE WITH THE HELL SHIP THAT",
+	"STILL ORBITS FAR ABOVE IO. THE THRUSTERS",
+	"ROCKET YOU OUT OF THE MOON'S ATMOSPHERE",
+	"TOWARD YOUR TARGET.",
+	"",
+	"THE HELL SHIP SOON TAKES NOTICE OF YOUR",
+	"APPROACH AND A STEADY STREAM OF PLASMA",
+	"HEADS IN YOUR DIRECTION. THE COOLING",
+	"SYSTEM OF YOUR SHIP TAKES A DIRECT HIT.",
+	"YOU QUICKLY CHANGE COURSE TOWARD SOME",
+	"ASTEROIDS WHERE THERE ARE SOME LONG",
+	"ABANDONED UAC BASES. YOU NEED TO FIND",
+	"SOME REPLACEMENT PARTS FOR YOUR SHIP!"
+}
+
+cluster 45
+{
+	flat = FLOOR0_4
+	music = TR_REATR_M
+	exittext = "A ONCE-GREAT GOD WATCHES YOUR EVERY",
+	"MOVE AS YOU TRAVERSE TO THE HELL SHIP.",
+	"IF YOU WANT TO GO TO HELL YOU MUST BE",
+	"WORTHY ENOUGH TO MAKE IT THROUGH HIS",
+	"REALM FIRST."
+}
+
+cluster 46
+{
+	flat = ROCKCK1
+	music = TR_REATR_M
+	exittext = "THE CONTROLS OF THE HELL SHIP LIE BEFORE",
+	"YOU. THERE'S ONLY ONE TASK LEFT FOR YOU TO",
+	"DO NOW, THE SHIP IS SET ON A COURSE TO",
+	"RETURN TO ITS POINT OF ORIGIN.",
+	"",
+	"HELL... IT'S CHANGED SINCE YOU'VE LAST",
+	"BEEN HERE, ADVANCED BIOTECH LITTERS THE",
+	"LANDSCAPE. THE DEMONS HAVE USED UAC'S",
+	"WEAPONRY TO ADVANCE THEIR OWN TECHNOLOGY."
+}
+
+cluster 47
+{
+	flat = METALFL4
+	music = TR_REATR_M
+	entertext = "THE SERVERS THAT HELD THE VIRTUAL",
+	"CONSCIOUSNESS OF THE ONCE-MIGHTY ICON OF",
+	"SIN EXPLODE TO PIECES ALL AROUND YOU.",
+	"ALONG WITH IT GOES MASSIVE DATABANKS OF",
+	"THE DEMONS RESEARCH INTO UAC WEAPONRY.",
+	"YOV'VE PUT THIS HELLISH INDUSTRIAL",
+	"REVILUTION TO AN END.",
+	"",
+	"NOW YOU SIT DOWN TO WAIT FOR THE FINE",
+	"FOLKS OF EARTH TO COME AND GET YOU.",
+	"IT SHOULDN'T BE TOO LONG OF A WAIT, OF",
+	"COURSE, THAT'S ASSUMING THAT THE EARTH'S",
+	"DEFENCES HELD UP AGAINST THE FLEET OF",
+	"HELL SHIPS THAT WAS HEADED THEIR WAY..."
+}
+
+cluster 48
+{
+	flat = BLUDSOUP
+	music = TR_REATR_M
+	entertext = "HAVING OVERCOME THE TRIALS OF",
+	"ANUBIS. HE SENDS YOU BACK TO",
+	"YOUR OWN REALM... OR SO IT SEEMS."
+}

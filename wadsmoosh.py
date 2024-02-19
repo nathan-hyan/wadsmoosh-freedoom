@@ -13,7 +13,7 @@ should_extract = True
 SRC_WAD_DIR = 'source_wads/'
 DATA_DIR = 'data/'
 DEST_DIR = 'ipk3/'
-DEST_FILENAME = 'doom_complete.ipk3'
+DEST_FILENAME = 'wadsmoosh_plus.ipk3'
 LOG_FILENAME = 'wadsmoosh.log'
 RES_DIR = 'res/'
 DATA_TABLES_FILE = 'wadsmoosh_data.py'
@@ -311,6 +311,10 @@ def copy_resources():
             continue
         elif src_file == 'textures.neis' and not get_wad_filename('neis'):
             continue
+        elif src_file == 'textures.tntr' and not get_wad_filename('tnt'):
+            continue
+        elif src_file == 'textures.pl2' and not get_wad_filename('plutonia'):
+            continue
         logg('Copying %s' % src_file)
         copyfile(RES_DIR + src_file, DEST_DIR + src_file)
     # doom2 vs doom2bfg map31/32 names differ, different mapinfos with same name
@@ -376,6 +380,10 @@ def get_eps(wads_found):
             eps += ['TNT: Evilution']
         elif wadname == 'plutonia':
             eps += ['The Plutonia Experiment']
+        elif wadname == 'tntr' and 'tnt' in wads_found:
+            eps += ['TNT: Revilution']
+        elif wadname == 'pl2' and 'plutonia' in wads_found:
+            eps += ['Plutonia 2']
         elif wadname == 'hell2pay' and 'doom2' in wads_found:
             eps += ['Hell To Pay']
         elif wadname == 'perdgate' and 'doom2' in wads_found:
@@ -484,6 +492,12 @@ def main():
             continue
         if iwad_name == 'neis' and not get_wad_filename('doom'):
             logg('Skipping neis.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'tntr' and not get_wad_filename('tnt'):
+            logg('Skipping tntr.wad as tnt.wad is not present', error=True)
+            continue
+        if iwad_name == 'pl2' and not get_wad_filename('plutonia'):
+            logg('Skipping pl2.wad as plutonia.wad is not present', error=True)
             continue
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:

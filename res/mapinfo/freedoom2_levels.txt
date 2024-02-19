@@ -10,7 +10,7 @@ map FD2_MAP01 "Hydroelectric Plant"
 	secretnext = "FD2_MAP02"
 	titlepatch = "CWILV00"
 	sky1 = "RSKY1"
-	cluster = 29
+	cluster = 31
 	par = 30
 	music = "FD2_RUNNIN"
 	author = "Samuel Oliver, Eric Baker, and Xindage"
@@ -22,7 +22,7 @@ map FD2_MAP02 "Filtration Tunnels"
 	secretnext = "FD2_MAP33"
 	titlepatch = "CWILV01"
 	sky1 = "RSKY1"
-	cluster = 29
+	cluster = 31
 	par = 90
 	music = "FD2_STALKS"
 	author = "Stephen Finniss"
@@ -34,7 +34,7 @@ map FD2_MAP03 "Crude Processing Center"
 	secretnext = "FD2_MAP04"
 	titlepatch = "CWILV02"
 	sky1 = "RSKY1"
-	cluster = 29
+	cluster = 31
 	par = 120
 	music = "FD2_COUNTD"
 	author = "SgtCrispy"
@@ -46,7 +46,7 @@ map FD2_MAP04 "Containment Bay"
 	secretnext = "FD2_MAP05"
 	titlepatch = "CWILV03"
 	sky1 = "RSKY1"
-	cluster = 29
+	cluster = 31
 	par = 120
 	music = "FD2_BETWEE"
 	author = "The Green Herring"
@@ -58,7 +58,7 @@ map FD2_MAP05 "Sludge Burrow"
 	secretnext = "FD2_MAP06"
 	titlepatch = "CWILV04"
 	sky1 = "RSKY1"
-	cluster = 29
+	cluster = 31
 	par = 90
 	music = "FD2_DOOM"
 	author = "Patrick Kalinauskas"
@@ -70,7 +70,7 @@ map FD2_MAP06 "Janus Terminal"
 	secretnext = "FD2_MAP07"
 	titlepatch = "CWILV05"
 	sky1 = "RSKY1"
-	cluster = 29
+	cluster = 31
 	par = 150
 	sucktime = 1
 	music = "FD2_THE_DA"
@@ -83,7 +83,7 @@ map FD2_MAP07 "Logic Gate"
 	secretnext = "FD2_MAP08"
 	titlepatch = "CWILV06"
 	sky1 = "RSKY1"
-	cluster = 30
+	cluster = 32
 	par = 120
 	map07special
 	music = "FD2_SHAWN"
@@ -96,7 +96,7 @@ map FD2_MAP08 "Astronomy Complex"
 	secretnext = "FD2_MAP09"
 	titlepatch = "CWILV07"
 	sky1 = "RSKY1"
-	cluster = 30
+	cluster = 32
 	par = 120
 	music = "FD2_DDTBLU"
 	author = "Boris Iwanski"
@@ -108,7 +108,7 @@ map FD2_MAP09 "Datacenter"
 	secretnext = "FD2_MAP10"
 	titlepatch = "CWILV08"
 	sky1 = "RSKY1"
-	cluster = 30
+	cluster = 32
 	par = 270
 	music = "FD2_IN_CIT"
 	author = "Svante Ekholm"
@@ -120,7 +120,7 @@ map FD2_MAP10 "Deadly Outlands"
 	secretnext = "FD2_MAP11"
 	titlepatch = "CWILV09"
 	sky1 = "RSKY1"
-	cluster = 30
+	cluster = 32
 	par = 90
 	music = "FD2_DEAD"
 	author = "Svante Ekholm"
@@ -132,7 +132,7 @@ map FD2_MAP11 "Dimensional Rift"
 	secretnext = "FD2_MAP12"
 	titlepatch = "CWILV10"
 	sky1 = "RSKY1"
-	cluster = 30
+	cluster = 32
 	par = 210
 	music = "FD2_STLKS2"
 	author = "Samuel Villarreal and Catoptromancy"
@@ -144,7 +144,7 @@ map FD2_MAP12 "Railroads"
 	secretnext = "FD2_MAP13"
 	titlepatch = "CWILV11"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 150
 	music = "FD2_THEDA2"
 	author = "Z0k"
@@ -156,7 +156,7 @@ map FD2_MAP13 "Station Earth"
 	secretnext = "FD2_MAP14"
 	titlepatch = "CWILV12"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 150
 	music = "FD2_DOOM2"
 	author = "Jayextee"
@@ -168,7 +168,7 @@ map FD2_MAP14 "Nuclear Zone"
 	secretnext = "FD2_MAP15"
 	titlepatch = "CWILV13"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 150
 	music = "FD2_DDTBL2"
 	author = "Jayextee"
@@ -180,7 +180,7 @@ map FD2_MAP15 "Hostile Takeover"
 	secretnext = "FD2_MAP31"
 	titlepatch = "CWILV14"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 210
 	music = "FD2_RUNNI2"
 	author = "Z0k"
@@ -192,7 +192,7 @@ map FD2_MAP16 "Urban Jungle"
 	secretnext = "FD2_MAP17"
 	titlepatch = "CWILV15"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 150
 	music = "FD2_DEAD2"
 	author = "Tom White"
@@ -204,7 +204,7 @@ map FD2_MAP17 "City Capitol"
 	secretnext = "FD2_MAP18"
 	titlepatch = "CWILV16"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 420
 	music = "FD2_STLKS3"
 	author = "Jayextee"
@@ -216,7 +216,7 @@ map FD2_MAP18 "Aquatics Lab"
 	secretnext = "FD2_MAP19"
 	titlepatch = "CWILV17"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 150
 	music = "FD2_ROMERO"
 	author = "James Paddock"
@@ -228,7 +228,7 @@ map FD2_MAP19 "Sewage Control"
 	secretnext = "FD2_MAP20"
 	titlepatch = "CWILV18"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 210
 	music = "FD2_SHAWN2"
 	author = "Jayextee"
@@ -240,7 +240,7 @@ map FD2_MAP20 "Blood Ember Fortress"
 	secretnext = "FD2_MAP21"
 	titlepatch = "CWILV19"
 	sky1 = "RSKY2"
-	cluster = 31
+	cluster = 33
 	par = 150
 	music = "FD2_MESSAG"
 	author = "Devin Afshin"
@@ -252,7 +252,7 @@ map FD2_MAP21 "Under Realm"
 	secretnext = "FD2_MAP22"
 	titlepatch = "CWILV20"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 240
 	music = "FD2_COUNT2"
 	author = "Mortrixs19"
@@ -264,7 +264,7 @@ map FD2_MAP22 "Remanasu"
 	secretnext = "FD2_MAP23"
 	titlepatch = "CWILV21"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 150
 	music = "FD2_DDTBL3"
 	author = "Boris Iwanski"
@@ -276,7 +276,7 @@ map FD2_MAP23 "Underground Facility"
 	secretnext = "FD2_MAP24"
 	titlepatch = "CWILV22"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 180
 	music = "FD2_AMPIE"
 	author = "Joel Poston"
@@ -288,7 +288,7 @@ map FD2_MAP24 "Abandoned Teleporter Lab"
 	secretnext = "FD2_MAP25"
 	titlepatch = "CWILV23"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 150
 	music = "FD2_THEDA3"
 	author = "Jayextee"
@@ -300,7 +300,7 @@ map FD2_MAP25 "Persistence of Memory"
 	secretnext = "FD2_MAP26"
 	titlepatch = "CWILV24"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 150
 	music = "FD2_ADRIAN"
 	author = "Mike Watson"
@@ -312,7 +312,7 @@ map FD2_MAP26 "Dark Depths"
 	secretnext = "FD2_MAP27"
 	titlepatch = "CWILV25"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 300
 	music = "FD2_MESSG2"
 	author = "Nathaniel Patasky"
@@ -324,7 +324,7 @@ map FD2_MAP27 "Palace of Red"
 	secretnext = "FD2_MAP28"
 	titlepatch = "CWILV26"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 330
 	music = "FD2_ROMER2"
 	author = "DOGB01"
@@ -336,7 +336,7 @@ map FD2_MAP28 "Grim Redoubt"
 	secretnext = "FD2_MAP29"
 	titlepatch = "CWILV27"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 420
 	music = "FD2_TENSE"
 	author = "Z0k"
@@ -348,7 +348,7 @@ map FD2_MAP29 "Melting Point"
 	secretnext = "FD2_MAP30"
 	titlepatch = "CWILV28"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 300
 	music = "FD2_SHAWN3"
 	author = "Amarande"
@@ -360,7 +360,7 @@ map FD2_MAP30 "Jaws of Defeat"
 	next = "EndGameC"
 	secretnext = "EndGameC"
 	sky1 = "RSKY3"
-	cluster = 32
+	cluster = 34
 	par = 180
 	allowmonstertelefrags
 	music = "FD2_OPENIN"
@@ -373,7 +373,7 @@ map FD2_MAP31 "Be Quiet"
 	next = "FD2_MAP16"
 	secretnext = "FD2_MAP32"
 	sky1 = "RSKY3"
-	cluster = 33
+	cluster = 35
 	par = 180
 	music = "FD2_DM2INT"
 	author = "Jayextee"
@@ -385,7 +385,7 @@ map FD2_MAP32 "Not Sure"
 	next = "FD2_MAP16"
 	secretnext = "FD2_MAP32"
 	sky1 = "RSKY3"
-	cluster = 34
+	cluster = 36
 	par = 180
 	music = "FD2_EVIL"
 	author = "Catoptromancy"
@@ -394,7 +394,7 @@ map FD2_MAP32 "Not Sure"
 
 // FreeDoom 2 first cluster (up thru level 6)
 
-cluster 29
+cluster 31
 {
 	flat = "$BGFLAT06"
 	music = "FD2_ULTIMA"
@@ -415,7 +415,7 @@ cluster 29
 
 // FreeDoom 2 second cluster (up thru level 11)
 
-cluster 30
+cluster 32
 {
 	flat = "$BGFLAT11"
 	music = "FD2_READ_M"
@@ -437,7 +437,7 @@ cluster 30
 
 // FreeDoom 2 third cluster (up thru level 20)
 
-cluster 31
+cluster 33
 {
 	flat = "$BGFLAT20"
 	music = "FD2_READ_M"
@@ -459,7 +459,7 @@ cluster 31
 
 // FreeDoom 2 fourth cluster (up thru level 30)
 
-cluster 32
+cluster 34
 {
 	flat = "$BGFLAT30"
 	music = "FD2_READ_M"
@@ -477,7 +477,7 @@ cluster 32
 
 // FreeDoom 2 fifth cluster (level 31)
 
-cluster 33
+cluster 35
 {
 	flat = "$BGFLAT15"
 	music = "FD2_READ_M"
@@ -494,7 +494,7 @@ cluster 33
 
 // FreeDoom 2 sixth cluster (level 32)
 
-cluster 34
+cluster 36
 {
 	flat = "$BGFLAT31"
 	music = "FD2_READ_M"

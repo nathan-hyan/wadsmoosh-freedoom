@@ -5,7 +5,9 @@ include mapinfo/doom2_levels.txt
 include mapinfo/doom2_secret_levels.txt
 include mapinfo/masterlevels.txt
 include mapinfo/tnt_levels.txt
+include mapinfo/tntr_levels.txt
 include mapinfo/plutonia_levels.txt
+include mapinfo/pl2_levels.txt
 include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
 include mapinfo/neis_levels.txt
@@ -36,166 +38,145 @@ GameInfo
 clearepisodes
 episode E1M1
 {
-	picname = "M_EPI1"
-	name = "$TXT_D1E1"
-	key = "k"
+	name = "Knee-Deep in the Dead"
 	optional
 }
 
 episode E2M1
 {
-	picname = "M_EPI2"
-	name = "$TXT_D1E2"
-	key = "s"
+	name = "The Shores of Hell"
 	optional
 }
 
 episode E3M1
 {
-	picname = "M_EPI3"
-	name = "$TXT_D1E3"
-	key = "i"
+	name = "Inferno"
 	optional
 }
 
 episode E4M1
 {
-	picname = "M_EPI4"
-	name = "$TXT_D1E4"
-	key = "f"
+	name = "Thy Flesh Consumed"
 	optional
 }
 
 episode E5M1
 {
-	picname = "M_EPI5"
-	name = "$HUSTR_EPI5"
-	key = "s"
+	name = "SIGIL"
 	optional
 }
 
 episode E6M1
 {
-	picname = "M_EPI6"
-	name = "$HUSTR_EPI6"
-	key = "s"
+	name = "SIGIL II"
 	optional
 }
 
 episode MAP01
 {
-	picname = "M_HELL"
-	name = "$TXT_D2E1"
-	key = "h"
+	name = "Hell On Earth"
 	optional
 }
 
 episode NV_MAP01
 {
-	picname = "M_NOREST"
-	name = "$TXT_D2E2"
-	key = "n"
+	name = "No Rest for the Living"
 	optional
 }
 
 episode ML_MAP01
 {
-	picname = "M_MASTER"
-	name = "$D2MLNAME"
-	key = "m"
+	name = "The Master Levels"
 	optional
 }
 
 episode TN_MAP01
 {
-	picname = "M_TNT"
-	name = "$TXT_TNT_EP"
-	key = "t"
+	name = "TNT: Evilution"
+	optional
+}
+
+episode TR_MAP01
+{
+	name = "TNT: Revilution"
 	optional
 }
 
 episode PL_MAP01
 {
-	picname = "M_PLUT"
-	name = "$TXT_PLUT_EP"
-	key = "p"
+	name = "The Plutonia Experiment"
+	optional
+}
+
+episode P2_MAP01
+{
+	name = "Plutonia 2"
 	optional
 }
 
 episode HP_MAP01
 {
 	name = "Hell To Pay"
-	key = "h"
 	optional
 }
 
 episode PG_MAP01
 {
 	name = "Perdition's Gate"
-	key = "p"
 	optional
 }
 
 episode NS_E1M1
 {
 	name = "1994 Ways To Die"
-	key = "n"
 	optional
 }
 
 episode NS_E2M1
 {
 	name = "The Depths of Doom"
-	key = "n"
 	optional
 }
 
 episode NS_E3M1
 {
 	name = "Woe"
-	key = "n"
 	optional
 }
 
 episode NS_E4M1
 {
 	name = "Blood Stained Earth"
-	key = "n"
 	optional
 }
 
 episode FD1_E1M1
 {
 	name = "Outpost Outbreak"
-	key = "x"
 	optional
 }
 
 episode FD1_E2M1
 {
 	name = "Military Labs"
-	key = "x"
 	optional
 }
 
 episode FD1_E3M1
 {
 	name = "Event Horizon"
-	key = "x"
 	optional
 }
 
 episode FD1_E4M1
 {
 	name = "Double Impact"
-	key = "x"
 	optional
 }
 
 episode FD2_MAP01
 {
 	name = "Destination: Earth"
-	key = "z"
 	optional
 }
 
