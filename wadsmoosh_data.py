@@ -7,7 +7,7 @@ RES_FILES = [
     'textures.common', 'textures.doom1', 'textures.doom2',
     'textures.freedoom1', 'textures.freedoom2',
     'textures.tnt', 'textures.plut','textures.perdgate', 'animdefs.txt',
-    'textures.hell2pay',
+    'textures.hell2pay','textures.neis',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
     'graphics/M_HELL.lmp', 'graphics/M_NOREST.lmp',
     'graphics/M_MASTER.lmp', 'graphics/M_TNT.lmp',
@@ -16,7 +16,7 @@ RES_FILES = [
     'mapinfo/tnt_levels.txt', 'mapinfo/plutonia_levels.txt',
     'mapinfo/masterlevels.txt', 'mapinfo/sigil_levels.txt',
     'mapinfo/sigil2_levels.txt', 'mapinfo/perdgate_levels.txt',
-    'mapinfo/hell2pay_levels.txt',
+    'mapinfo/hell2pay_levels.txt','mapinfo/neis_levels.txt',
     'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
     'menudef.txt', 'cvarinfo.txt', 'zscript.txt'
 ]
@@ -37,13 +37,14 @@ TIDY_DIR_EXTENSIONS = {
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
         'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
-        'freedoom1', 'freedoom2','doom3do']
+        'neis', 'freedoom1', 'freedoom2','doom3do']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'doom2', 'nerve', 'attack', 'tnt', 'plutonia', 
                'sewers', 'betray', 'doomunity', 'doom2unity',
-               'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
+               'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
+               'hell2pay', 'neis',
                'freedoom1', 'freedoom2','doom3do']
 
 # lists of lumps common to doom 1+2
@@ -82,6 +83,7 @@ WAD_LUMP_LISTS = {
     'plutoniau': ['graphics_plutoniau'],
     'perdgate': ['graphics_perdgate', 'patches_perdgate', 'flats_perdgate', 'music_perdgate'],
     'hell2pay': ['graphics_hell2pay', 'patches_hell2pay', 'flats_hell2pay', 'music_hell2pay'],
+    'neis': ['graphics_neis', 'patches_neis', 'flats_neis'],
     # "found secret" sound from unity port
     'extras': ['sounds_unity'],
     # add live recorded music from Doom's 3DO port
@@ -103,6 +105,7 @@ WAD_MAP_PREFIXES = {
     'sigil2': '',
     'hell2pay': 'HP_',
     'perdgate': 'PG_',
+    'neis': 'NS_',
     'freedoom1': 'FD1_',
     'freedoom2': 'FD2_'
 }

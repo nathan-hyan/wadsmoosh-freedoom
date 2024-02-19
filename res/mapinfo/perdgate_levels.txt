@@ -403,15 +403,5 @@ cluster 24
 {
 	flat = "$BGFLAT31"
 	music = "FD2_READ_M"
-	entertext = "The world dissipitates around",
-         "you. You got out of that trap. Only",
-         "to find yourself inside another.",
-         "As the glow of the teleporter",
-         "subsides, it looks like you may",
-         "have made a wrong turn.","",
-         "Again.","",
-         "The world comes back to you.",
-         "The monsters you fought before",
-         "raise their weapons,","",
-         "aiming for your head."
+	entertext = lookup, "C5TEXT"
 }

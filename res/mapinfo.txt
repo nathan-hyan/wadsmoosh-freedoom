@@ -8,6 +8,7 @@ include mapinfo/tnt_levels.txt
 include mapinfo/plutonia_levels.txt
 include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
+include mapinfo/neis_levels.txt
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
 
@@ -132,6 +133,34 @@ episode PG_MAP01
 {
 	name = "Perdition's Gate"
 	key = "p"
+	optional
+}
+
+episode NS_E1M1
+{
+	name = "1994 Ways To Die"
+	key = "n"
+	optional
+}
+
+episode NS_E2M1
+{
+	name = "The Depths of Doom"
+	key = "n"
+	optional
+}
+
+episode NS_E3M1
+{
+	name = "Woe"
+	key = "n"
+	optional
+}
+
+episode NS_E4M1
+{
+	name = "Blood Stained Earth"
+	key = "n"
 	optional
 }
 

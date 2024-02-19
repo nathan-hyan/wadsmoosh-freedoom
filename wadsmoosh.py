@@ -309,6 +309,8 @@ def copy_resources():
             continue
         elif src_file == 'textures.hell2pay' and not get_wad_filename('hell2pay'):
             continue
+        elif src_file == 'textures.neis' and not get_wad_filename('neis'):
+            continue
         logg('Copying %s' % src_file)
         copyfile(RES_DIR + src_file, DEST_DIR + src_file)
     # doom2 vs doom2bfg map31/32 names differ, different mapinfos with same name
@@ -380,6 +382,8 @@ def get_eps(wads_found):
             eps += ['Perdition\'s Gate']
         elif wadname == 'hell2pay' and 'doom2' in wads_found:
             eps += ['Hell To Pay']
+        elif wadname == 'neis' and 'doom' in wads_found:
+            eps += ['1994 Ways to Die','The Depths of Doom','Woe','Bood Stained']
         elif wadname == 'freedoom1' and 'doom' in wads_found:
             eps += ['Outpost Outbreak','Military Labs','Event Horizon','Double Impact']
         elif wadname == 'freedoom2' and 'doom2' in wads_found:
@@ -477,6 +481,9 @@ def main():
             continue
         if iwad_name == 'hell2pay' and not get_wad_filename('doom2'):
             logg('Skipping hell2pay.wad as doom2.wad is not present', error=True)
+            continue
+        if iwad_name == 'neis' and not get_wad_filename('doom'):
+            logg('Skipping neis.wad as doom.wad is not present', error=True)
             continue
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:

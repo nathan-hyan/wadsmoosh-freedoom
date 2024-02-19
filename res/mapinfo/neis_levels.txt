@@ -1,0 +1,622 @@
+// No End in Sight Episode 1
+
+defaultmap
+{
+	BorderTexture = "FLOOR7_2"
+	InterMusic = "$MUSIC_INTER"
+}
+
+map NS_E1M1 "Terminal"
+{
+	levelnum = 1
+	next = "NS_E1M2"
+	secretnext = "NS_E1M10"
+	titlepatch = "WILV00"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 30
+	music = "$MUSIC_E1M1"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M2 "Slime Trails"
+{
+	levelnum = 2
+	next = "NS_E1M3"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV01"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 75
+	music = "$MUSIC_E1M2"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M3 "Logistics Center"
+{
+	levelnum = 3
+	next = "NS_E1M4"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV02"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 120
+	music = "$MUSIC_E1M3"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M4 "Abandoned Factory"
+{
+	levelnum = 4
+	next = "NS_E1M5"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV03"
+	sky1 = "SKY1"cluster = 26
+	cluster = 26
+	par = 90
+	music = "$MUSIC_E1M4"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M5 "Warehouse"
+{
+	levelnum = 5
+	next = "NS_E1M6"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV04"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 165
+	music = "$MUSIC_E1M5"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M6 "Power Core"
+{
+	levelnum = 6
+	next = "NS_E1M7"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV05"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 180
+	music = "$MUSIC_E1M6"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M7 "Biosphere"
+{
+	levelnum = 7
+	next = "NS_E1M8"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV06"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 180
+	music = "$MUSIC_E1M7"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E1M8 "Enigma"
+{
+	levelnum = 8
+	next = "EndGame1"
+	secretnext = "NS_E1M9"
+	titlepatch = "WILV07"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 165
+	nointermission
+	nosoundclipping
+	baronspecial
+	specialaction_lowerfloor
+	music = "$MUSIC_E1M8"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E1M9 "Quarantine Silos"
+{
+	levelnum = 9
+	next = "NS_E1M4"
+	secretnext = "NS_E1M4"
+	titlepatch = "WILV08"
+	sky1 = "SKY1"
+	cluster = 26
+	par = 165
+	music = "$MUSIC_E1M9"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+// No End in Sight Episode 2
+
+map NS_E2M1 "Receiving Station"
+{
+	levelnum = 11
+	next = "NS_E2M2"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV10"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 90
+	music = "$MUSIC_E2M1"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E2M2 "Proving Grounds"
+{
+	levelnum = 12
+	next = "NS_E2M3"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV11"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 90
+	music = "$MUSIC_E2M2"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E2M3 "Contagion Engine"
+{
+	levelnum = 13
+	next = "NS_E2M4"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV12"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 90
+	music = "$MUSIC_E2M3"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E2M4 "Derelict Vessel"
+{
+	levelnum = 14
+	next = "NS_E2M5"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV13"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 120
+	music = "$MUSIC_E2M4"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E2M5 "Deep Storage"
+{
+	levelnum = 15
+	next = "NS_E2M6"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV14"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 90
+	music = "$MUSIC_E2M5"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E2M6 "Poison Control"
+{
+	levelnum = 16
+	next = "NS_E2M7"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV15"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 360
+	music = "$MUSIC_E2M6"
+	ExitPic = "NS_INTER"
+	Author = "Lutz"
+}
+
+map NS_E2M7 "Gateway Labs"
+{
+	levelnum = 17
+	next = "NS_E2M8"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV16"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 240
+	music = "$MUSIC_E2M7"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E2M8 "Rubicon"
+{
+	levelnum = 18
+	next = "EndGame2"
+	secretnext = "NS_E2M9"
+	titlepatch = "WILV17"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 135
+	nointermission
+	nosoundclipping
+	cyberdemonspecial
+	specialaction_exitlevel
+	music = "$MUSIC_E2M8"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E2M9 "Castle of Illusion"
+{
+	levelnum = 19
+	next = "NS_E2M6"
+	secretnext = "NS_E2M6"
+	titlepatch = "WILV18"
+	sky1 = "SKY2"
+	cluster = 27
+	par = 170
+	music = "$MUSIC_E2M9"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+// No End in Sight Episode 3
+
+map NS_E3M1 "Gates of Hades"
+{
+	levelnum = 21
+	next = "NS_E3M2"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV20"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 90
+	music = "$MUSIC_E3M1"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E3M2 "Emblem of Destruction"
+{
+	levelnum = 22
+	next = "NS_E3M3"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV21"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 45
+	music = "$MUSIC_E3M2"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E3M3 "The Grinder"
+{
+	levelnum = 23
+	next = "NS_E3M4"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV22"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 90
+	music = "$MUSIC_E3M3"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E3M4 "Fortuna Bridge"
+{
+	levelnum = 24
+	next = "NS_E3M5"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV23"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 150
+	music = "$MUSIC_E3M4"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E3M5 "Forgotten Caverns"
+{
+	levelnum = 25
+	next = "NS_E3M6"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV24"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 90
+	music = "$MUSIC_E3M5"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E3M6 "Anomaly Retribution"
+{
+	levelnum = 26
+	next = "NS_E3M7"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV25"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 90
+	music = "$MUSIC_E3M6"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E3M7 "Netherworld Citadel"
+{
+	levelnum = 27
+	next = "NS_E3M8"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV26"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 165
+	music = "$MUSIC_E3M7"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E3M8 "Requiem"
+{
+	levelnum = 28
+	next = "endbunny"
+	secretnext = "NS_E3M9"
+	titlepatch = "WILV27"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 105
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_exitlevel
+	music = "$MUSIC_E3M8"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E3M9 "Lake of Fire"
+{
+	levelnum = 29
+	next = "NS_E3M7"
+	secretnext = "NS_E3M7"
+	titlepatch = "WILV28"
+	sky1 = "SKY3"
+	cluster = 28
+	par = 135
+	music = "$MUSIC_E3M9"
+	ExitPic = "NS_INTER"
+	Author = "Lutz"
+}
+
+// No End in Sight Episode 4
+
+map NS_E4M1 "Nexus"
+{
+	levelnum = 31
+	next = "NS_E4M2"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV30"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 165
+	music = "$MUSIC_E3M4"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E4M2 "Parallels"
+{
+	levelnum = 32
+	next = "NS_E4M3"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV31"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 255
+	music = "$MUSIC_E3M2"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E4M3 "Square Zero"
+{
+	levelnum = 33
+	next = "NS_E4M4"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV32"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 135
+	music = "$MUSIC_E3M3"
+	ExitPic = "NS_INTER"
+	Author = "Xaser"
+}
+
+map NS_E4M4 "Wartorn Precinct"
+{
+	levelnum = 34
+	next = "NS_E4M5"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV33"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 150
+	music = "$MUSIC_E1M5"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E4M5 "The Blood Beneath"
+{
+	levelnum = 35
+	next = "NS_E4M6"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV34"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 180
+	music = "$MUSIC_E2M7"
+	ExitPic = "NS_INTER"
+	Author = "Lutz"
+}
+
+map NS_E4M6 "Sanctuary of Filth"
+{
+	levelnum = 36
+	next = "NS_E4M7"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV35"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 390
+	cyberdemonspecial
+	specialaction_opendoor
+	music = "$MUSIC_E2M4"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+map NS_E4M7 "Vacuum Consortium"
+{
+	levelnum = 37
+	next = "NS_E4M8"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV36"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 135
+	music = "$MUSIC_E2M6"
+	ExitPic = "NS_INTER"
+	Author = "$WS_AU_ANDERSON"
+}
+
+map NS_E4M8 "No End In Sight"
+{
+	levelnum = 38
+	next = "EndGame4"
+	secretnext = "NS_E4M9"
+	titlepatch = "WILV37"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 360
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_lowerfloor
+	music = "$MUSIC_E2M5"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy, Xaser"
+}
+
+map NS_E4M9 "Vile Cross"
+{
+	levelnum = 39
+	next = "NS_E4M3"
+	secretnext = "NS_E4M3"
+	titlepatch = "WILV38"
+	sky1 = "SKY4"
+	cluster = 29
+	par = 180
+	music = "$MUSIC_E1M9"
+	ExitPic = "NS_INTER"
+	Author = "NaturalTvventy"
+}
+
+// Clusters (correspond with same-numbered episode)
+
+cluster 26
+{
+	flat = "$bgflatE1"
+	music = "$MUSIC_VICTOR"
+	exittext = "Funny... the last time you were marooned",
+	"on this godforsaken rock and gazed into",
+	"the abyss between worlds, the prospect of",
+	"being thrust into yet another nightmare",
+	"seemed much less appealing. Yet now, you",
+	"can't think of any place you'd rather be.",
+	"",
+	"\"Phobos,\" you monologue as if you were a",
+	"travel brochure. \"Come for the view.",
+	"Stay because you're a flesh-hungry zombie.\"",
+	"It's the ideal getaway spot. Can't bring a",
+	"shotgun to Cancun, now, can you?"
+}
+
+cluster 27
+{
+	flat = "$bgflatE2"
+	music = "$MUSIC_VICTOR"
+	exittext = "In a grand display of parallel fate,",
+	"the twisted corpse of the cyberdemon",
+	"clatters to the hard dirt beneath you.",
+	"Though familiar, this particular sight",
+	"never gets old.",
+	"",
+	"The revelation that Deimos and Hell",
+	"are jointed at the hip long ago",
+	"ceased to amaze, yet you feel a",
+	"familiar rush as you leap from the",
+	"edge of the now-barren rock toward",
+	"the gates of Hades itself.",
+	"Or maybe it's the adrenaline.",
+	"",
+	"Either way, thank God for your",
+	"complete immunity to falling damage!"
+}
+
+cluster 28
+{
+	flat = "$bgflatE3"
+	music = "$MUSIC_VICTOR"
+	exittext = "Spiderdemon, meet Mr. Metaphorical",
+	"Fly Swatter. 'Nuff said.",
+	"",
+	"Having driven back the denizens of",
+	"Hell once again, you ponder your",
+	"next move. There's no end in sight",
+	"to the invasion, though you suspect",
+	"the swath of destruction you've left",
+	"in your wake will make them think",
+	"twice before messing with Earth again.",
+	"",
+	"...Well, assuming those bastards",
+	"even know how to think. You suspect",
+	"the masterminds' brains are just for",
+	"show at this point.",
+	"",
+	"Whatever. Next stop: Earth. For real."
+}
+
+cluster 29
+{
+	flat = "$bgflatE4"
+	music = "$MUSIC_VICTOR"
+	exittext = "Welp. You've done it. Kind of. Earth is a",
+	"wreck, but you've driven the last",
+	"slavering nasties away from the planet",
+	"for good... back to Hell, which is a bit",
+	"counterproductive, but whatever.",
+	"",
+	"Though the human race is kaput, you",
+	"manage to scrounge up enough tech to spin",
+	"up an instance of the hit video game Doom,",
+	"and resign yourself to blasting away",
+	"virtual demons now that there aren't any",
+	"real ones to worry about.",
+	"",
+	"Plus, with so much custom content",
+	"available, your entertainment has",
+	"no end in sight!"
+}
