@@ -439,10 +439,10 @@ cluster 53
 	entertext = "You've found the second-hardest level we",
 "got. Hope you have a saved game a level or",
 "two previous.  If not, be prepared to die",
-"aplenty. For master marines only."They lay in the stone houses of their court,",
+"aplenty. For master marines only.\"They lay in the stone houses of their court",
 "preserved by spells for a glorious resurrection",
 "when the stars and the earth might once more",
-"be ready for them."
+"be ready for them.\""
 }
 
 cluster 54

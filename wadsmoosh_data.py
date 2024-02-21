@@ -7,7 +7,7 @@ RES_FILES = [
     'textures.common', 'textures.doom1', 'textures.doom2',
     'textures.freedoom1', 'textures.freedoom2',
     'textures.tnt', 'textures.plut','textures.perdgate', 'animdefs.txt',
-    'textures.hell2pay','textures.neis',
+    'textures.hell2pay','textures.neis', 'textures.tntr', 'textures.pl2',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
     'graphics/M_HELL.lmp', 'graphics/M_NOREST.lmp',
     'graphics/M_MASTER.lmp', 'graphics/M_TNT.lmp',
