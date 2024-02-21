@@ -1,0 +1,69 @@
+List of clusters and associated content.
+Not loaded by any code, just reference material.
+
+cluster 01: Doom: Knee Deep in the Dead
+cluster 02: Doom: The Shores of Hell
+cluster 03: Doom: Inferno
+cluster 04: Doom: Thy Flesh Consumed
+
+cluster 05: Doom 2 first cluster
+cluster 06: Doom 2 second cluster
+cluster 07: Doom 2 third cluster
+cluster 08: Doom 2 fourth cluster
+cluster 09: Doom 2 fifth cluster
+cluster 10: Doom 2 sixth cluster
+
+cluster 11: No Rest for the Living
+
+cluster 12: TNT first cluster
+cluster 13: TNT second cluster
+cluster 14: TNT third cluster
+cluster 15: TNT fourth cluster
+cluster 16: TNT fifth cluster
+cluster 17: TNT sixth cluster
+
+cluster 18: Plutonia first cluster
+cluster 19: Plutonia second cluster
+cluster 20: Plutonia third cluster
+cluster 21: Plutonia fourth cluster
+cluster 22: Plutonia fifth cluster
+cluster 23: Plutonia sixth cluster
+
+cluster 24: Doom 2: The Master Levels
+
+cluster 25: Doom: Sigil
+cluster 26: Doom: Sigil II
+
+cluster 27: FreeDoom: Outpost Outbreak
+cluster 28: FreeDoom: Military Labs
+cluster 29: FreeDoom: Event Horizon
+cluster 30: FreeDoom: Double Impact
+
+cluster 31: FreeDoom 2 first cluster
+cluster 32: FreeDoom 2 second cluster
+cluster 33: FreeDoom 2 third cluster
+cluster 34: FreeDoom 2 fourth cluster
+cluster 35: FreeDoom 2 fifth cluster
+cluster 36: FreeDoom 2 sixth cluster
+
+cluster 37: Hell To Pay	
+cluster 38: Perdition's Gate
+
+cluster 39: No End In Sight: 1994 Ways To Die
+cluster 40: No End In Sight: The Depths of Doom
+cluster 41: No End In Sight: Woe
+cluster 42: No End In Sight: Blood Stained Earth
+
+cluster 43: TNT: Revilution first cluster
+cluster 44: TNT: Revilution second cluster
+cluster 45: TNT: Revilution third cluster
+cluster 46: TNT: Revilution fourth cluster
+cluster 47: TNT: Revilution fifth cluster
+cluster 48: TNT: Revilution sixth cluster
+
+cluster 49: Plutonia 2 first cluster
+cluster 50: Plutonia 2 second cluster
+cluster 51: Plutonia 2 third cluster
+cluster 52: Plutonia 2 fourth cluster
+cluster 53: Plutonia 2 fifth cluster
+cluster 54: Plutonia 2 sixth cluster

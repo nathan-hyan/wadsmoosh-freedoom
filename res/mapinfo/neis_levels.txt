@@ -3,7 +3,7 @@
 defaultmap
 {
 	BorderTexture = "FLOOR7_2"
-	InterMusic = "$MUSIC_INTER"
+	InterMusic = "$MUSIC_READ_M"
 }
 
 map NS_E1M1 "Terminal"
@@ -13,7 +13,7 @@ map NS_E1M1 "Terminal"
 	secretnext = "NS_E1M10"
 	titlepatch = "WILV00"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 30
 	music = "$MUSIC_E1M1"
 	ExitPic = "NS_INTER"
@@ -27,7 +27,7 @@ map NS_E1M2 "Slime Trails"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV01"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 75
 	music = "$MUSIC_E1M2"
 	ExitPic = "NS_INTER"
@@ -41,7 +41,7 @@ map NS_E1M3 "Logistics Center"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV02"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 120
 	music = "$MUSIC_E1M3"
 	ExitPic = "NS_INTER"
@@ -54,8 +54,8 @@ map NS_E1M4 "Abandoned Factory"
 	next = "NS_E1M5"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV03"
-	sky1 = "SKY1"cluster = 26
-	cluster = 26
+	sky1 = "SKY1"cluster = 39
+	cluster = 39
 	par = 90
 	music = "$MUSIC_E1M4"
 	ExitPic = "NS_INTER"
@@ -69,7 +69,7 @@ map NS_E1M5 "Warehouse"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV04"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 165
 	music = "$MUSIC_E1M5"
 	ExitPic = "NS_INTER"
@@ -83,7 +83,7 @@ map NS_E1M6 "Power Core"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV05"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 180
 	music = "$MUSIC_E1M6"
 	ExitPic = "NS_INTER"
@@ -97,7 +97,7 @@ map NS_E1M7 "Biosphere"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV06"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 180
 	music = "$MUSIC_E1M7"
 	ExitPic = "NS_INTER"
@@ -111,7 +111,7 @@ map NS_E1M8 "Enigma"
 	secretnext = "NS_E1M9"
 	titlepatch = "WILV07"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 165
 	nointermission
 	nosoundclipping
@@ -129,7 +129,7 @@ map NS_E1M9 "Quarantine Silos"
 	secretnext = "NS_E1M4"
 	titlepatch = "WILV08"
 	sky1 = "SKY1"
-	cluster = 26
+	cluster = 39
 	par = 165
 	music = "$MUSIC_E1M9"
 	ExitPic = "NS_INTER"
@@ -145,7 +145,7 @@ map NS_E2M1 "Receiving Station"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV10"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 90
 	music = "$MUSIC_E2M1"
 	ExitPic = "NS_INTER"
@@ -159,7 +159,7 @@ map NS_E2M2 "Proving Grounds"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV11"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 90
 	music = "$MUSIC_E2M2"
 	ExitPic = "NS_INTER"
@@ -173,7 +173,7 @@ map NS_E2M3 "Contagion Engine"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV12"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 90
 	music = "$MUSIC_E2M3"
 	ExitPic = "NS_INTER"
@@ -187,7 +187,7 @@ map NS_E2M4 "Derelict Vessel"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV13"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 120
 	music = "$MUSIC_E2M4"
 	ExitPic = "NS_INTER"
@@ -201,7 +201,7 @@ map NS_E2M5 "Deep Storage"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV14"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 90
 	music = "$MUSIC_E2M5"
 	ExitPic = "NS_INTER"
@@ -215,7 +215,7 @@ map NS_E2M6 "Poison Control"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV15"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 360
 	music = "$MUSIC_E2M6"
 	ExitPic = "NS_INTER"
@@ -229,7 +229,7 @@ map NS_E2M7 "Gateway Labs"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV16"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 240
 	music = "$MUSIC_E2M7"
 	ExitPic = "NS_INTER"
@@ -243,7 +243,7 @@ map NS_E2M8 "Rubicon"
 	secretnext = "NS_E2M9"
 	titlepatch = "WILV17"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 135
 	nointermission
 	nosoundclipping
@@ -261,7 +261,7 @@ map NS_E2M9 "Castle of Illusion"
 	secretnext = "NS_E2M6"
 	titlepatch = "WILV18"
 	sky1 = "SKY2"
-	cluster = 27
+	cluster = 40
 	par = 170
 	music = "$MUSIC_E2M9"
 	ExitPic = "NS_INTER"
@@ -277,7 +277,7 @@ map NS_E3M1 "Gates of Hades"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV20"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 90
 	music = "$MUSIC_E3M1"
 	ExitPic = "NS_INTER"
@@ -291,7 +291,7 @@ map NS_E3M2 "Emblem of Destruction"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV21"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 45
 	music = "$MUSIC_E3M2"
 	ExitPic = "NS_INTER"
@@ -305,7 +305,7 @@ map NS_E3M3 "The Grinder"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV22"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 90
 	music = "$MUSIC_E3M3"
 	ExitPic = "NS_INTER"
@@ -319,7 +319,7 @@ map NS_E3M4 "Fortuna Bridge"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV23"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 150
 	music = "$MUSIC_E3M4"
 	ExitPic = "NS_INTER"
@@ -333,7 +333,7 @@ map NS_E3M5 "Forgotten Caverns"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV24"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 90
 	music = "$MUSIC_E3M5"
 	ExitPic = "NS_INTER"
@@ -347,7 +347,7 @@ map NS_E3M6 "Anomaly Retribution"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV25"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 90
 	music = "$MUSIC_E3M6"
 	ExitPic = "NS_INTER"
@@ -361,7 +361,7 @@ map NS_E3M7 "Netherworld Citadel"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV26"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 165
 	music = "$MUSIC_E3M7"
 	ExitPic = "NS_INTER"
@@ -375,7 +375,7 @@ map NS_E3M8 "Requiem"
 	secretnext = "NS_E3M9"
 	titlepatch = "WILV27"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 105
 	nointermission
 	nosoundclipping
@@ -393,7 +393,7 @@ map NS_E3M9 "Lake of Fire"
 	secretnext = "NS_E3M7"
 	titlepatch = "WILV28"
 	sky1 = "SKY3"
-	cluster = 28
+	cluster = 41
 	par = 135
 	music = "$MUSIC_E3M9"
 	ExitPic = "NS_INTER"
@@ -409,7 +409,7 @@ map NS_E4M1 "Nexus"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV30"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 165
 	music = "$MUSIC_E3M4"
 	ExitPic = "NS_INTER"
@@ -423,7 +423,7 @@ map NS_E4M2 "Parallels"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV31"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 255
 	music = "$MUSIC_E3M2"
 	ExitPic = "NS_INTER"
@@ -437,7 +437,7 @@ map NS_E4M3 "Square Zero"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV32"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 135
 	music = "$MUSIC_E3M3"
 	ExitPic = "NS_INTER"
@@ -451,7 +451,7 @@ map NS_E4M4 "Wartorn Precinct"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV33"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 150
 	music = "$MUSIC_E1M5"
 	ExitPic = "NS_INTER"
@@ -465,7 +465,7 @@ map NS_E4M5 "The Blood Beneath"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV34"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 180
 	music = "$MUSIC_E2M7"
 	ExitPic = "NS_INTER"
@@ -479,7 +479,7 @@ map NS_E4M6 "Sanctuary of Filth"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV35"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 390
 	cyberdemonspecial
 	specialaction_opendoor
@@ -495,7 +495,7 @@ map NS_E4M7 "Vacuum Consortium"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV36"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 135
 	music = "$MUSIC_E2M6"
 	ExitPic = "NS_INTER"
@@ -509,7 +509,7 @@ map NS_E4M8 "No End In Sight"
 	secretnext = "NS_E4M9"
 	titlepatch = "WILV37"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 360
 	nointermission
 	nosoundclipping
@@ -527,16 +527,16 @@ map NS_E4M9 "Vile Cross"
 	secretnext = "NS_E4M3"
 	titlepatch = "WILV38"
 	sky1 = "SKY4"
-	cluster = 29
+	cluster = 42
 	par = 180
 	music = "$MUSIC_E1M9"
 	ExitPic = "NS_INTER"
 	Author = "NaturalTvventy"
 }
 
-// Clusters (correspond with same-numbered episode)
+// Clusters (correspond with episode)
 
-cluster 26
+cluster 39
 {
 	flat = "$bgflatE1"
 	music = "$MUSIC_VICTOR"
@@ -554,7 +554,7 @@ cluster 26
 	"shotgun to Cancun, now, can you?"
 }
 
-cluster 27
+cluster 40
 {
 	flat = "$bgflatE2"
 	music = "$MUSIC_VICTOR"
@@ -576,7 +576,7 @@ cluster 27
 	"complete immunity to falling damage!"
 }
 
-cluster 28
+cluster 41
 {
 	flat = "$bgflatE3"
 	music = "$MUSIC_VICTOR"
@@ -599,7 +599,7 @@ cluster 28
 	"Whatever. Next stop: Earth. For real."
 }
 
-cluster 29
+cluster 42
 {
 	flat = "$bgflatE4"
 	music = "$MUSIC_VICTOR"

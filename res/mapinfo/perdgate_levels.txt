@@ -1,7 +1,7 @@
 defaultmap
 {
 	InterMusic = "PG_DM2INT"
-	ExitPic = "PG_INTER"
+	ExitPic = "PG_READ_M"
 }
 
 // Earth
@@ -11,7 +11,7 @@ map PG_MAP01 "UAC HQ"
 	secretnext = "PG_MAP02"
 	titlepatch = "CWILV00"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 30
 	music = "PG_RUNNIN"
 	Author = "Tom and Bob Mustaine"
@@ -23,7 +23,7 @@ map PG_MAP02 "UAC Complex B"
 	secretnext = "PG_MAP33"
 	titlepatch = "CWILV01"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 90
 	music = "PG_STALKS"
 	Author = "Tom and Bob Mustaine"
@@ -35,7 +35,7 @@ map PG_MAP03 "Recreational Yard"
 	secretnext = "PG_MAP04"
 	titlepatch = "CWILV02"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 120
 	music = "PG_COUNTD"
 	Author = "Tom Mustaine"
@@ -47,7 +47,7 @@ map PG_MAP04 "Storage Area"
 	secretnext = "PG_MAP05"
 	titlepatch = "CWILV03"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 120
 	music = "PG_BETWEE"
 	Author = "Tom and Bob Mustaine"
@@ -59,7 +59,7 @@ map PG_MAP05 "Sub-Basement"
 	secretnext = "PG_MAP06"
 	titlepatch = "CWILV04"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 90
 	music = "PG_DOOM"
 	Author = "Tom and Bob Mustaine"
@@ -71,7 +71,7 @@ map PG_MAP06 "Delta Area"
 	secretnext = "PG_MAP07"
 	titlepatch = "CWILV05"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 150
 	sucktime = 1
 	music = "PG_THE_DA"
@@ -84,7 +84,7 @@ map PG_MAP07 "Toxin Refinery"
 	secretnext = "PG_MAP08"
 	titlepatch = "CWILV06"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 120
 	map07special
 	music = "PG_SHAWN"
@@ -97,7 +97,7 @@ map PG_MAP08 "Drainage Tunnels"
 	secretnext = "PG_MAP09"
 	titlepatch = "CWILV07"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 120
 	music = "PG_DDTBLU"
 	Author = "Tom Mustaine"
@@ -109,7 +109,7 @@ map PG_MAP09 "UAC Experimentation Center"
 	secretnext = "PG_MAP10"
 	titlepatch = "CWILV08"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 270
 	music = "PG_IN_CIT"
 	Author = "Tom and Bob Mustaine"
@@ -121,7 +121,7 @@ map PG_MAP10 "UAC Experimentation Labs, High Security Area"
 	secretnext = "PG_MAP11"
 	titlepatch = "CWILV09"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 90
 	music = "PG_DEAD"
 	Author = "Jimmy Sieben"
@@ -133,7 +133,7 @@ map PG_MAP11 "UAC Teleporter Labs"
 	secretnext = "PG_MAP12"
 	titlepatch = "CWILV10"
 	sky1 = "RSKY1"
-	cluster = 24
+	cluster = 38
 	par = 210
 	music = "PG_STLKS2"
 	Author = "Tom Mustaine"
@@ -147,7 +147,7 @@ map PG_MAP12 "Ancient Gate"
 	secretnext = "PG_MAP13"
 	titlepatch = "CWILV11"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_THEDA2"
 	Author = "Tom Mustaine, Bob Mustaine and Jimmy Sieben"
@@ -159,7 +159,7 @@ map PG_MAP13 "Teleport Platform"
 	secretnext = "PG_MAP14"
 	titlepatch = "CWILV12"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_DOOM2"
 	Author = "Tom Mustaine and Mackey McCandlish"
@@ -171,7 +171,7 @@ map PG_MAP14 "Transfer Locking Area"
 	secretnext = "PG_MAP15"
 	titlepatch = "CWILV13"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_DDTBL2"
 	Author = "Jimmy Sieben"
@@ -183,7 +183,7 @@ map PG_MAP15 "Teleporter Center"
 	secretnext = "PG_MAP31"
 	titlepatch = "CWILV14"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 210
 	music = "PG_RUNNI2"
 	Author = "Tom Mustaine and Mackey McCandlish"
@@ -195,7 +195,7 @@ map PG_MAP16 "Teleporter Power"
 	secretnext = "PG_MAP17"
 	titlepatch = "CWILV15"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_DEAD2"
 	Author = "Tom and Bob Mustaine"
@@ -207,7 +207,7 @@ map PG_MAP17 "Teleporter Junction"
 	secretnext = "PG_MAP18"
 	titlepatch = "CWILV16"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 420
 	music = "PG_STLKS3"
 	Author = "Tom and Bob Mustaine"
@@ -219,7 +219,7 @@ map PG_MAP18 "Computer Center"
 	secretnext = "PG_MAP19"
 	titlepatch = "CWILV17"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_ROMERO"
 	Author = "Tom Mustaine"
@@ -231,7 +231,7 @@ map PG_MAP19 "Closer to Hell"
 	secretnext = "PG_MAP20"
 	titlepatch = "CWILV18"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 210
 	music = "PG_SHAWN2"
 	Author = "Jimmy Sieben"
@@ -243,7 +243,7 @@ map PG_MAP20 "Hell Gate"
 	secretnext = "PG_MAP21"
 	titlepatch = "CWILV19"
 	sky1 = "RSKY2"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_MESSAG"
 	Author = "$WS_AU_ROMERO"
@@ -257,7 +257,7 @@ map PG_MAP21 "Hell's Gate"
 	secretnext = "PG_MAP22"
 	titlepatch = "CWILV20"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 240
 	music = "PG_COUNT2"
 	Author = "Jimmy Sieben"
@@ -269,7 +269,7 @@ map PG_MAP22 "The Deepest Reaches"
 	secretnext = "PG_MAP23"
 	titlepatch = "CWILV21"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_DDTBL3"
 	Author = "Mackey McCandlish"
@@ -281,7 +281,7 @@ map PG_MAP23 "Hell's Gymnasium"
 	secretnext = "PG_MAP24"
 	titlepatch = "CWILV22"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 180
 	music = "PG_AMPIE"
 	Author = "Jimmy Sieben"
@@ -293,7 +293,7 @@ map PG_MAP24 "The BloodStone Gardens of Hell"
 	secretnext = "PG_MAP25"
 	titlepatch = "CWILV23"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_THEDA3"
 	Author = "Mackey McCandlish"
@@ -305,7 +305,7 @@ map PG_MAP25 "Hell's Park"
 	secretnext = "PG_MAP26"
 	titlepatch = "CWILV24"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 150
 	music = "PG_ADRIAN"
 	Author = "Mackey McCandlish"
@@ -317,7 +317,7 @@ map PG_MAP26 "HUSTR_26"
 	secretnext = "PG_MAP27"
 	titlepatch = "CWILV25"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 300
 	music = "PG_MESSG2"
 	Author = "unknown contributor"
@@ -329,7 +329,7 @@ map PG_MAP27 "Hell's Masterpiece"
 	secretnext = "PG_MAP28"
 	titlepatch = "CWILV26"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 330
 	music = "PG_ROMER2"
 	Author = "Jimmy Sieben"
@@ -341,7 +341,7 @@ map PG_MAP28 "High-Tech Hades"
 	secretnext = "PG_MAP29"
 	titlepatch = "CWILV27"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 420
 	music = "PG_TENSE"
 	Author = "Jimmy Sieben"
@@ -353,7 +353,7 @@ map PG_MAP29 "Bomb Facility"
 	secretnext = "PG_MAP30"
 	titlepatch = "CWILV28"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 300
 	music = "PG_SHAWN3"
 	Author = "Tom Mustaine"
@@ -365,7 +365,7 @@ map PG_MAP30 "Escape!"
 	next = "EndGameC"
 	secretnext = "EndGameC"
 	sky1 = "RSKY3"
-	cluster = 24
+	cluster = 38
 	par = 180
 	allowmonstertelefrags
 	music = "PG_OPENIN"
@@ -393,15 +393,15 @@ map PG_MAP32 lookup "World of Wonders: The Sea of Radioactive Waste"
 	next = "PG_MAP16"
 	secretnext = "PG_MAP16"
 	sky1 = "SKY3"
-	cluster = 24
+	cluster = 38
 	par = 30
 	music = "PG_ULTIMA"
 	Author = "Mackey McCandlish"
 }
 
-cluster 24
+cluster 38
 {
 	flat = "$BGFLAT31"
-	music = "FD2_READ_M"
-	entertext = lookup, "C5TEXT"
+	music = "PG_READ_M"
+	entertext = "Congratulations"
 }
