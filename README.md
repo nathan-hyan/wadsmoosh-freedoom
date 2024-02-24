@@ -12,10 +12,6 @@ Simply copy all your WADs into the `source_wads/` subfolder, then run WadSmoosh.
 
 If you're in Windows, click `wadsmoosh.exe`.
 
-Note: Windows support is only half-working. I do not have Windows so I'm unable to recompile the code. 
-As a result, the file it outputs will be called `doom_complete.pk3` instead of `doom_complete.ipk3` which can cause GZDoom to not recognize it. 
-Simply rename the file and it will work. I have tested it in wine and it worked so presumably it should work just as well on actual Windows beyond that little issue.
-
 If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported now.
 
 WadSmoosh will create a new file called `doom_complete.pk3` with all the game content in it. You can run this in GZDoom with `-iwad doom_complete.pk3` at the command line, or even rename it to `doom2.wad` and run without any command line needed. GZDoom 2.4 and later will recognize the `doom_complete.pk3` file as a valid IWAD without any name change needed.
