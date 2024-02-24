@@ -1,0 +1,371 @@
+defaultmap
+{
+	InterMusic = "HP_DM2INT"
+	ExitPic = "HP_INTER"
+}
+
+map HP_MAP01 "The Holding Cells"
+{
+	next = "HP_MAP02"
+	secretnext = "HP_MAP02"
+	titlepatch = "CWILV00"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 30
+	music = "HP_RUNNIN"
+}
+
+map HP_MAP02 "The Slave Quarters"
+{
+	next = "HP_MAP03"
+	secretnext = "HP_MAP33"
+	titlepatch = "CWILV01"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 90
+	music = "HP_STALKS"
+}
+
+map HP_MAP03 "The Mines"
+{
+	next = "HP_MAP04"
+	secretnext = "HP_MAP04"
+	titlepatch = "CWILV02"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 120
+	music = "HP_COUNTD"
+}
+
+map HP_MAP04 "Nukage Processing"
+{
+	next = "HP_MAP05"
+	secretnext = "HP_MAP05"
+	titlepatch = "CWILV03"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 120
+	music = "HP_BETWEE"
+}
+
+map HP_MAP05 "Trustee Country"
+{
+	next = "HP_MAP06"
+	secretnext = "HP_MAP06"
+	titlepatch = "CWILV04"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 90
+	music = "HP_DOOM"
+}
+
+map HP_MAP06 "Command and Control"
+{
+	next = "HP_MAP07"
+	secretnext = "HP_MAP07"
+	titlepatch = "CWILV05"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 150
+	sucktime = 1
+	music = "HP_THE_DA"
+}
+
+map HP_MAP07 "The Industrial Park"
+{
+	next = "HP_MAP08"
+	secretnext = "HP_MAP08"
+	titlepatch = "CWILV06"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 120
+	map07special
+	music = "HP_SHAWN"
+}
+
+map HP_MAP08 "The Warehouse"
+{
+	next = "HP_MAP09"
+	secretnext = "HP_MAP09"
+	titlepatch = "CWILV07"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 120
+	music = "HP_DDTBLU"
+}
+
+map HP_MAP09 "The Military Complex"
+{
+	next = "HP_MAP10"
+	secretnext = "HP_MAP10"
+	titlepatch = "CWILV08"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 270
+	music = "HP_IN_CIT"
+}
+
+map HP_MAP10 "The Liquid Metal Labs"
+{
+	next = "HP_MAP11"
+	secretnext = "HP_MAP11"
+	titlepatch = "CWILV09"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 90
+	music = "HP_DEAD"
+	Author = "Jimmy Sieben"
+}
+
+map HP_MAP11 "The Space Port"
+{
+	next = "HP_MAP12"
+	secretnext = "HP_MAP12"
+	titlepatch = "CWILV10"
+	sky1 = "RSKY1"
+	cluster = 37
+	par = 210
+	music = "HP_STLKS2"
+}
+
+map HP_MAP12 "The Cargo Hold"
+{
+	next = "HP_MAP13"
+	secretnext = "HP_MAP13"
+	titlepatch = "CWILV11"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 150
+	music = "HP_THEDA2"
+}
+
+map HP_MAP13 "The Engine Room"
+{
+	next = "HP_MAP14"
+	secretnext = "HP_MAP14"
+	titlepatch = "CWILV12"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 150
+	music = "HP_DOOM2"
+}
+
+map HP_MAP14 "The Habitat Deck"
+{
+	next = "HP_MAP15"
+	secretnext = "HP_MAP15"
+	titlepatch = "CWILV13"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 150
+	music = "HP_DDTBL2"
+}
+
+map HP_MAP15 "Captain Bellows"
+{
+	next = "HP_MAP16"
+	secretnext = "HP_MAP31"
+	titlepatch = "CWILV14"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 210
+	music = "HP_RUNNI2"
+}
+
+map HP_MAP16 "Io Base"
+{
+	next = "HP_MAP17"
+	secretnext = "HP_MAP17"
+	titlepatch = "CWILV15"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 150
+	music = "HP_DEAD2"
+}
+
+map HP_MAP17 "Hot as Hell"
+{
+	next = "HP_MAP18"
+	secretnext = "HP_MAP18"
+	titlepatch = "CWILV16"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 420
+	music = "HP_STLKS3"
+}
+
+map HP_MAP18 "Big Crane"
+{
+	next = "HP_MAP19"
+	secretnext = "HP_MAP19"
+	titlepatch = "CWILV17"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 150
+	music = "HP_ROMERO"
+}
+
+map HP_MAP19 "Demon Chow"
+{
+	next = "HP_MAP20"
+	secretnext = "HP_MAP20"
+	titlepatch = "CWILV18"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 210
+	music = "HP_SHAWN2"
+}
+
+map HP_MAP20 "Master Computer"
+{
+	next = "HP_MAP21"
+	secretnext = "HP_MAP21"
+	titlepatch = "CWILV19"
+	sky1 = "RSKY2"
+	cluster = 37
+	par = 150
+	music = "HP_MESSAG"
+}
+
+map HP_MAP21 "Planet Hell"
+{
+	next = "HP_MAP22"
+	secretnext = "HP_MAP22"
+	titlepatch = "CWILV20"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 240
+	music = "HP_COUNT2"
+}
+
+map HP_MAP22 "Vile Temple"
+{
+	next = "HP_MAP23"
+	secretnext = "HP_MAP23"
+	titlepatch = "CWILV21"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 150
+	music = "HP_DDTBL3"
+}
+
+map HP_MAP23 "Hell's Cavern"
+{
+	next = "HP_MAP24"
+	secretnext = "HP_MAP24"
+	titlepatch = "CWILV22"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 180
+	music = "HP_AMPIE"
+}
+
+map HP_MAP24 "Hell's Park"
+{
+	next = "HP_MAP25"
+	secretnext = "HP_MAP25"
+	titlepatch = "CWILV23"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 150
+	music = "HP_THEDA3"
+}
+
+map HP_MAP25 "Hell's Gauntlet"
+{
+	next = "HP_MAP26"
+	secretnext = "HP_MAP26"
+	titlepatch = "CWILV24"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 150
+	music = "HP_ADRIAN"
+}
+
+map HP_MAP26 "Circle of Hell"
+{
+	next = "HP_MAP27"
+	secretnext = "HP_MAP27"
+	titlepatch = "CWILV25"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 300
+	music = "HP_MESSG2"
+}
+
+map HP_MAP27 "Hell Squared"
+{
+	next = "HP_MAP28"
+	secretnext = "HP_MAP28"
+	titlepatch = "CWILV26"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 330
+	music = "HP_ROMER2"
+}
+
+map HP_MAP28 "Neophyte Reception"
+{
+	next = "HP_MAP29"
+	secretnext = "HP_MAP29"
+	titlepatch = "CWILV27"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 420
+	music = "HP_TENSE"
+}
+
+map HP_MAP29 "Initiation"
+{
+	next = "HP_MAP30"
+	secretnext = "HP_MAP30"
+	titlepatch = "CWILV28"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 300
+	music = "HP_SHAWN3"
+}
+
+map HP_MAP30 "Sky High"
+{
+	titlepatch = "CWILV29"
+	next = "EndGameC"
+	secretnext = "EndGameC"
+	sky1 = "RSKY3"
+	cluster = 37
+	par = 180
+	allowmonstertelefrags
+	music = "HP_OPENIN"
+}
+
+// Secret maps
+
+map HP_MAP31 lookup "Secret Facility"
+{
+	titlepatch = "CWILV30"
+	next = "HP_MAP16"
+	secretnext = "HP_MAP32"
+	sky1 = "SKY3"
+	cluster = 9
+	par = 120
+	music = "HP_EVIL"
+	needclustertext
+}
+
+map HP_MAP32 lookup "Self-Destruct"
+{
+	titlepatch = "CWILV31"
+	next = "HP_MAP16"
+	secretnext = "HP_MAP16"
+	sky1 = "SKY3"
+	cluster = 37
+	par = 30
+	music = "HP_ULTIMA"
+}
+
+cluster 37
+{
+	flat = "$BGFLAT31"
+	music = "D_READ_M"
+	entertext = "Congratulations"
+}

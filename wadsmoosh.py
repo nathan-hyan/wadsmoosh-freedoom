@@ -13,7 +13,7 @@ should_extract = True
 SRC_WAD_DIR = 'source_wads/'
 DATA_DIR = 'data/'
 DEST_DIR = 'ipk3/'
-DEST_FILENAME = 'doom_complete.ipk3'
+DEST_FILENAME = 'wadsmoosh+.ipk3'
 LOG_FILENAME = 'wadsmoosh.log'
 RES_DIR = 'res/'
 DATA_TABLES_FILE = 'wadsmoosh_data.py'
@@ -305,6 +305,16 @@ def copy_resources():
             continue
         elif src_file == 'textures.plut' and not get_wad_filename('plutonia'):
             continue
+        elif src_file == 'textures.perdgate' and not get_wad_filename('perdgate'):
+            continue
+        elif src_file == 'textures.hell2pay' and not get_wad_filename('hell2pay'):
+            continue
+        elif src_file == 'textures.neis' and not get_wad_filename('neis'):
+            continue
+        elif src_file == 'textures.tntr' and not get_wad_filename('tnt'):
+            continue
+        elif src_file == 'textures.pl2' and not get_wad_filename('plutonia'):
+            continue
         logg('Copying %s' % src_file)
         copyfile(RES_DIR + src_file, DEST_DIR + src_file)
     # doom2 vs doom2bfg map31/32 names differ, different mapinfos with same name
@@ -356,6 +366,10 @@ def get_eps(wads_found):
     for wadname in wads_found:
         if wadname == 'doom':
             eps += ['Knee Deep in the Dead', 'The Shores of Hell', 'Inferno', 'Thy Flesh Consumed']
+        elif wadname == 'sigil' and 'doom' in wads_found:
+            eps += ['Sigil']
+        elif wadname == 'sigil2' and 'doom' in wads_found:
+            eps += ['Sigil II']
         elif wadname == 'doom2':
             eps += ['Hell on Earth']
         elif wadname == 'nerve' and 'doom2' in wads_found:
@@ -366,10 +380,18 @@ def get_eps(wads_found):
             eps += ['TNT: Evilution']
         elif wadname == 'plutonia':
             eps += ['The Plutonia Experiment']
-        elif wadname == 'sigil' and 'doom' in wads_found:
-            eps += ['Sigil']
-        elif wadname == 'sigil2' and 'doom' in wads_found:
-            eps += ['Sigil II']
+        elif wadname == 'tntr' and 'tnt' in wads_found:
+            eps += ['TNT: Revilution']
+        elif wadname == 'pl2' and 'plutonia' in wads_found:
+            eps += ['Plutonia 2']
+        elif wadname == 'hell2pay' and 'doom2' in wads_found:
+            eps += ['Hell To Pay']
+        elif wadname == 'perdgate' and 'doom2' in wads_found:
+            eps += ['Perdition\'s Gate']
+        elif wadname == 'hell2pay' and 'doom2' in wads_found:
+            eps += ['Hell To Pay']
+        elif wadname == 'neis' and 'doom' in wads_found:
+            eps += ['1994 Ways to Die','The Depths of Doom','Woe','Bood Stained']
         elif wadname == 'freedoom1' and 'doom' in wads_found:
             eps += ['Outpost Outbreak','Military Labs','Event Horizon','Double Impact']
         elif wadname == 'freedoom2' and 'doom2' in wads_found:
@@ -456,6 +478,27 @@ def main():
         if iwad_name == 'sigil2' and not get_wad_filename('doom'):
             logg('Skipping sigil2.wad as doom.wad is not present', error=True)
             continue
+        if iwad_name == 'sigil2_mp3' and not get_wad_filename('sigil2'):
+            logg('Skipping sigil2_mp3.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'doom3do' and not get_wad_filename('doom'):
+            logg('Skipping doom3do.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'perdgate' and not get_wad_filename('doom2'):
+            logg('Skipping perdagte.wad as doom2.wad is not present', error=True)
+            continue
+        if iwad_name == 'hell2pay' and not get_wad_filename('doom2'):
+            logg('Skipping hell2pay.wad as doom2.wad is not present', error=True)
+            continue
+        if iwad_name == 'neis' and not get_wad_filename('doom'):
+            logg('Skipping neis.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'tntr' and not get_wad_filename('tnt'):
+            logg('Skipping tntr.wad as tnt.wad is not present', error=True)
+            continue
+        if iwad_name == 'pl2' and not get_wad_filename('plutonia'):
+            logg('Skipping pl2.wad as plutonia.wad is not present', error=True)
+            continue
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:
             extract_lumps(iwad_name)
@@ -496,3 +539,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

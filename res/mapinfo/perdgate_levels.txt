@@ -1,0 +1,407 @@
+defaultmap
+{
+	InterMusic = "PG_DM2INT"
+	ExitPic = "PG_READ_M"
+}
+
+// Earth
+map PG_MAP01 "UAC HQ"
+{
+	next = "PG_MAP02"
+	secretnext = "PG_MAP02"
+	titlepatch = "CWILV00"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 30
+	music = "PG_RUNNIN"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP02 "UAC Complex B"
+{
+	next = "PG_MAP03"
+	secretnext = "PG_MAP33"
+	titlepatch = "CWILV01"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 90
+	music = "PG_STALKS"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP03 "Recreational Yard"
+{
+	next = "PG_MAP04"
+	secretnext = "PG_MAP04"
+	titlepatch = "CWILV02"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 120
+	music = "PG_COUNTD"
+	Author = "Tom Mustaine"
+}
+
+map PG_MAP04 "Storage Area"
+{
+	next = "PG_MAP05"
+	secretnext = "PG_MAP05"
+	titlepatch = "CWILV03"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 120
+	music = "PG_BETWEE"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP05 "Sub-Basement"
+{
+	next = "PG_MAP06"
+	secretnext = "PG_MAP06"
+	titlepatch = "CWILV04"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 90
+	music = "PG_DOOM"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP06 "Delta Area"
+{
+	next = "PG_MAP07"
+	secretnext = "PG_MAP07"
+	titlepatch = "CWILV05"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 150
+	sucktime = 1
+	music = "PG_THE_DA"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP07 "Toxin Refinery"
+{
+	next = "PG_MAP08"
+	secretnext = "PG_MAP08"
+	titlepatch = "CWILV06"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 120
+	map07special
+	music = "PG_SHAWN"
+	Author = "Tom Mustaine"
+}
+
+map PG_MAP08 "Drainage Tunnels"
+{
+	next = "PG_MAP09"
+	secretnext = "PG_MAP09"
+	titlepatch = "CWILV07"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 120
+	music = "PG_DDTBLU"
+	Author = "Tom Mustaine"
+}
+
+map PG_MAP09 "UAC Experimentation Center"
+{
+	next = "PG_MAP10"
+	secretnext = "PG_MAP10"
+	titlepatch = "CWILV08"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 270
+	music = "PG_IN_CIT"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP10 "UAC Experimentation Labs, High Security Area"
+{
+	next = "PG_MAP11"
+	secretnext = "PG_MAP11"
+	titlepatch = "CWILV09"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 90
+	music = "PG_DEAD"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP11 "UAC Teleporter Labs"
+{
+	next = "PG_MAP12"
+	secretnext = "PG_MAP12"
+	titlepatch = "CWILV10"
+	sky1 = "RSKY1"
+	cluster = 38
+	par = 210
+	music = "PG_STLKS2"
+	Author = "Tom Mustaine"
+}
+
+// World of the Ancients
+
+map PG_MAP12 "Ancient Gate"
+{
+	next = "PG_MAP13"
+	secretnext = "PG_MAP13"
+	titlepatch = "CWILV11"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 150
+	music = "PG_THEDA2"
+	Author = "Tom Mustaine, Bob Mustaine and Jimmy Sieben"
+}
+
+map PG_MAP13 "Teleport Platform"
+{
+	next = "PG_MAP14"
+	secretnext = "PG_MAP14"
+	titlepatch = "CWILV12"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 150
+	music = "PG_DOOM2"
+	Author = "Tom Mustaine and Mackey McCandlish"
+}
+
+map PG_MAP14 "Transfer Locking Area"
+{
+	next = "PG_MAP15"
+	secretnext = "PG_MAP15"
+	titlepatch = "CWILV13"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 150
+	music = "PG_DDTBL2"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP15 "Teleporter Center"
+{
+	next = "PG_MAP16"
+	secretnext = "PG_MAP31"
+	titlepatch = "CWILV14"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 210
+	music = "PG_RUNNI2"
+	Author = "Tom Mustaine and Mackey McCandlish"
+}
+
+map PG_MAP16 "Teleporter Power"
+{
+	next = "PG_MAP17"
+	secretnext = "PG_MAP17"
+	titlepatch = "CWILV15"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 150
+	music = "PG_DEAD2"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP17 "Teleporter Junction"
+{
+	next = "PG_MAP18"
+	secretnext = "PG_MAP18"
+	titlepatch = "CWILV16"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 420
+	music = "PG_STLKS3"
+	Author = "Tom and Bob Mustaine"
+}
+
+map PG_MAP18 "Computer Center"
+{
+	next = "PG_MAP19"
+	secretnext = "PG_MAP19"
+	titlepatch = "CWILV17"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 150
+	music = "PG_ROMERO"
+	Author = "Tom Mustaine"
+}
+
+map PG_MAP19 "Closer to Hell"
+{
+	next = "PG_MAP20"
+	secretnext = "PG_MAP20"
+	titlepatch = "CWILV18"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 210
+	music = "PG_SHAWN2"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP20 "Hell Gate"
+{
+	next = "PG_MAP21"
+	secretnext = "PG_MAP21"
+	titlepatch = "CWILV19"
+	sky1 = "RSKY2"
+	cluster = 38
+	par = 150
+	music = "PG_MESSAG"
+	Author = "$WS_AU_ROMERO"
+}
+
+// Planet Hell
+
+map PG_MAP21 "Hell's Gate"
+{
+	next = "PG_MAP22"
+	secretnext = "PG_MAP22"
+	titlepatch = "CWILV20"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 240
+	music = "PG_COUNT2"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP22 "The Deepest Reaches"
+{
+	next = "PG_MAP23"
+	secretnext = "PG_MAP23"
+	titlepatch = "CWILV21"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 150
+	music = "PG_DDTBL3"
+	Author = "Mackey McCandlish"
+}
+
+map PG_MAP23 "Hell's Gymnasium"
+{
+	next = "PG_MAP24"
+	secretnext = "PG_MAP24"
+	titlepatch = "CWILV22"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 180
+	music = "PG_AMPIE"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP24 "The BloodStone Gardens of Hell"
+{
+	next = "PG_MAP25"
+	secretnext = "PG_MAP25"
+	titlepatch = "CWILV23"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 150
+	music = "PG_THEDA3"
+	Author = "Mackey McCandlish"
+}
+
+map PG_MAP25 "Hell's Park"
+{
+	next = "PG_MAP26"
+	secretnext = "PG_MAP26"
+	titlepatch = "CWILV24"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 150
+	music = "PG_ADRIAN"
+	Author = "Mackey McCandlish"
+}
+
+map PG_MAP26 "HUSTR_26"
+{
+	next = "PG_MAP27"
+	secretnext = "PG_MAP27"
+	titlepatch = "CWILV25"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 300
+	music = "PG_MESSG2"
+	Author = "unknown contributor"
+}
+
+map PG_MAP27 "Hell's Masterpiece"
+{
+	next = "PG_MAP28"
+	secretnext = "PG_MAP28"
+	titlepatch = "CWILV26"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 330
+	music = "PG_ROMER2"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP28 "High-Tech Hades"
+{
+	next = "PG_MAP29"
+	secretnext = "PG_MAP29"
+	titlepatch = "CWILV27"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 420
+	music = "PG_TENSE"
+	Author = "Jimmy Sieben"
+}
+
+map PG_MAP29 "Bomb Facility"
+{
+	next = "PG_MAP30"
+	secretnext = "PG_MAP30"
+	titlepatch = "CWILV28"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 300
+	music = "PG_SHAWN3"
+	Author = "Tom Mustaine"
+}
+
+map PG_MAP30 "Escape!"
+{
+	titlepatch = "CWILV29"
+	next = "EndGameC"
+	secretnext = "EndGameC"
+	sky1 = "RSKY3"
+	cluster = 38
+	par = 180
+	allowmonstertelefrags
+	music = "PG_OPENIN"
+	Author = "Tom Mustaine"
+}
+
+// Secret maps
+
+map PG_MAP31 lookup "World of Wonders: The Planet of Living Rock"
+{
+	titlepatch = "CWILV30"
+	next = "PG_MAP16"
+	secretnext = "PG_MAP32"
+	sky1 = "SKY3"
+	cluster = 9
+	par = 120
+	music = "PG_EVIL"
+	needclustertext
+	Author = "Mackey McCandlish"
+}
+
+map PG_MAP32 lookup "World of Wonders: The Sea of Radioactive Waste"
+{
+	titlepatch = "CWILV31"
+	next = "PG_MAP16"
+	secretnext = "PG_MAP16"
+	sky1 = "SKY3"
+	cluster = 38
+	par = 30
+	music = "PG_ULTIMA"
+	Author = "Mackey McCandlish"
+}
+
+cluster 38
+{
+	flat = "$BGFLAT31"
+	music = "PG_READ_M"
+	entertext = "Congratulations"
+}

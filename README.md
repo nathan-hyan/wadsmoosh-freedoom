@@ -1,8 +1,6 @@
-# Fork of WadSmoosh to fix various things
+# WadSmoosh Plus - WAD merge utility
 
-# WadSmoosh - simple IWAD merge utility
-
-WadSmoosh merges your provided Ultimate Doom, Doom 2, Master Levels, No Rest for the Living, Final Doom, and Sigil data into a single IWAD file that can be played in GZDoom, with each game as its own entry in the episode list. This makes it very convenient to play all of classic Doom's official releases without relaunching the game with different settings.
+WadSmoosh Plus merges supported IWADs into a single IWAD file that can be played in GZDoom expanding the episode list. This makes it very convenient to play all of classic Doom's official releases and more without relaunching the game with different settings.
 
 It's fine if you don't have all of the Doom games, eg you have Doom 2 but not Final Doom - WadSmoosh will package up everything it can find.
 
@@ -13,10 +11,6 @@ If you're not a Doom expert and just bought these games off [Steam](http://store
 Simply copy all your WADs into the `source_wads/` subfolder, then run WadSmoosh. A log will appear showing progress and any errors that arise.
 
 If you're in Windows, click `wadsmoosh.exe`.
-
-Note: Windows support is only half-working. I do not have Windows so I'm unable to recompile the code. 
-As a result, the file it outputs will be called `doom_complete.pk3` instead of `doom_complete.ipk3` which can cause GZDoom to not recognize it. 
-Simply rename the file and it will work. I have tested it in wine and it worked so presumably it should work just as well on actual Windows beyond that little issue.
 
 If you're in macOS or Linux, run the `wadsmoo.sh` shell script - Python 2 and 3 are both supported now.
 
@@ -32,19 +26,26 @@ Advanced users can edit `wadsmoosh_data.py` to customize how and what WadSmoosh 
 
 WadSmoosh is not a general-purpose tool for merging Doom WADs; it is for *merging retail content* only - it was created in 2016 out of a desire for a "complete" retail version of Doom and Doom II, and only exists as a program because the IWAD file that it generates cannot be distributed legally. Please do not ask if WadSmoosh will support any specific WAD. If you want to add your own content to a custom IWAD, please either modify [WadSmoosh's source code](https://heptapod.host/jp-lebreton/wadsmoosh) yourself, or simply edit the `doom_complete.pk3` file WadSmoosh generated on your computer by opening it in a ZIP archive management program. Please do not ask me for support when doing either.
 
-Here is the official list of WADs that WadSmoosh will recognize:
-- Ultimate Doom (`doom.wad`)
-- Doom (original registered version of `doom.wad`, containing only episodes 1-3)
-- Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
-- Doom II (`doom2.wad`)
-- The extra content in the Unity releases of Doom and Doom 2. (`doomu.wad` and `doom2u.wad`)
-- The Master Levels (the 20 unmodified WAD files from the retail release)
-- Final Doom (`tnt.wad` and `plutonia.wad`)
-- No Rest for the Living (`nerve.wad`)
+Here is the official list of WADs that WadSmoosh Plus will recognize:
+- Doom/Ultimate Doom (original registered/retail version of `doom.wad`)
 - Sigil (`sigil.wad` and its optional music addon `sigil_shreds.wad`)
 - Sigil II (`sigil2.wad`, either its MIDI or MP3 soundtrack versions)
-- Freedoom Phase 1
-- Freedoom Phase 2
+- Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
+- Doom II (`doom2.wad`)
+- The extra content in the Unity releases of Doom and Doom 2. (`doomunity.wad` and `doom2unity.wad`)
+- The extras file from the Unity releases (`extras.wad`)
+- The extra content in the BFG release of Doom 2. (`doom2bfg.wad`)
+- No Rest for the Living (`nerve.wad`)
+- The Master Levels (the 20 unmodified WAD files from the retail release)
+- Final Doom (`tnt.wad` and `plutonia.wad`)
+- TNT: Revilution (`tntr.wad`)
+- Plutonia 2 (`pl2.wad`)
+- Perdition's Gate (`perdgate.wad`)
+- Hell To Pay (`hell2pay.wad`)
+- No End in Sight (`neis.wad`)
+- Freedoom Phase 1 (`freedoom1.wad`)
+- Freedoom Phase 2 (`freedoom2.wad`)
+- Doom 3DO Soundtrack (`doom3do.wad`)
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
 
@@ -57,12 +58,6 @@ Download Freedoom for Free in [this link](https://freedoom.github.io/download.ht
 This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
 This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
-
-The current To-do list is:
-
-    - Locate the remaining freedoom map credits into the MAPINFO lump currently listed as unknown author.
-
-Everything else from the to-do list of the upstream of this fork has been done.
 
 ## Absolute Beginner's Guide
 

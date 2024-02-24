@@ -12,7 +12,7 @@ map FD1_E1M1 "Outer Prison"
 	next = "FD1_E1M2"
 	secretnext = "FD1_E1M10"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 30
 	music = "FD1_E1M1"
 	author = "Gabriel Antonio"
@@ -24,7 +24,7 @@ map FD1_E1M2 "Communications Center"
 	next = "FD1_E1M3"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 75
 	music = "FD1_E1M2"
 	author = "acc"
@@ -36,7 +36,7 @@ map FD1_E1M3 "Waste Disposal"
 	next = "FD1_E1M4"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 120
 	music = "FD1_E1M3"
 	author = "Josef Šustek"
@@ -48,22 +48,22 @@ map FD1_E1M4 "Supply Depot"
 	next = "FD1_E1M5"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 90
 	music = "FD1_E1M4"
 	author = "GeekMarine"
 }
 
-map FD1_E1M5 "Main Control"
+map FD1_E1M5 "Armory"
 {
 	levelnum = 5
 	next = "FD1_E1M6"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 165
 	music = "FD1_E1M5"
-	author = "Unknown Author"
+	author = "Oleg Vovk"
 }
 
 map FD1_E1M6 "Training Facility"
@@ -72,19 +72,19 @@ map FD1_E1M6 "Training Facility"
 	next = "FD1_E1M7"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 180
 	music = "FD1_E1M6"
 	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
-map FD1_E1M7 "Transportation Bay"
+map FD1_E1M7 "Xenobiotic Materials Lab"
 {
 	levelnum = 7
 	next = "FD1_E1M8"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 180
 	music = "FD1_E1M7"
 	author = "Will Hackney"
@@ -96,7 +96,7 @@ map FD1_E1M8 "Outpost Quarry"
 	next = "EndGame1"
 	secretnext = "FD1_E1M9"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 165
 	nointermission
 	nosoundclipping
@@ -106,102 +106,102 @@ map FD1_E1M8 "Outpost Quarry"
 	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
-map FD1_E1M9 "Armory"
+map FD1_E1M9 "Nutrient Recycling"
 {
 	levelnum = 9
 	next = "FD1_E1M4"
 	secretnext = "FD1_E1M4"
 	sky1 = "SKY1"
-	cluster = 1
+	cluster = 27
 	par = 165
 	music = "FD1_E1M9"
-	author = "Oleg Vovk"
+	author = "Mortrixs19"
 }
 
 // FreeDoom Episode 2
 
-map FD1_E2M1 "Ruins"
+map FD1_E2M1 "Elemental Gate"
 {
 	levelnum = 11
 	next = "FD1_E2M2"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 90
 	music = "FD1_E2M1"
-	author = "Unknown Author"
+	author = "Luiz Henrique Gasparin Jerônimo and Matthew Chan"
 }
 
-map FD1_E2M2 "Power Plant"
+map FD1_E2M2 "Shifter"
 {
 	levelnum = 12
 	next = "FD1_E2M3"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 90
 	music = "FD1_E2M2"
-	author = "Unknown Author"
+	author = "Hayden49"
 }
 
-map FD1_E2M3 "Archaelogy Site"
+map FD1_E2M3 "Reclaimed Facilities"
 {
 	levelnum = 13
 	next = "FD1_E2M4"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 90
 	music = "FD1_E2M3"
-	author = "Unknown Author"
+	author = "SUNPYG Senpai"
 }
 
-map FD1_E2M4 "Sample Holding Site"
+map FD1_E2M4 "Flooded Installation"
 {
 	levelnum = 14
 	next = "FD1_E2M5"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 120
 	music = "FD1_E2M4"
-	author = "Unknown Author"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
-map FD1_E2M5 "Fortress 31"
+map FD1_E2M5 "Underground Hub"
 {
 	levelnum = 15
 	next = "FD1_E2M6"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 90
 	music = "FD1_E2M5"
-	author = "Miguel Suarez Gomez"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
-map FD1_E2M6 "Trepidation Site"
+map FD1_E2M6 "Hidden Sector"
 {
 	levelnum = 16
 	next = "FD1_E2M7"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 360
 	music = "FD1_E2M6"
-	author = "Unknown Author"
+	author = "Andrew Wood"
 }
 
-map FD1_E2M7 "Quarantine Vessel"
+map FD1_E2M7 "Control Complex"
 {
 	levelnum = 17
 	next = "FD1_E2M8"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 240
 	music = "FD1_E2M7"
-	author = "Unknown Author"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
 map FD1_E2M8 "Containment Cell"
@@ -210,26 +210,26 @@ map FD1_E2M8 "Containment Cell"
 	next = "EndGame2"
 	secretnext = "FD1_E2M9"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 135
 	nointermission
 	nosoundclipping
 	cyberdemonspecial
 	specialaction_exitlevel
 	music = "FD1_E2M8"
-	author = "Xindage"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
-map FD1_E2M9 "Corruption of Man"
+map FD1_E2M9 "Fortress 31"
 {
 	levelnum = 19
 	next = "FD1_E2M6"
 	secretnext = "FD1_E2M6"
 	sky1 = "SKY2"
-	cluster = 2
+	cluster = 28
 	par = 170
 	music = "FD1_E2M9"
-	author = "Unknown Author"
+	author = "Luiz Henrique Gasparin Jerônimo"
 }
 
 // FreeDoom Episode 3
@@ -240,58 +240,58 @@ map FD1_E3M1 "Land of the Lost"
 	next = "FD1_E3M2"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 90
 	music = "FD1_E3M1"
 	author = "Jay Trent"
 }
 
-map FD1_E3M2 "Infernal Caverns"
+map FD1_E3M2 "Geothermal Tunnels"
 {
 	levelnum = 22
 	next = "FD1_E3M3"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 45
 	music = "FD1_E3M2"
-	author = "Unknown Author"
+	author = "pan-te"
 }
 
-map FD1_E3M3 "Derelict Temple"
+map FD1_E3M3 "Sacrificial Bastion"
 {
 	levelnum = 23
 	next = "FD1_E3M4"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 90
 	music = "FD1_E3M3"
-	author = "Unknown Author"
+	author = "Jeremy Elder"
 }
 
-map FD1_E3M4 "Sacrificial Bastion"
+map FD1_E3M4 "Oblation Temple"
 {
 	levelnum = 24
 	next = "FD1_E3M5"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 150
 	music = "FD1_E3M4"
-	author = "Jeremy Elder"
+	author = "Mortrixs19 and Erick Tenorio"
 }
 
-map FD1_E3M5 "Oblation Temple"
+map FD1_E3M5 "Infernal Hallows"
 {
 	levelnum = 25
 	next = "FD1_E3M6"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 90
 	music = "FD1_E3M5"
-	author = "Mortrix19 and Erick Tenorio"
+	author = "SUNPYG Senpai"
 }
 
 map FD1_E3M6 "Igneous Intrusion"
@@ -300,7 +300,7 @@ map FD1_E3M6 "Igneous Intrusion"
 	next = "FD1_E3M7"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 90
 	music = "FD1_E3M6"
 	author = "Archfile"
@@ -312,7 +312,7 @@ map FD1_E3M7 "No Regrets"
 	next = "FD1_E3M8"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 165
 	music = "FD1_E3M7"
 	author = "Robin Palmer"
@@ -324,7 +324,7 @@ map FD1_E3M8 "Ancient Lair"
 	next = "endbunny"
 	secretnext = "FD1_E3M9"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 105
 	nointermission
 	nosoundclipping
@@ -340,13 +340,11 @@ map FD1_E3M9 "Acquainted With Grief"
 	next = "FD1_E3M7"
 	secretnext = "FD1_E3M7"
 	sky1 = "SKY3"
-	cluster = 3
+	cluster = 29
 	par = 135
 	music = "FD1_E3M9"
 	author = "Angry Saint"
 }
-
-// Retail Episode 4
 
 map FD1_E4M1 "Maintenance Area"
 {
@@ -354,7 +352,7 @@ map FD1_E4M1 "Maintenance Area"
 	next = "FD1_E4M2"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 165
 	music = "FD1_E3M4"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -366,7 +364,7 @@ map FD1_E4M2 "Research Complex"
 	next = "FD1_E4M3"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 255
 	music = "FD1_E3M2"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -378,7 +376,7 @@ map FD1_E4M3 "Central Computing"
 	next = "FD1_E4M4"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 135
 	music = "FD1_E3M3"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -390,7 +388,7 @@ map FD1_E4M4 "Hydroponic Facility"
 	next = "FD1_E4M5"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 150
 	music = "FD1_E1M5"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -402,7 +400,7 @@ map FD1_E4M5 "Engineering Station"
 	next = "FD1_E4M6"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 180
 	music = "FD1_E2M7"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -414,7 +412,7 @@ map FD1_E4M6 "Command Center"
 	next = "FD1_E4M7"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 390
 	cyberdemonspecial
 	specialaction_opendoor
@@ -428,7 +426,7 @@ map FD1_E4M7 "Waste Treatment"
 	next = "FD1_E4M8"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 135
 	music = "FD1_E2M6"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -440,7 +438,7 @@ map FD1_E4M8 "Launch Bay"
 	next = "EndGame"
 	secretnext = "FD1_E4M9"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 360
 	nointermission
 	nosoundclipping
@@ -456,7 +454,7 @@ map FD1_E4M9 "Operations"
 	next = "FD1_E4M3"
 	secretnext = "FD1_E4M3"
 	sky1 = "SKY4"
-	cluster = 4
+	cluster = 30
 	par = 180
 	music = "FD1_E1M9"
 	author = "Matt Cibulas and Ralph Vickers"
@@ -464,7 +462,7 @@ map FD1_E4M9 "Operations"
 
 // Clusters (correspond with same-numbered episode)
 
-cluster 1
+cluster 27
 {
 	flat = "$bgflatE1"
 	music = "FD1_VICTOR"
@@ -485,7 +483,7 @@ cluster 1
          "There could be a way to escape in there."
 }
 
-cluster 2
+cluster 28
 {
 	flat = "$bgflatE2"
 	music = "FD1_VICTOR"
@@ -504,7 +502,7 @@ cluster 2
          "Next stop, Horizon"
 }
 
-cluster 3
+cluster 29
 {
 	flat = "$bgflatE3"
 	music = "FD1_VICTOR"
@@ -525,7 +523,7 @@ cluster 3
          "reintegrating on Double Impact."
 }
 
-cluster 4
+cluster 30
 {
 	flat = "$bgflatE4"
 	music = "FD1_VICTOR"
