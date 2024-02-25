@@ -1,6 +1,6 @@
 iwad
 {
-	Name = "Doom: WadSmoosh+"
+	Name = "DOOM: WadSmoosh+"
 	Autoname = "doom.id.wadsmoosh.plus"
 	Game = "Doom"
 	Config = "Doom"
