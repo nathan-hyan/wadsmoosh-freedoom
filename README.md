@@ -30,9 +30,9 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - Doom/Ultimate Doom (original registered/retail version of `doom.wad`)
 - Sigil (`sigil.wad` and its optional music addon `sigil_shreds.wad`)
 - Sigil II (`sigil2.wad`, either its MIDI or MP3 soundtrack versions)
-- Xbox Doom's extra levels (`sewers.wad` and `betray,wad`)
+- Xbox Doom's extra levels (`sewers.wad` and `betray.wad`)
 - Doom II (`doom2.wad`)
-- The extra content in the Unity releases of Doom and Doom 2. (`doomunity.wad` and `doom2unity.wad`)
+- The extra content in the Unity releases of Doom and Doom 2. (`doomunity.wad`, `doom2unity.wad` and `extras.wad`)
 - The extras file from the Unity releases (`extras.wad`)
 - The extra content in the BFG release of Doom 2. (`doom2bfg.wad`)
 - No Rest for the Living (`nerve.wad`)
@@ -51,9 +51,55 @@ For Sigil and Sigil II, all the filenames for different releases of those WADs a
 
 None of the "official add-on" content from the [Unity-based rereleases of Doom and Doom II](https://doomwiki.org/wiki/Doom_Classic_Unity_port) is supported. Only the versions of `doom.wad` and `doom2.wad` in the install folders for these ports are supported; they are virtually identical to the original data files.
 
-## FreeDoom support
+# Where to find each wad file?
 
-Download Freedoom for Free in [this link](https://freedoom.github.io/download.html)
+Doom/Ultimate Doom:
+https://store.steampowered.com/app/2280/DOOM_1993/
+https://www.gog.com/en/game/doom_1993
+
+Sigil & Sigil II:
+https://romero.com/sigil
+
+Xbox Doom's extra levels:
+Sewers.wad: https://www.doomworld.com/idgames/levels/doom/s-u/sewers2
+Betray.wad: https://www.doomworld.com/forum/topic/128173-known-lost-wads-of-our-history/?page=4&tab=comments#comment-2481490
+
+Doom II
+https://store.steampowered.com/app/2300/DOOM_II
+https://www.gog.com/en/game/doom_ii
+
+The extra content in the Unity releases of Doom and Doom 2:
+Navigate to the game's directory. (If in Steam just right click the game and click Manage > Browse Local Files)
+Then navigate to rerelease > DOOM_Data > StreamingAssets
+Use doom.wad/doom2.wad and extras.wad
+For The Ultimate Doom, your copy of doom.wad for this script must be renamed to `doomunity.wad`.
+For Doom II, your copy of doom2.wad for this script must be renamed to `doom2unity.wad`.
+
+Final Doom:
+Download TNT: Evilution and The Plutonia Experiment from the add-ons in the Unity version of Doom 1993 or Doom II
+Then navigate to the game's directory. (If in Steam just right click the game and click Manage > Browse Local Files)
+Then open the finaldoombase directory two iWAD files should be there.
+
+TNT: Revilution:
+https://www.doomworld.com/idgames/levels/doom2/megawads/tntr
+
+Plutonia 2:
+https://www.doomworld.com/idgames/levels/doom2/megawads/pl2
+
+Perdition's Gate:
+This was a retail release. You will have to find a copy on your own. After you install it, you can use the `PERDGATE.WAD` it creates.
+
+Hell To Pay:
+This was a retail release. You will have to find a copy on your own. After you install it, you can use the `HELL2PAY.WAD` it creates.
+
+No End in Sight:
+https://www.doomworld.com/idgames/levels/doom/Ports/megawads/neis
+
+Freedoom Phase 1 & Phase 2 (version 0.13.o supported only):
+https://github.com/freedoom/freedoom/releases/tag/v0.13.0
+
+Doom 3DO Soundtrack:
+https://www.moddb.com/games/doom/addons/doom-3do-music
 
 This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
