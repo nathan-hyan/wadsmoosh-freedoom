@@ -55,7 +55,6 @@ None of the "official add-on" content from the [Unity-based rereleases of Doom a
 
 Doom/Ultimate Doom:
 https://store.steampowered.com/app/2280/DOOM_1993/
-https://www.gog.com/en/game/doom_1993
 
 Sigil & Sigil II:
 https://romero.com/sigil
@@ -66,7 +65,6 @@ Betray.wad: https://www.doomworld.com/forum/topic/128173-known-lost-wads-of-our-
 
 Doom II
 https://store.steampowered.com/app/2300/DOOM_II
-https://www.gog.com/en/game/doom_ii
 
 The extra content in the Unity releases of Doom and Doom 2:
 Navigate to the game's directory. (If in Steam just right click the game and click Manage > Browse Local Files)
