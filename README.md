@@ -101,10 +101,6 @@ https://github.com/freedoom/freedoom/releases/tag/v0.13.0
 Doom 3DO Soundtrack:
 https://www.moddb.com/games/doom/addons/doom-3do-music
 
-This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
-
-This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
-
 ## Absolute Beginner's Guide
 
 1. [Download WadSmoosh](https://jp.itch.io/wadsmoosh) and extract it to a folder.
@@ -117,5 +113,11 @@ This fork uses the actual episode names rather than simply adding all of Fredoom
 8. Launch GZDoom and play!
 
 If you have any issues, the [How_to_download_and_run_Doom](http://doomwiki.org/wiki/How_to_download_and_run_Doom) page on the [Doom wiki](http://doomwiki.org) might be helpful.
+
+# Notes
+
+This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
+
+This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
 
 _Copyright © 2001-2022 Contributors to the Freedoom project. All rights reserved._
